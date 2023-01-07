@@ -1,5 +1,7 @@
 # EdgeTX User Manual
 
+https://edgetx.gitbook.io/edgetx-user-manual/
+
 The purpose of this user manual is to consolidate information from the community about the setup, configuration, and use of EdgeTX. The goal is to be your "one-stop shop" for information about anything related to EdgeTX. It is broken down into the following areas:
 
 
