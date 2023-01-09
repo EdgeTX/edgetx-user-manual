@@ -51,8 +51,6 @@
 
 ## EdgeTX: How-To
 
-***
-
 * [Contribute to the User Manual](contribute-to-the-user-manual.md)
 * [Update from OpenTX to EdgeTX](update-from-opentx-to-edgetx.md)
 * [🚧 Set-up wireless trainer with MPM](set-up-wireless-trainer-with-mpm.md)
