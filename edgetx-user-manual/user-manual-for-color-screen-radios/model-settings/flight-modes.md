@@ -14,7 +14,7 @@ The flight mode conifiguration screen has the following options:
 
 **Name:** The custom name for the flight mode. If configured, this name will be shown on the lower center position of the main screen between the trims.
 
-**Switch:** The trigger to enable that flight mode. It can be a switch, pot, telemetry, or trim.
+**Switch:** The trigger to enable that flight mode. It can be a switch, pot, telemetry, trim or logical switch.
 
 **Fade in:** Gradually change the trim value when this flight mode is enabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.&#x20;
 
