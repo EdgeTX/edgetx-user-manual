@@ -4,10 +4,10 @@ description: UNDER CONSTRUCTION
 
 # 🚧 B & W Radios
 
-EdgeTX supports the following block & white screen radios:
+EdgeTX supports the following black & white screen radios:
 
 * BETAFPV LiteRadio 3 Pro
-* FrSky QX7 / QX7S / QX7 ACCESS / QX7 ACCESS
+* FrSky QX7 / QX7S / QX7 ACCESS / QX7S ACCESS
 * FrSky X9 Lite / X9 Lite S
 * FrSky X-Lite / X-Lite S / X-Lite Pro
 * FrSky X9D / X9D+ / X9D+ SE
