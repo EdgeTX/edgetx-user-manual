@@ -6,12 +6,22 @@ The user interface of EdgeTX can be navigated by physical buttons, the touch int
 
 ### **Buttons:**
 
-* **System** - Press the system button to go to the radio settings page.
-* **Model** - Press the model button to go to the model setup page
-* **Return / Back** - Press the return/back button to return to the previous page or previous menu.
-* **Page > / Page <** - Used to navigate between different screens, tabs, or options settings, depending on the screen.
-* **Telemetry** - Press the telemetry button to go to the screen set-up page
-* **Roller** - The roller is used to navigate through menu options.  Push the roller to select or enter.
+* **\[SYS]** - System Button\
+  ****- Short press **\[SYS]** button to go to the [Radio Settings](radio-settings/) page.
+* **\[MDL]** - Model **** Button\
+  ****- Short press **\[MDL]** button to go to the [Model Settings](model-settings/) page\
+  \- Long press **\[MDL]** button to go to the Model Browser page
+* **\[RTN] -** Return / Back \
+  \- Short press **\[RTN]** button to return to the previous page, previous menu or cancel action
+* **\[PAGE>] / \[PAGE<]** - Page next & page previous\
+  ****- Used to navigate between different screens, tabs, or options settings, depending on the screen.
+* **\[TELE] -** Telemetry \
+  \- Press the **\[TELE]** button to go to the [Screen Settings](screen-settings/) page
+* **\[Roller]** or **\[Dial]** - Next & previous value\
+  The roller is used to navigate through menu options. &#x20;
+* **\[Enter]** - Accept \
+  \- Used to select option, function or accept value\
+  \- Push **\[Roller]** or **\[Dial]** button to select or enter.
 
 ### **Touch Interface**:
 
