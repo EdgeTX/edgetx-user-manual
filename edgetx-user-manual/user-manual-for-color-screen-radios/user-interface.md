@@ -10,7 +10,7 @@ The user interface of EdgeTX can be navigated by physical buttons, the touch int
   ****- Short press **\[SYS]** button to go to the [Radio Settings](radio-settings/) page.
 * **\[MDL]** - Model **** Button\
   ****- Short press **\[MDL]** button to go to the [Model Settings](model-settings/) page\
-  \- Long press **\[MDL]** button to go to the Model Browser page
+  \- Long press **\[MDL]** button to go to the [Select Model](select-model.md) page
 * **\[RTN] -** Return / Back \
   \- Short press **\[RTN]** button to return to the previous page, previous menu or cancel action
 * **\[PAGE>] / \[PAGE<]** - Page next & page previous\
