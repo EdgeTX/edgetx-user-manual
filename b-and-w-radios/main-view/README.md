@@ -40,17 +40,7 @@ The main view is the default view during radio operation. This view displays inf
 
 Long pressing the **\[Roller]** or **\[Dial]** button from the main view screen will show a pop-up menu with the options below:
 
-### Reset
+* Reset
+* Statistics
+* About
 
-
-
-### Statistics
-
-<figure><img src="../../.gitbook/assets/bwstats.png" alt=""><figcaption><p>Statistics screen</p></figcaption></figure>
-
-The **Statistics** screen presents you with statistics regarding radio usage. Except for Battery, all data is reset once the radio is powered off. The following information is provided:
-
-* **SES** - The amount of time that the radio has been turned on.&#x20;
-* **THR**  - The amount of time that the throttle has was above the 0% stick position.
-* **TH%** - The amount of time that the throttle has was above the 50% stick position.
-* **TM1/2/3** - The current values of Timer 1, Timer 2, Timer 3.
