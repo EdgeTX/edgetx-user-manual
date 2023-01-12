@@ -46,7 +46,7 @@
 
 ***
 
-* [🚧 B & W Radios](b-and-w-radios/README.md)
+* [🚧 User Manual for Monochrome Screen Radios](b-and-w-radios/README.md)
   * [🚧 User Inteface](b-and-w-radios/user-inteface.md)
 
 ## EdgeTX: How-To

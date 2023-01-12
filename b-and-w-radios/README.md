@@ -2,9 +2,11 @@
 description: UNDER CONSTRUCTION
 ---
 
-# 🚧 B & W Radios
+# 🚧 User Manual for Monochrome Screen Radios
 
-EdgeTX supports the following black & white screen radios:
+<figure><img src="../.gitbook/assets/monoradios.png" alt=""><figcaption><p>EdgeTX supported monochrome screen radios</p></figcaption></figure>
+
+EdgeTX supports the following monochrome screen radios:
 
 * BETAFPV LiteRadio 3 Pro
 * FrSky QX7 / QX7S / QX7 ACCESS / QX7S ACCESS
