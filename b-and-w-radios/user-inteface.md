@@ -1,4 +1,4 @@
-# 🚧 User Inteface
+# User Inteface
 
 <figure><img src="../.gitbook/assets/bwUserinterface.png" alt=""><figcaption><p>Common buttons user for radio menu navigation </p></figcaption></figure>
 
@@ -7,9 +7,9 @@ The buttons below are commonly used to navigate EdgeTX. If your radio does not h
 ### **Buttons:**
 
 * **\[SYS]** - System Button\
-  ****- Short press **\[SYS]** button to go to the Tools page of the System menu.
+  ****- Short press **\[SYS]** button from the main screen to go to the Tools page of the System menu.
 * **\[MDL]** - Model **** Button\
-  ****- Short press **\[MDL]** button to go to the Model Select page of the Models menu
+  ****- Short press **\[MDL]** button from the main screen to go to the Model Select page of the Models menu
 * **\[RTN] -** Return / Back \
   \- Short press **\[RTN]** button to return to the previous page, previous menu or cancel action
 * **\[PAGE>] / \[PAGE<]** - Page next & page previous\
