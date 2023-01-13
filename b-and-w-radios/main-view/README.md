@@ -1,6 +1,6 @@
 # 🚧 Main View
 
-The main view is the default view during radio operation. This view displays information such as the model name, trim positions, transmitter battery voltage, flight mode, receiver signal strength, and Timers. There are five main view screens.
+The main view is the default view normally used during radio operation. This view displays information such as the model name, trim positions, transmitter battery voltage, flight mode, receiver signal strength, and Timers. There are five main view screens.
 
 <div>
 
@@ -30,7 +30,7 @@ The main view is the default view during radio operation. This view displays inf
 
 **Screen 1** - This view displays the model name, trim positions (if trims are enabled), transmitter battery voltage, flight mode, receiver signal strength, and Timers 1 and 2 (if enabled).
 
-**Screen 2** - This view displays the model name, trim positions (if trims are enabled), transmitter battery voltage, flight mode, receiver signal strength, and Timer 1 (if enabled). It also has a graphical representation of the stick, pot, and positions.
+**Screen 2** - This view displays the model name, trim positions (if trims are enabled), transmitter battery voltage, flight mode, receiver signal strength, and Timer 1 (if enabled). It also has a graphical representation of the stick, pot, and switch positions.
 
 **Screen 3** - This view displays the model name, trim positions (if trims are enabled), transmitter battery voltage, flight mode, receiver signal strength, and Timer 1 (if enabled). It also shows the numerical values of the output channels, 8 channels per page. Use the **\[Roller]**or **\[Dial]** to scroll thru the additional pages.&#x20;
 
@@ -40,7 +40,7 @@ The main view is the default view during radio operation. This view displays inf
 
 Long pressing the **\[Roller]** or **\[Dial]** button from the main view screen will show a pop-up menu with the options below:
 
-* Reset
-* Statistics
-* About
+* **Reset** - See [Reset](reset.md) page.
+* **Statistics** - See [Statistics](statistics.md) page.
+* **About** - Displays the EdgeTX firmware version being used by the radio.
 

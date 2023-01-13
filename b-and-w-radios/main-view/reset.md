@@ -1,6 +1,6 @@
 # Reset
 
-Selecting reset from the pop-up menu will give you the following options:
+Selecting **Reset** from the pop-up menu will give you the following options:
 
 **Reset flight** - When selected, this option:&#x20;
 
