@@ -52,6 +52,7 @@
     * [Reset](b-and-w-radios/main-view/reset.md)
     * [Statistics](b-and-w-radios/main-view/statistics.md)
   * [Model Select](b-and-w-radios/model-select.md)
+  * [🚧 Setup](b-and-w-radios/setup.md)
 
 ## EdgeTX: How-To
 
