@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/bwsetup.png" alt=""><figcaption></figcaption></figure>
 
-The **Setup** is where you start to configure your model. It contains the following settings:
+The **Setup** screen is where you start to configure your model. It contains the following settings:
 
 **Name** - Enter the desired name for the model. The maximum number of characters is 10.
 
