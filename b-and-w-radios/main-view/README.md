@@ -1,4 +1,4 @@
-# 🚧 Main View
+# Main View
 
 The main view is the default view normally used during radio operation. This view displays information such as the model name, trim positions, transmitter battery voltage, flight mode, receiver signal strength, and Timers. There are five main view screens.
 
@@ -40,6 +40,7 @@ The main view is the default view normally used during radio operation. This vie
 
 Long pressing the **\[Roller]** or **\[Dial]** button from the main view screen will show a pop-up menu with the options below:
 
+* **View Notes -** Displays the configured model checklist. This option is only visible if the _**Checklist**_** ** option is enabled in the **Model Setup** screen and a valid model checklist file is in the **Models** folder.
 * **Reset** - See [Reset](reset.md) page.
 * **Statistics** - See [Statistics](statistics.md) page.
 * **About** - Displays the EdgeTX firmware version being used by the radio.
