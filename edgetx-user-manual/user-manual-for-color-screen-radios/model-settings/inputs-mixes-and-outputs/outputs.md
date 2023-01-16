@@ -11,7 +11,7 @@ A **Trim** is a temporary adjustment to a flight control normally done while in 
 The ouput screen shows all the configured output channels. For each output line, it displays the values for the minimum and maximum limits, subtrim, center point, subtrim mode and channel monitor. The two options below are also available on the output page:
 
 * **Add all Trims to Subtrims** - When selected, adds the current trim value to the subtrim value for each configured output. The trim value is then reset to zero.
-* **Extended Limits** - When enabled, it increases the minimum and maximum range for the output values to -150 and 150. Extended limits are may be necessary if the full range of the control surface cannot be reached with standard limits.
+* **Extended Limits** - When enabled, it increases the minimum and maximum range for the output values to -150 and 150. Extended limits are necessary if the full range of the control surface cannot be reached with standard limits.
 
 Selecting an output line will give you the following options:
 
