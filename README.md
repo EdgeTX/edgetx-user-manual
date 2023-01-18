@@ -4,6 +4,10 @@
 
 The purpose of this user manual is to consolidate information from the community about the setup, configuration, and use of EdgeTX. The goal is to be your "one-stop shop" for information about anything related to EdgeTX. It is broken down into the following areas:
 
+{% hint style="info" %}
+If you would like to contribute to this guide, please take a look at the [contribute-to-the-user-manual.md](contribute-to-the-user-manual.md "mention") page.
+{% endhint %}
+
 ### EdgeTX User Manual
 
 The user guide explains all the configuration options available in EdgeTX as well as some high-level theoretical information about EdgeTX usage and model controls. It is broken into sections - one section covering the interface for [Color Screen Radios](edgetx-user-manual/user-manual-for-color-screen-radios/) and one section covering the interface for [Black and White screen radios](b-and-w-radios/).&#x20;
@@ -24,4 +28,3 @@ This section of the knowledge base will contain links to additional resources th
 
 See the [Contributors ](more/contributors.md)section for a list of direct and indirect contributors.
 
-If you would like to contribute to this guide, please take a look at the [contribute-to-the-user-manual.md](contribute-to-the-user-manual.md "mention") page.

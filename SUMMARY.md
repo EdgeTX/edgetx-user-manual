@@ -53,6 +53,8 @@
     * [Statistics](b-and-w-radios/main-view/statistics.md)
   * [Model Select](b-and-w-radios/model-select.md)
   * [Setup](b-and-w-radios/setup.md)
+  * [Heli Setup](b-and-w-radios/heli-setup.md)
+  * [🚧 Flight Modes](b-and-w-radios/flight-modes.md)
 
 ## EdgeTX: How-To
 
