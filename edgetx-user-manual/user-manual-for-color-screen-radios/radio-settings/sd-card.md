@@ -26,7 +26,7 @@ Place your custom model or splash screen image files in this folder. This folder
 
 The ideal image size for _model images_ is 192x114 pixels. The picture format should be .png. The image file name should not exceed 9 characters.&#x20;
 
-The ideal image size for _Splash Screen images_ is 480x272 pixels. The picture format should be .png. The image file name must be splash.png&#x20;
+The ideal image size for _Splash Screen images_ is the actual radio screen size (480x272 pixels for most color screen radios). The picture format should be .png. The image file name must be splash.png.  Screen dimensions for the supported color screen radios can be found [here](https://github.com/EdgeTX/edgetx-sdcard).  &#x20;
 
 {% hint style="info" %}
 Note: Although larger image sizes will work as they will be scaled, they take up more memory and will cause degraded performance with the user interface.
@@ -50,10 +50,10 @@ If you have configured the **Display checklist** option in model settings, the m
 
 ### RADIO
 
-This folder contains the **radio.yml** file. This file contains all the radio configuration data. If this file is corrupted or missing, the radio will go into **Emergency Mode** and will create a new radio.yml file with the default settings. &#x20;
+This folder contains the **radio.yml** file. This file contains all the radio configuration data. If this file is corrupted or missing, the radio will go into **Emergency Mode** and will create a new radio.yml file with the default settings.&#x20;
 
 {% hint style="info" %}
-If the radio.yml file is manually edited, the **manuallyEdited:** tag must be set to **1** in the radio.yml file or the radio will think it is corrupted, go into **Emergency Mode** and will create a new radio.yml file with the default settings. &#x20;
+If the radio.yml file is manually edited, the **manuallyEdited:** tag must be set to **1** in the radio.yml file or the radio will think it is corrupted, go into **Emergency Mode** and will create a new radio.yml file with the default settings. The original .yml file will be saved in the folder.
 {% endhint %}
 
 ### SCREENSHOTS
