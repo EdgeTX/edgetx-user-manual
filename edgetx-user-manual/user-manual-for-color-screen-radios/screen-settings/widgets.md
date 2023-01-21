@@ -88,7 +88,7 @@ Below are descriptions and configuration options for widgets included with EdgeT
 
 * **Size** - Changes the size of the box in full screen mode.
 
-<figure><img src="../../../.gitbook/assets/widgets7.jpg" alt=""><figcaption><p>Flights and Guage Rotary widgets</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/widgets7 (1).jpg" alt=""><figcaption><p>Flights and Guage Rotary widgets</p></figcaption></figure>
 
 **Flights** - Counts your number of flights. The configurable options are:
 

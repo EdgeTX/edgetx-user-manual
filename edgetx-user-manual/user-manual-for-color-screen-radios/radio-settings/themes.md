@@ -19,7 +19,7 @@ You can find more user-created themes and additional theme creation resources he
 
  
 
-<figure><img src="../../../.gitbook/assets/themes3 (1).jpg" alt=""><figcaption><p>Edit Color screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/themes3.jpg" alt=""><figcaption><p>Edit Color screen</p></figcaption></figure>
 
 </div>
 
