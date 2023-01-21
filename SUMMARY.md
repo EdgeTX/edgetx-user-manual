@@ -55,6 +55,8 @@
   * [Setup](b-and-w-radios/setup.md)
   * [Heli Setup](b-and-w-radios/heli-setup.md)
   * [Flight Modes](b-and-w-radios/flight-modes.md)
+  * [🚧 Inputs, Mixes & Outputs](b-and-w-radios/inputs-mixes-and-outputs/README.md)
+    * [🚧 Inputs](b-and-w-radios/inputs-mixes-and-outputs/inputs.md)
 
 ## EdgeTX: How-To
 
