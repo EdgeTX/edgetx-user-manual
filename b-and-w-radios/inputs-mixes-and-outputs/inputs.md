@@ -12,6 +12,8 @@ The Inputs section is also commonly referred to as "**Dual Rates"** as it was pr
 
 <figure><img src="../../.gitbook/assets/bwinputs1.png" alt=""><figcaption><p>Inputs screen</p></figcaption></figure>
 
+The inputs screen shows you an overview of your configured inputs. Each row represents an input line and displays the following information from left to right: Input name, weight, activation switch, line name. These items are described in the [Input configuration page](inputs.md#input-configuration-page) area below.
+
 Selecting an empty input line and pressing **\[Enter]** will create a new input and open the input configuration page. Selecting an existing input line and pressing **\[Enter]** will give you the following options:
 
 * **Edit** - opens the input configuration page for that input line.
