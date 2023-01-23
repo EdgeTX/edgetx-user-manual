@@ -58,6 +58,7 @@
   * [🚧 Inputs, Mixes & Outputs](b-and-w-radios/inputs-mixes-and-outputs/README.md)
     * [Inputs](b-and-w-radios/inputs-mixes-and-outputs/inputs.md)
     * [Mixes](b-and-w-radios/inputs-mixes-and-outputs/mixes.md)
+    * [Outputs](b-and-w-radios/inputs-mixes-and-outputs/outputs.md)
 
 ## EdgeTX: How-To
 
