@@ -57,7 +57,7 @@
   * [Flight Modes](b-and-w-radios/flight-modes.md)
   * [🚧 Inputs, Mixes & Outputs](b-and-w-radios/inputs-mixes-and-outputs/README.md)
     * [Inputs](b-and-w-radios/inputs-mixes-and-outputs/inputs.md)
-    * [🚧 Mixes](b-and-w-radios/inputs-mixes-and-outputs/mixes.md)
+    * [Mixes](b-and-w-radios/inputs-mixes-and-outputs/mixes.md)
 
 ## EdgeTX: How-To
 
