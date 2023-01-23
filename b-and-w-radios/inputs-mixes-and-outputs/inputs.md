@@ -1,4 +1,4 @@
-# 🚧 Inputs
+# Inputs
 
 The **Inputs** screen is where you map your physical radio controls (for example: sticks, sliders, and pots) to a software input to be used by the radio.  After the control has been mapped, it is then possible to apply modifiers to the inputs, such as a weight, offset or curve, which will then be applied anywhere that input is used. Although it is possible to also assign switches as inputs, it is normally not needed as switch outputs seldomly need to be modified by a weight, offset or curve. By default, EdgeTX will automatically map your controller sticks to Aileron, Elevator, Throttle, Rudder based on the default channel order defined in **Radio Setup**.
 
@@ -14,7 +14,11 @@ The Inputs section is also commonly referred to as "**Dual Rates"** as it was pr
 
 The inputs screen shows you an overview of your configured inputs. Each row represents an input line and displays the following information from left to right: Input name, weight, activation switch, line name. These items are described in the [Input configuration page](inputs.md#input-configuration-page) area below.
 
-Selecting an empty input line and pressing **\[Enter]** will create a new input and open the input configuration page. Selecting an existing input line and pressing **\[Enter]** will give you the following options:
+Selecting an existing input line and pressing **\[Enter]** will toggle between **Copy/Paste** mode and **Move** mode. In **Copy/Paste** mode, a copy of the input line is made which can be pasted in the desired input line. In **Move** mode, the selected input can be moved to a different line. Press the **\[Return]** button to exit this mode.
+
+Selecting an empty input line and pressing **\[Enter]** will create a new input and open the input configuration page.&#x20;
+
+Selecting an existing input line and long-pressing **\[Enter]** will give you the following options:
 
 * **Edit** - opens the input configuration page for that input line.
 * **Insert before** - Inserts a new input line before the selected input.
