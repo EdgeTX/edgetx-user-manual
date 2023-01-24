@@ -60,7 +60,7 @@ The input configuration page allows you to edit the input configuration paramete
     | f>0      | The range above the middle (0) is always +100. The range below the middle (0) is always 0. The output value will always be either 0 or +100.       |
     | f<0      | The range above the middle (0) is always 0. The range below the middle (0) is always -100. The output value will always be either 0 or -100.       |
     | \|f\|    | The range above the middle (0) is always +100. The range below the middle (0) is always -100. The output value will always be either +100 or -100. |
-* **Cstm** - assigns a custom-defined curve. See [Curves](../../edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/curves.md) for more information about custom-defined curves.
+* **Cstm** - assigns a custom-defined curve. See [Curves](../curves.md) for more information about custom-defined curves.
 
 {% hint style="info" %}
 Values for weight, offset and curve % can also be defined by a configured global values Selecting the **GV** button will display a list of configured global values to select from.
