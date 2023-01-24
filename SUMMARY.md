@@ -60,6 +60,7 @@
     * [Mixes](b-and-w-radios/inputs-mixes-and-outputs/mixes.md)
     * [Outputs](b-and-w-radios/inputs-mixes-and-outputs/outputs.md)
   * [Curves](b-and-w-radios/curves.md)
+  * [Logical Switches](b-and-w-radios/logical-switches.md)
 
 ## EdgeTX: How-To
 
