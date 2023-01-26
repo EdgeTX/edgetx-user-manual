@@ -31,7 +31,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
 
 **Reset** (Reset Timer)- Resets the timer or telemetry specified in the value back to their initial values.
 
-* **Reset** - Options are **Tmr 1, Tmr 2, Tmr 3, All,** and **Telemetry.** See[ **Reset Telemetry**](../edgetx-user-manual/user-manual-for-color-screen-radios/reset-telemetry.md) **** for more information on what data is reset for each option.
+* **Reset** - Options are **Tmr 1, Tmr 2, Tmr 3, All,** and **Telemetry.** See [**Reset Telemetry**](main-view/reset.md) **** for more information on what data is reset for each option.
 
 **Set** (Set Timer) - Sets the specified timer to the specified value.
 
