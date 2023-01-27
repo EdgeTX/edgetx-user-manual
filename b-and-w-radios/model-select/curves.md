@@ -2,11 +2,11 @@
 
 The **Curves** screen allows you to define custom curves to use in the Inputs, Mixes, or Output screens. The curves screen will show the configured custom curves, with a graphical representation of each curve.
 
-<figure><img src="../.gitbook/assets/bwcurves1.png" alt=""><figcaption><p>Curves Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwcurves1.png" alt=""><figcaption><p>Curves Screen</p></figcaption></figure>
 
 Selecting one of the curves or empty curve slots will open the configuration page for that curve.
 
-<figure><img src="../.gitbook/assets/bwcurves2.png" alt=""><figcaption><p>Curves Configuration Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwcurves2.png" alt=""><figcaption><p>Curves Configuration Screen</p></figcaption></figure>
 
 ### Curves Configuration
 
@@ -24,6 +24,6 @@ The curve configuration screen has the following configurable options:
 
 ### Editing Curve Points
 
-<figure><img src="../.gitbook/assets/bwcurves3.png" alt=""><figcaption><p>Editing Curve Points pop-up</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwcurves3.png" alt=""><figcaption><p>Editing Curve Points pop-up</p></figcaption></figure>
 
 After the last configuration option (Smooth), you will automatically begin to scroll through the configured points on the curve. To change the values of the points, press the **\[Enter]** button and then adjust the values as desired. For **Standard** curves, you will only be able to adjust the Y value. For **Custom** curves, you can adjust both the X and Y values.

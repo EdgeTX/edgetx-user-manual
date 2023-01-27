@@ -6,7 +6,7 @@ description: Under Construction
 
 Flight modes allow you to have different trim settings for each flight mode. Once multiple flight modes are configured, you can adjust the trim settings in each flight mode without affecting the trim settings in other flight modes (unless they are configured to do so). There are nine possible flight modes, with Flight Mode 0 being the default mode.
 
-<figure><img src="../.gitbook/assets/bwFM.png" alt=""><figcaption><p>Flight Modes Overview screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwFM.png" alt=""><figcaption><p>Flight Modes Overview screen</p></figcaption></figure>
 
 The Flight Modes Overview screen shows an overview of the configured Flight Modes. The information below is displayed for each flight mode row:
 
@@ -17,7 +17,7 @@ The Flight Modes Overview screen shows an overview of the configured Flight Mode
 
 **Check FM Trims:** When check FM trim is pressed, the trims for the current flight mode are temporarily disabled. This is used to test the impact of the current flight mode’s trims on the outputs.
 
-<figure><img src="../.gitbook/assets/bwFM2.png" alt=""><figcaption><p>Flight Mode Configuration screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwFM2.png" alt=""><figcaption><p>Flight Mode Configuration screen</p></figcaption></figure>
 
 Selecting a Flight Mode from the overview screen will open the configuration page, which has the following options:
 
@@ -54,7 +54,7 @@ Global variables are variables whose values are shared across all the configurat
 
 You can edit the value of the global variable by changing the value in the value text field.  Selecting the global variable number will open the global variable configuration screen will give you the following options:
 
-<figure><img src="../.gitbook/assets/bwfm3.png" alt=""><figcaption><p>Global Variables configuration screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwfm3.png" alt=""><figcaption><p>Global Variables configuration screen</p></figcaption></figure>
 
 * **Name** - Name for the global variable. Three characters are allowed.&#x20;
 * **Unit** - (optional) Allows you to add a **%** label to the displayed values when selected. It DOES NOT affect how the values are calculated.

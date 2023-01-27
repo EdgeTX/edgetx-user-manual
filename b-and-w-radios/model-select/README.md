@@ -2,7 +2,7 @@
 
 Pressing the **\[MDL]** button from the Main view will open the **Model Select** screen. &#x20;
 
-<figure><img src="../.gitbook/assets/bwmodelsel.png" alt=""><figcaption><p>Model Select screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwmodelsel.png" alt=""><figcaption><p>Model Select screen</p></figcaption></figure>
 
 Use the **\[Roller]** or **\[Dial]** to scroll through the model slots.
 

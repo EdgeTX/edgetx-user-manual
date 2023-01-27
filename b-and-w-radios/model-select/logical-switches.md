@@ -4,7 +4,7 @@ Logical Switches are virtual two-position switches whose values (ON/OFF or +100/
 
 The **Logical Switches** page shows you all the configured logical switches as well as an overview of their configured options.
 
-<figure><img src="../.gitbook/assets/bwlogswitch1.png" alt=""><figcaption><p>Logical Switches Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwlogswitch1.png" alt=""><figcaption><p>Logical Switches Screen</p></figcaption></figure>
 
 Selecting a logic switch will give you the following options:
 
@@ -13,7 +13,7 @@ Selecting a logic switch will give you the following options:
 * **Paste** - Pastes a copied logical switch onto the selected logical switch. Note: it will overwrite the selected logical switch.
 * **Clear** - Deletes all configuration options for the selected logical switch.
 
-<figure><img src="../.gitbook/assets/bwlogswitch2.png" alt=""><figcaption><p>Logical Switches Configuration Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwlogswitch2.png" alt=""><figcaption><p>Logical Switches Configuration Screen</p></figcaption></figure>
 
 After selecting to edit a logical switch, you will have the following configuration options:
 

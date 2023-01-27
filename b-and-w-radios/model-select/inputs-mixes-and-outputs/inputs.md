@@ -10,7 +10,7 @@ Your input channels may default to a different order based on the settings defin
 The Inputs section is also commonly referred to as "**Dual Rates"** as it was previously called this in earlier versions of OpenTX.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/bwinputs1.png" alt=""><figcaption><p>Inputs screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bwinputs1.png" alt=""><figcaption><p>Inputs screen</p></figcaption></figure>
 
 The inputs screen shows you an overview of your configured inputs. Each row represents an input line and displays the following information from left to right: Input name, weight, activation switch, line name. These items are described in the [Input configuration page](inputs.md#input-configuration-page) area below.
 
@@ -29,7 +29,7 @@ Selecting an existing input line and long-pressing **\[Enter]** will give you th
 * **Paste before** - pastes the copied or moved input line before the selected input line.
 * **Paste after** - pastes the copied or moved input line before the selected input line.
 
-<figure><img src="../../.gitbook/assets/bwinputs2.png" alt=""><figcaption><p>Input Configuration Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bwinputs2.png" alt=""><figcaption><p>Input Configuration Page</p></figcaption></figure>
 
 ### Input configuration page
 

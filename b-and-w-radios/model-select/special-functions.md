@@ -2,7 +2,7 @@
 
 The **Special Functions** section is where you can configure the special functions that are included in EdgeTX. These special functions add additional functionality beyond normal model controls, such as enabling trainer mode, playing a sound, adjusting the radio backlight, adjusting radio volume, etc. On the special functions screen, you will see all configured special functions as well as some of the configured options such as function name, activation switch, if the function is enabled, and other configuration options.
 
-<figure><img src="../.gitbook/assets/bwsf1.png" alt=""><figcaption><p>Special Functions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwsf1.png" alt=""><figcaption><p>Special Functions</p></figcaption></figure>
 
 ### Configuring Special Functions
 
@@ -31,7 +31,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
 
 **Reset** (Reset Timer)- Resets the timer or telemetry specified in the value back to their initial values.
 
-* **Reset** - Options are **Tmr 1, Tmr 2, Tmr 3, All,** and **Telemetry.** See [**Reset Telemetry**](main-view/reset.md) **** for more information on what data is reset for each option.
+* **Reset** - Options are **Tmr 1, Tmr 2, Tmr 3, All,** and **Telemetry.** See [**Reset Telemetry**](../main-view/reset.md) **** for more information on what data is reset for each option.
 
 **Set** (Set Timer) - Sets the specified timer to the specified value.
 

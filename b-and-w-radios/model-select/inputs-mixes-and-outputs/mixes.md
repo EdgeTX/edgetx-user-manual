@@ -2,7 +2,7 @@
 
 The **Mixes** screen  is where several Inputs can be combined into one "Channel Mix". These mixes are then assigned to a radio channel for output. This is also the place where switches, knobs or sliders are assigned to a channel for output. Similar to the Input section, it is also possible to assign a weight, offset or curve to a channel mix.
 
-<figure><img src="../../.gitbook/assets/bwmixes1.png" alt=""><figcaption><p>Mixes Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bwmixes1.png" alt=""><figcaption><p>Mixes Page</p></figcaption></figure>
 
 The **Mixes** screen shows you an overview of your configured mixes. Each row represents a mixer line and displays the following information from left to right: channel, weight, input, mix name switch. These items are described in the [Mixes configuration options](mixes.md#mixes-configuration-options) area below.
 
@@ -19,7 +19,7 @@ Selecting an existing mix line and long-pressing **\[Enter]** will give you the 
 * **Move** - selects the mix line to be moved.
 * **Delete** - deletes the selected mix line.
 
-<figure><img src="../../.gitbook/assets/bwmixes2 (1).png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bwmixes2 (1).png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
 
 ### Mixes Configuration Options
 

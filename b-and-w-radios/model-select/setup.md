@@ -1,6 +1,6 @@
 # Setup
 
-<figure><img src="../.gitbook/assets/bwsetup.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwsetup.png" alt=""><figcaption></figcaption></figure>
 
 The **Setup** screen is where you start to configure your model. It contains the following settings:
 
@@ -42,8 +42,8 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 **Persist (Persistence):**
 
 * **Off** - The timer value is reset when switching models or when the radio is turned off / on.
-* **Flight** - The timer value is NOT reset when switching models or when the radio is turned off / on. The timer value is only reset when the **Reset flight** option is selected in the [Reset](main-view/reset.md) menu.
-* **Manual Reset -** The timer value is reset only when it is individually selected to be reset (example: Reset timer1) in the [Reset](main-view/reset.md) menu.
+* **Flight** - The timer value is NOT reset when switching models or when the radio is turned off / on. The timer value is only reset when the **Reset flight** option is selected in the [Reset](../main-view/reset.md) menu.
+* **Manual Reset -** The timer value is reset only when it is individually selected to be reset (example: Reset timer1) in the [Reset](../main-view/reset.md) menu.
 
 **Minute (Minute Call)** - If selected, you will be notified every minute that passes as described in the **Count Down** option.
 
@@ -54,7 +54,7 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 * **Voice** - The radio will count down by second starting at the time designated.
 * **Haptic** -The radio will vibrate every second starting at the time designated.
 
-<figure><img src="../.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
 
 **E.Limits (Extended Limits)** - When enabled, it increases the minimum and maximum range for the output values to -150 and 150. Extended limits are necessary if the full range of the control surface cannot be reached with standard limits.
 
@@ -72,7 +72,7 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 * Extra Fine = 0.2%
 * Exponential = 0.2% near the center and the step value increases exponentially as the distance from the center increases.
 
-<figure><img src="../.gitbook/assets/bwsetup3.png" alt=""><figcaption><p>Throttle Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwsetup3.png" alt=""><figcaption><p>Throttle Settings</p></figcaption></figure>
 
 **T-Reverse:** When enabled, this option reverses the output direction of the configured throttle channel.
 
@@ -86,7 +86,7 @@ For example, with **Trim idle only** enabled, the throttle stick at the lowest p
 
 **T-Trim-SW:** The trim switch that will be used to trim the throttle. It is possible to substitute the throttle trim switch with the aileron, rudder, or elevator trim switches.
 
-<figure><img src="../.gitbook/assets/bwsetup4.png" alt=""><figcaption><p>Preflight Checks options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwsetup4.png" alt=""><figcaption><p>Preflight Checks options</p></figcaption></figure>
 
 #### Preflight Checks
 
@@ -108,14 +108,14 @@ Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on t
 * **Manual** - Positions are checked against manually configured pot and slider positions. To manually set the check position, select **manual** the from menu, select the item that you want to set, and long-press the **\[Enter]** button to set its current position for the check.&#x20;
 * **AUTO** - Positions are checked for pots and sliders and compared to the last automatically saved position before the radio was turned off or the model was changed.
 
-<figure><img src="../.gitbook/assets/bwsetup5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwsetup5.png" alt=""><figcaption></figcaption></figure>
 
 **Ctr Beep** - Allows you to turn on/off the center beep function for the individual sticks, pots, and sliders by highlighting them with the **\[roller]** or **\[dial]** and pressing the button. When a switch is highlighted, the function is enabled.
 
 **Glob. Funs** - When enabled, global functions programmed in the radio settings will apply to this model. When disabled, global functions will not apply to this model.
 
 {% hint style="info" %}
-_Global functions_ are _special functions_ that are applied across all models. Refer to [Special _Functions_](../edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/special-functions.md) for information on configurable settings.
+_Global functions_ are _special functions_ that are applied across all models. Refer to [Special _Functions_](../../edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/special-functions.md) for information on configurable settings.
 {% endhint %}
 
 **ADC Filter** - Enables/disables the ADC filter for this model. The _**global**_ option will take the value designated in the radio settings, which is _on_ by default.
@@ -147,5 +147,5 @@ If using the radio in gamepad mode, both internal and external RF modules should
 * **Slave / Jack** - Student radio using a cable connection.
 * **Master / Bluetooth** - Trainer radio using a Bluetooth connection (if installed in the radio).
 * **Slave / Bluetooth** - Student radio using a Bluetooth connection (if installed in the radio).
-* **Master / Multi** - Trainer radio using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../set-up-wireless-trainer-with-mpm.md "mention")
+* **Master / Multi** - Trainer radio using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../../set-up-wireless-trainer-with-mpm.md "mention")
 

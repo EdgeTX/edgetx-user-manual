@@ -6,7 +6,7 @@ The **Outputs** screen is where final adjustments to the control data are made (
 A **Trim** is a temporary adjustment to a flight control normally done while in operation with a trim switch. A **Subtrim** is a semi-permanant adjustment to a flight control that is normally configured when setting up the model in the output settings.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/bwoutputs1.png" alt=""><figcaption><p>Outputs screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bwoutputs1.png" alt=""><figcaption><p>Outputs screen</p></figcaption></figure>
 
 The output screen shows all the output channels. For each output line, it displays the values for the subtrim, minimum and maximum limits, direction, curve, and subtrim mode. After the last output line is the option **Trims=>Subtrims**. When this option is selected, it adds the current trim value to the subtrim value for each configured output. The trim value is then reset to zero.
 
@@ -18,7 +18,7 @@ Selecting an output line will give you the following options:
 * **Cpy Sticks -> Subtrim** - Adds the current value of the stick deflection as the subtrim value.
 * **Cpy min/max to all -** Copies the settings in Min / Max field of selected channel to all other channels.
 
-<figure><img src="../../.gitbook/assets/bwoutputs2.png" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bwoutputs2.png" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
 
 The output configuration screen has the following configuration options:
 
