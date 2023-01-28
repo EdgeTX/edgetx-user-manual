@@ -126,7 +126,7 @@ The ADC filter is a filter for the proportional channels (sticks, pots, sliders)
 
 #### Internal / External RF
 
-The configuration settings for both the Internal and External RF pages work the same. The only difference is that the **Internal RF** section is for configuring the built-in module and the **External RF** section is for configuring an RF module in the external module bay.
+The configuration settings for both the Internal and External RF sections work the same. The only difference is that the **Internal RF** section is for configuring the built-in module and the **External RF** section is for configuring an RF module in the external module bay.
 
 The configuration options are: _**off**_ or the _**module name**_ of the installed module as configured in the _**Radio**_** ** settings. Configuration options are unique to each installed module. Please consult the manufacturer's documentation for configuration options.&#x20;
 
