@@ -68,6 +68,7 @@
     * [Display](b-and-w-radios/model-select/display.md)
   * [Radio Settings](b-and-w-radios/radio-settings/README.md)
     * [SD Card](b-and-w-radios/radio-settings/sd-card.md)
+    * [Radio Setup](b-and-w-radios/radio-settings/radio-setup.md)
 
 ## EdgeTX: How-To
 
