@@ -41,3 +41,5 @@ When the **edit** option is selected for a mix, the following configuration opti
 * **Delay down** -  Creates a time delay in seconds between when the source value decreases and when it is output.
 * **Slow up** - Adjusts the transition speed for source value increases. Specify the time to transition from -100% to + 100% in seconds. You can specify a range from 0.0 seconds to 25.0 seconds.
 * **Slow down** - Adjusts the transition speed for source value decreases. Specify the time to transition from -100% to + 100% in seconds. You can specify a range from 0.0 seconds to 25.0 seconds.
+
+Pressing the **\[PAGE>]** button will take you to the **Outputs** screen.

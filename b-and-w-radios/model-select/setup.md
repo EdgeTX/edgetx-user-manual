@@ -149,3 +149,4 @@ If using the radio in gamepad mode, both internal and external RF modules should
 * **Slave / Bluetooth** - Student radio using a Bluetooth connection (if installed in the radio).
 * **Master / Multi** - Trainer radio using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../../set-up-wireless-trainer-with-mpm.md "mention")
 
+Pressing the **\[PAGE>]** button will take you to the **Heli Setup** screen.

@@ -33,3 +33,5 @@ The output configuration screen has the following configuration options:
   * **△ (Center Only)** - Only the center value shifts. The upper and lower limits do not change. The reaction of the stick differs between the upper half and the lower half from midpoint.
   * **= Symmetrical** - Both the upper and lower limits will shift according to the shift of the center value. The reaction of the stick is the same on both sides of the midpoint.&#x20;
 
+Pressing the **\[PAGE>]** button will take you to the **Curves** screen.
+

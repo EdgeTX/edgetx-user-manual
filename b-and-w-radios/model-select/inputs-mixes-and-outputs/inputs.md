@@ -73,3 +73,5 @@ Values for weight, offset and curve % can also be defined by a configured global
 **Side** - Specifies the input range for which this line setting is valid. If you select **---**, it will be valid in the entire range of Source values. If you select **x>0**, it will be valid in the upper half of the value of Source. If you select **x<0**, it will be valid in the lower half of the value of Source.
 
 **Trim** - Specifies whether or not to include the trim values in this input. Additionally, you can select a different trim to use for this input.
+
+Pressing the **\[PAGE>]** button will take you to the **Mixes** screen.

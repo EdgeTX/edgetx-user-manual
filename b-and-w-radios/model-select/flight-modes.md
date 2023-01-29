@@ -63,3 +63,5 @@ You can edit the value of the global variable by changing the value in the value
 * **Max** - Defines the maximum value that is allowed for the global variable.
 * **Popup** - When enabled, a pop-up window will be displayed on the main screen when the value of this global variable changes during normal use.
 * **FM1 -> FM8** - Allows you to select the global variable inheritance for the flight mode. **Long press** the field to switch between **Own** and **Inheritence** mode. In **Own** mode, you can define the global variable value for the selected flight mode. In **Inheritance** mode, you can select the Flight Mode that the global variable will inherit the value from.
+
+Pressing the **\[PAGE>]** button will take you to the **Inputs** screen.

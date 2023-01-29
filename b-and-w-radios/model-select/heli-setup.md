@@ -14,3 +14,5 @@ The heli setup screen has the following configuration options:
   * **Weight** - Percentage value of the stick travel to use.
 * **Coll. pitch source** - Select source input.&#x20;
   * **Weight** - Percentage value of the stick travel to use.
+
+Pressing the **\[PAGE>]** button will take you to the **Flight Modes** screen.

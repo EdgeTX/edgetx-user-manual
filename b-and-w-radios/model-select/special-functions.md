@@ -86,3 +86,5 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
 **Screenshot** -  Creates screenshot as a .bmp file in the SCREENSHOT folder on the SD Card.
 
 **RacingMode** - Enables racing mode (low latency) for FrSky Archer RS receivers. Racing mode must also be enabled in External RF Module Settings.
+
+Pressing the **\[PAGE>]** button will take you to the **Telemetry** screen.

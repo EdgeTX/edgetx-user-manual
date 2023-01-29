@@ -55,3 +55,4 @@ A variometer detects changes in the model altitude.  EdgeTX can alert the user o
 * **Center** - Specify the range for ignoring changes in climb/descent rates. When the climb/descent rate is within the range specified here, the beeping pitch will not change.
 * **Tone/Silent** - Specifies whether to beep when climb/descent rate is within the range specified by **Center**.
 
+Pressing the **\[PAGE>]** button will take you to the **Display** screen.

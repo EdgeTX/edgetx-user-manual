@@ -27,3 +27,5 @@ The curve configuration screen has the following configurable options:
 <figure><img src="../../.gitbook/assets/bwcurves3.png" alt=""><figcaption><p>Editing Curve Points pop-up</p></figcaption></figure>
 
 After the last configuration option (Smooth), you will automatically begin to scroll through the configured points on the curve. To change the values of the points, press the **\[Enter]** button and then adjust the values as desired. For **Standard** curves, you will only be able to adjust the Y value. For **Custom** curves, you can adjust both the X and Y values.
+
+Pressing the **\[PAGE>]** button will take you to the **Logical Switches** screen.

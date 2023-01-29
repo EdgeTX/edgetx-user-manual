@@ -65,6 +65,7 @@
     * [Telemetry](b-and-w-radios/model-select/telemetry/README.md)
       * [Sensor Configuration](b-and-w-radios/model-select/telemetry/sensor-configuration-options.md)
       * [Common Telemetry Sensors](b-and-w-radios/model-select/telemetry/common-telemetry-sensors.md)
+    * [Display](b-and-w-radios/model-select/display.md)
 
 ## EdgeTX: How-To
 
