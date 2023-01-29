@@ -25,3 +25,5 @@ _**NOTE: The wizard does not create a new model, it only configures the currentl
 {% hint style="info" %}
 Additional EdgeTX compatible Lua scripts can be downloaded from: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
 {% endhint %}
+
+Pressing the **\[PAGE>]** button will take you to the **SD Card** screen.

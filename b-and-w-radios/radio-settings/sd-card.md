@@ -85,5 +85,4 @@ Sound packs are available for manual download at: [https://github.com/EdgeTX/edg
 For a demonstration video of how to make your own custom sounds that will work with EdgeTX, check out: [https://www.youtube.com/watch?v=DqF7HUsFrnE](https://www.youtube.com/watch?v=DqF7HUsFrnE)
 {% endhint %}
 
-
-
+Pressing the **\[PAGE>]** button will take you to the **Radio Setup** screen.

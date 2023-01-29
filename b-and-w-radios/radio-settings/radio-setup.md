@@ -118,3 +118,5 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 * 2: Left = yaw+thr (throttle)
 * 3: Left = rol (roll)+pit (pitch)
 * 4: Left = rol (roll)+thr (throttle)
+
+Pressing the **\[PAGE>]** button will take you to the **Global Functions** screen.
