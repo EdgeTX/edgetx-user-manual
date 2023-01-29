@@ -1,4 +1,6 @@
-# Model Select
+# Model Settings
+
+### Model Select
 
 Pressing the **\[MDL]** button from the Main view will open the **Model Select** screen. &#x20;
 

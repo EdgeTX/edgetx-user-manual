@@ -51,7 +51,7 @@
   * [Main View](b-and-w-radios/main-view/README.md)
     * [Reset](b-and-w-radios/main-view/reset.md)
     * [Statistics](b-and-w-radios/main-view/statistics.md)
-  * [Model Select](b-and-w-radios/model-select/README.md)
+  * [Model Settings](b-and-w-radios/model-select/README.md)
     * [Setup](b-and-w-radios/model-select/setup.md)
     * [Heli Setup](b-and-w-radios/model-select/heli-setup.md)
     * [Flight Modes](b-and-w-radios/model-select/flight-modes.md)
@@ -66,6 +66,7 @@
       * [Sensor Configuration](b-and-w-radios/model-select/telemetry/sensor-configuration-options.md)
       * [Common Telemetry Sensors](b-and-w-radios/model-select/telemetry/common-telemetry-sensors.md)
     * [Display](b-and-w-radios/model-select/display.md)
+  * [Radio Settings](b-and-w-radios/radio-settings.md)
 
 ## EdgeTX: How-To
 
