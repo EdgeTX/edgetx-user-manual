@@ -66,7 +66,8 @@
       * [Sensor Configuration](b-and-w-radios/model-select/telemetry/sensor-configuration-options.md)
       * [Common Telemetry Sensors](b-and-w-radios/model-select/telemetry/common-telemetry-sensors.md)
     * [Display](b-and-w-radios/model-select/display.md)
-  * [Radio Settings](b-and-w-radios/radio-settings.md)
+  * [Radio Settings](b-and-w-radios/radio-settings/README.md)
+    * [SD Card](b-and-w-radios/radio-settings/sd-card.md)
 
 ## EdgeTX: How-To
 

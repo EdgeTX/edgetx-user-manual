@@ -10,11 +10,11 @@ The **Tools** page in Radio Settings is where you can select Lua script-based to
 
 <div>
 
-<figure><img src="../.gitbook/assets/bwtools1.png" alt=""><figcaption><p>Setup Wizard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwtools1.png" alt=""><figcaption><p>Setup Wizard</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/bwtools2.png" alt=""><figcaption><p>Setup Wizard Configuration menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwtools2.png" alt=""><figcaption><p>Setup Wizard Configuration menu</p></figcaption></figure>
 
 </div>
 
