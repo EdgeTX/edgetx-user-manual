@@ -72,6 +72,7 @@
     * [Global Functions](b-and-w-radios/radio-settings/global-functions.md)
     * [Trainer](b-and-w-radios/radio-settings/trainer.md)
     * [Hardware](b-and-w-radios/radio-settings/hardware.md)
+    * [Version](b-and-w-radios/radio-settings/version.md)
 
 ## EdgeTX: How-To
 

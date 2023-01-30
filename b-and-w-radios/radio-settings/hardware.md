@@ -18,7 +18,7 @@ Selecting one of the Sticks, Pots, or Switches lines from the list will allow yo
 
 ### Additional hardware configuration options
 
-<figure><img src="../../.gitbook/assets/bwhardware2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
 
 **Batt. Calib** (Battery Calibration) - Set this value to match the transmitter battery voltage. This ensures that the displayed battery voltage is accurate.
 

@@ -2,7 +2,7 @@
 
 The **Trainer** screen in Radio Settings is used to configure how the instructor’s radio transmitter will handle the signals from the student's radio transmitter. It contains the below configuration options.&#x20;
 
-<figure><img src="../../.gitbook/assets/bwtrainer.png" alt=""><figcaption><p>Trainer screen in Radio Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwtrainer.png" alt=""><figcaption><p>Trainer Ccreen in Radio Settings</p></figcaption></figure>
 
 For each of the four main control inputs (Ail, Ele, Thr, Rud) the following options can me configured (for each row, from left to right).
 
