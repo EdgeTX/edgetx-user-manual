@@ -7,7 +7,7 @@ The buttons below are commonly used to navigate EdgeTX. If your radio does not h
 ### **Buttons:**
 
 * **\[SYS]** - System Button\
-  ****- Short press **\[SYS]** button from the main screen to go to the Tools page of the System menu.
+  ****- Short press **\[SYS]** button from the main screen to go to the [Tools](radio-settings/) page of the Radio Settings menu.
 * **\[MDL]** - Model **** Button\
   ****- Short press **\[MDL]** button from the main screen to go to the [Model Select ](model-select/)page of the Models menu
 * **\[RTN] -** Return / Back \

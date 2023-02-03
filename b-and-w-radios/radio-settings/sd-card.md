@@ -1,6 +1,6 @@
 # SD Card
 
-<figure><img src="../../.gitbook/assets/bwsdcard1.png" alt=""><figcaption><p>Sd Card Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwsdcard1.png" alt=""><figcaption><p>SD Card Screen</p></figcaption></figure>
 
 The **SD Card** screen shows you the contents of your SD card, allows you to navigate the folders and interact with the files in the folders. All folders contain a README.txt file that describes what type of files belong in this folder. After selecting a file in one of the folders, you will be presented with some of the options below, depending on the file type that was selected:
 
