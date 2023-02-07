@@ -93,5 +93,9 @@ The models and settings will be written to the radio.  A message will be display
 All of your models have been updated to the EdgeTX .yml format and you have the EdgeTX sound pack installed. You are now ready to use EdgeTX.
 
 {% hint style="info" %}
+_Unfortunately, it is not possible to copy over the setup for your widgets from OpenTX. They will have to be set up again manually in EdgeTX._
+{% endhint %}
+
+{% hint style="info" %}
 Your Lua Scripts from OpenTX will still be on your SD Card. However, they may not all work with EdgeTX and may need to be re-installed to get them to work.  You can find a list of EdgeTX-compatible LUA scripts here: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
 {% endhint %}

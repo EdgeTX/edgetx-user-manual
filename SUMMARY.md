@@ -46,7 +46,7 @@
 
 ***
 
-* [🚧 User Manual for Monochrome Screen Radios](b-and-w-radios/README.md)
+* [User Manual for Monochrome Screen Radios](b-and-w-radios/README.md)
   * [User Inteface](b-and-w-radios/user-inteface.md)
   * [Main View](b-and-w-radios/main-view/README.md)
     * [Reset](b-and-w-radios/main-view/reset.md)

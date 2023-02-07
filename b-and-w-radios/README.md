@@ -1,8 +1,4 @@
----
-description: UNDER CONSTRUCTION
----
-
-# 🚧 User Manual for Monochrome Screen Radios
+# User Manual for Monochrome Screen Radios
 
 <figure><img src="../.gitbook/assets/monoradios.jpg" alt=""><figcaption><p>EdgeTX supported monochrome screen radios</p></figcaption></figure>
 

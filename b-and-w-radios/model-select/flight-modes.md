@@ -1,7 +1,3 @@
----
-description: Under Construction
----
-
 # Flight Modes
 
 Flight modes allow you to have different trim settings for each flight mode. Once multiple flight modes are configured, you can adjust the trim settings in each flight mode without affecting the trim settings in other flight modes (unless they are configured to do so). There are nine possible flight modes, with Flight Mode 0 being the default mode.
