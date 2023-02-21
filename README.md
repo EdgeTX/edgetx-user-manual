@@ -2,11 +2,12 @@
 
 <figure><img src=".gitbook/assets/cover1.jpg" alt=""><figcaption></figcaption></figure>
 
+### The user manual can be viewed [here](https://edgetx.gitbook.io/edgetx-user-manual/)
+
 The purpose of this user manual is to consolidate information from the community about the setup, configuration, and use of EdgeTX. The goal is to be your "one-stop shop" for information about anything related to EdgeTX. It is broken down into the following areas:
 
-{% hint style="info" %}
-If you would like to contribute to this guide, please take a look at the [contribute-to-the-user-manual.md](contribute-to-the-user-manual.md "mention") page.
-{% endhint %}
+### If you would like to contribute to this guide, please take a look at the [contribute-to-the-user-manual.md](contribute-to-the-user-manual.md "mention") page.
+
 
 ### EdgeTX User Manual
 
