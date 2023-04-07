@@ -32,3 +32,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 * 2: Left = yaw+thr (throttle)
 * 3: Left = rol (roll)+pit (pitch)
 * 4: Left = rol (roll)+thr (throttle)
+
+**Model quick select** - Affects model selection screen. Both options require you first to mark the desired model using the scroll wheel or short tap.
+- When OFF: short/long tap (short/long ENTER) on the marked model will show the menu, where you can "Select model";
+- When ON: short tap (short ENTER) on the marked model will select it immediately. To activate the menu, make a long tap or long ENTER.
