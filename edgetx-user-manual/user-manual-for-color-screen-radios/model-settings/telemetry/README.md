@@ -18,7 +18,7 @@ RSSI is not a very good indicator of the strength and quality of your RC Link.  
 
 **Sensors**
 
-All prevously configured sensors are listed here. Sensors that are highlighted have received data since the model was loaded or the telemetry values were reset. A small circle icon will flash to the left of the sensor value when it has received a data update. Sensor values in black designate the sensors that are receiving regular updates. Sensor values that are red are no longer receiving regular updates. See [Recognized Sensors](common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
+All prevously configured sensors are listed here. Sensors that are highlighted have received data since the model was loaded or the telemetry values were reset. A small circle icon will flash to the left of the sensor value when it has received a data update. Sensor values in black designate the sensors that are receiving regular updates. Sensor values that are red are no longer receiving regular updates. See [Recognized Sensors](../../../../b-and-w-radios/model-select/telemetry/common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
 
 The following options are listed under the sensor list.
 

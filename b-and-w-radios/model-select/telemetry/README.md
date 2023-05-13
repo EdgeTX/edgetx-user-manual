@@ -10,7 +10,7 @@ The Telemetry screen is where you configure these sensors to use in EdgeTX.  Bel
 
 RSSI stands for the Receiver Signal Strength Indicator and represents the raw strength of the received signal. How the RSSI value is determined is based on the protocol being used, but generally, the higher the number, the better, with 100 being the maximum value. &#x20;
 
-* **Source -** The source **** sensor to use for RSSI. It is usually set to **(default)** and cannot be changed.
+* **Source -** The source sensor to use for RSSI. It is usually set to **(default)** and cannot be changed.
 * **Low alarm** - The threshold value when the "RF signal low" voice prompt will be played. The recommended value is 45.
 * **Critical alarm** - The threshold value when the "RF signal critical" voice prompt will be played. The recommended value is 42.
 * **Disable telemetry alarms** - When enabled, no alarm voice prompts will be played.
@@ -23,7 +23,7 @@ RSSI is not a very good indicator of the strength and quality of your RC Link.  
 
 <figure><img src="../../../.gitbook/assets/bwtelemetry4.png" alt=""><figcaption><p>Sensors portion of the Telemetry screen</p></figcaption></figure>
 
-All previously configured sensors are listed here. Sensors that have not received data since the model was loaded or the telemetry values were reset display **---** for the values. The asterisk **\*** to the left of the sensor value will flash when the sensor has received a data update. A solid asterisk**\*** indicates that the sensors that are receiving regular updates. Sensors that are no longer receiving regular updates will not be marked with the asterisk**\***. See [Common Telemetry Sensors](common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
+All previously configured sensors are listed here. Sensors that have not received data since the model was loaded or the telemetry values were reset display **---** for the values. The asterisk **\*** to the left of the sensor value will flash when the sensor has received a data update. A solid asterisk**\*** indicates that the sensors that are receiving regular updates. Sensors that are no longer receiving regular updates will not be marked with the asterisk**\***. See [Common Telemetry Sensors](../../../edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/telemetry/common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
 
 The following options are listed under the sensor list.
 

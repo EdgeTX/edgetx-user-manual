@@ -40,7 +40,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 
 **Reset** (Reset Timer)- Resets the timer or telemetry specified in the value back to their initial values.
 
-* **Reset** - Options are **Timer 1, Timer 2, Timer 3, Flight,** and **Telemetry.** See[ **Reset Telemetry**](../reset-telemetry.md) **** for more information on what data is reset for each option.
+* **Reset** - Options are **Timer 1, Timer 2, Timer 3, Flight,** and **Telemetry.** See[ **Reset Telemetry**](../reset-telemetry.md) for more information on what data is reset for each option.
 
 **Set** (Set Timer) - Sets the specified timer to the specified value.
 

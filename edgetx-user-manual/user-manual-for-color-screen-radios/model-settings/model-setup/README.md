@@ -4,7 +4,11 @@ description: General model settings
 
 # Model Setup
 
+<div align="center">
+
 <figure><img src="../../../../.gitbook/assets/modelsetup.jpg" alt=""><figcaption><p>Model Setup tab under Model Settings</p></figcaption></figure>
+
+</div>
 
 The **model setup** page is the default page for model settings and is where you start to configure your model. It contains the following settings:
 

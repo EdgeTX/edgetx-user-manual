@@ -6,4 +6,8 @@ To be able to support many different types of radio transmitters, EdgeTX uses a 
 
 EdgeTX uses the icons below to designate different types of sources.&#x20;
 
+<div align="center">
+
 <figure><img src="../../../../.gitbook/assets/inputicons.jpg" alt=""><figcaption><p>Source Icons</p></figcaption></figure>
+
+</div>

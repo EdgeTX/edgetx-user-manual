@@ -21,7 +21,7 @@ Double-tapping on a non-active model (unhighlighted) will give you the following
 * **Select model** - this option selects this model as the active model.
 * **Duplicate model** - same as described above.
 * **Delete model** - this option moves the model to the deleted folder on the SD Card. _Only models that are not active can be deleted._
-* **Edit Labels **_****_ - same as described above.
+* **Edit Labels** - same as described above.
 * **Save as template** - same as described above.
 
 ### Creating a new model
@@ -47,7 +47,7 @@ To filter the visible models based on their labels, select the filter or filters
 
 ### Assigning labels to models
 
-To assign a label to a model, double-tap on the model or press **\[Enter]** when the model is selected and then select **Edit Labels**. Once selected, all configured labels will be displayed and one or more labels can be selected for this model. Labels applied to the model will be designated with a _**check**_** ** icon.
+To assign a label to a model, double-tap on the model or press **\[Enter]** when the model is selected and then select **Edit Labels**. Once selected, all configured labels will be displayed and one or more labels can be selected for this model. Labels applied to the model will be designated with a _**check**_ icon.
 
 ### Creating new model labels
 

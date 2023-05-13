@@ -40,7 +40,7 @@ If the **SMT32 Bootloader** device is not present, then select **Add New Device*
 
 <figure><img src=".gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
-After selecting the **SMT32 Bootloader** device and clicking **Next,** you **** will be presented with a confirmation screen to verify your settings. Once you have verified everything is correct (Version, Radio, and device) click the **Start Flashing** button.
+After selecting the **SMT32 Bootloader** device and clicking **Next,** you will be presented with a confirmation screen to verify your settings. Once you have verified everything is correct (Version, Radio, and device) click the **Start Flashing** button.
 
 <figure><img src=".gitbook/assets/update5.png" alt=""><figcaption></figcaption></figure>
 

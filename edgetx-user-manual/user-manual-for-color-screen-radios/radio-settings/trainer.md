@@ -6,7 +6,7 @@ The **Trainer** screen in Radio Settings is used to configure how the instructor
 
 For each of the four main control inputs (Ail, Ele, Thr, Rud) the following options can me configured (for each row, from left to right).
 
-* **Mode -** How the **** instructor’s radio will handles the signals from the student's radio&#x20;
+* **Mode -** How the instructor’s radio will handles the signals from the student's radio&#x20;
   * **OFF** - Stick values from the instructor’s radio will be used - no input from the Student's radio.
   * **+=** Adds the stick values from both the instructor’s radio and student’s radio.
   * **:=** Replaces the instructor’s stick values with the student’s radio. (Default)

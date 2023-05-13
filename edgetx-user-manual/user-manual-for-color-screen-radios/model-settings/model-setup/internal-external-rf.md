@@ -14,7 +14,7 @@ The Internal / External RF modules are "active" for a model when the buttons are
 
 </div>
 
-The configuration options are: _**off**_ or the _**module name**_ of the installed module as configured in the [_hardware_](../../radio-settings/hardware.md) section of the _**Radio**_** ** settings. Configuration options are unique to each installed module. Please consult the manufacturer's documentation for configuration options.&#x20;
+The configuration options are: _**off**_ or the _**module name**_ of the installed module as configured in the [_hardware_](../../radio-settings/hardware.md) section of the _**Radio**_ settings. Configuration options are unique to each installed module. Please consult the manufacturer's documentation for configuration options.&#x20;
 
 {% hint style="info" %}
 Configuration options for the multi-protocol module are described here:  [https://www.multi-module.org/using-the-module/protocol-options](https://www.multi-module.org/using-the-module/protocol-options)

@@ -32,7 +32,7 @@ The upper right portion of the mixes configuration page contains a channel monit
 
 <figure><img src="../../../../.gitbook/assets/Mixes4.jpg" alt=""><figcaption><p>Additional Mixes settings</p></figcaption></figure>
 
-****
+
 
 * **Multiplex** - The multiplex setting defines how the current mixer line interacts with the others on the same channel. **Add** will add its output to them, **Multiply** will multiply the result of the lines above it, and **Replace** will replace anything that was done before it with its output.&#x20;
 * **Modes** - Specifies which flight modes this mix is active for.

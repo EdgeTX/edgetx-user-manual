@@ -40,7 +40,7 @@ The main view is the default view normally used during radio operation. This vie
 
 Long pressing the **\[Roller]** or **\[Dial]** button from the main view screen will show a pop-up menu with the options below:
 
-* **View Notes -** Displays the configured model checklist. This option is only visible if the _**Checklist**_** ** option is enabled in the **Model Setup** screen and a valid model checklist file is in the **Models** folder.
+* **View Notes -** Displays the configured model checklist. This option is only visible if the _**Checklist**_ option is enabled in the **Model Setup** screen and a valid model checklist file is in the **Models** folder.
 * **Reset** - See [Reset](reset.md) page.
 * **Statistics** - See [Statistics](statistics.md) page.
 * **About** - Displays the EdgeTX firmware version being used by the radio.

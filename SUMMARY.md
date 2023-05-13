@@ -73,6 +73,7 @@
     * [Trainer](b-and-w-radios/radio-settings/trainer.md)
     * [Hardware](b-and-w-radios/radio-settings/hardware.md)
     * [Version](b-and-w-radios/radio-settings/version.md)
+* [Translated User Manuals](translated-user-manuals.md)
 
 ## EdgeTX: How-To
 
