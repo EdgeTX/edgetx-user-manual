@@ -1,6 +1,6 @@
 # Translated User Manuals
 
-Below are links to community translaterd versions of the EdgeTX User Manual.
+Below are links to community translated versions of the EdgeTX User Manual.
 
 ### German / Deutsch
 

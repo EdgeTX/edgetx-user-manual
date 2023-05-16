@@ -17,11 +17,11 @@ Selecting a logic switch will give you the following options:
 
 After selecting to edit a logical switch, you will have the following configuration options:
 
-* **Func** - The logical function that you want to use.  See [Logical Switch Functions](logical-switches.md#logical\_switches\_judgment\_conditions\_and\_logical\_expressions) below for a description of the possible functions you can use.
+* **Func** - The logical function that you want to use. See [Logical Switch Functions](logical-switches.md#logical\_switches\_judgment\_conditions\_and\_logical\_expressions) below for a description of the possible functions you can use.
 * **V1** - The first variable in the expression to evaluate.
 * **V2** -The second variable in the expression to evaluate.
 * **AND switch** - Switch that must be active to allow the logical switch to be evaluated for activation.
-* **Duration** - The duration that the logical switch will remain active (true) once meeting activation criteria.&#x20;
+* **Duration** - The duration that the logical switch will remain active (true) once meeting activation criteria. If set to 0.0, the the logical switch will remain active (true).
 * **Delay** - Delay between when the activation criteria for the logical switch has been met and when the logical switch changes to the activated state (true).
 
 ### Logical Switch Functions <a href="#logical_switches_judgment_conditions_and_logical_expressions" id="logical_switches_judgment_conditions_and_logical_expressions"></a>
