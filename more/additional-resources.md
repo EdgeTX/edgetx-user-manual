@@ -4,6 +4,11 @@ description: Below are some additional useful resources
 
 # Additional Resources
 
+
+{% embed url="http://edgetx.org/" %}
+EdgeTx - The EdgeTx project website.  
+{% endembed %}
+
 {% embed url="http://open-txu.org/" %}
 OpenTX University - great information on RC planes in general.
 {% endembed %}
