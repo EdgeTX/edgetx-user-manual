@@ -19,7 +19,7 @@ Selecting an existing mix line and long-pressing **\[Enter]** will give you the 
 * **Move** - selects the mix line to be moved.
 * **Delete** - deletes the selected mix line.
 
-<figure><img src="../../../.gitbook/assets/bwmixes2 (1).png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bwmixes2.png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
 
 ### Mixes Configuration Options
 

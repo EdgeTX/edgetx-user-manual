@@ -51,15 +51,7 @@ The input configuration page allows you to edit the input configuration paramete
 * **Expo** -The input value is changed exponentially. Increasing the % will result in a gentle slope near the middle(0). Decreasing the % will result in a steep slope near the middle (0). With a % of 0, the slope will be linear.
 *   **Func** -
 
-    | Function | Slope Behavior                                                                                                                                     |
-    | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ---      | The slope will be linear.                                                                                                                          |
-    | X>0      | The range below the middle (0) is always 0. Above the middle (0), the slope is linear.                                                             |
-    | X<0      | The range above the middle (0) is always 0. Below the middle (0), the slope is linear.                                                             |
-    | \|X\|    | The range above the middle (0), the reaction is linear. The sign is inverted in the range below the middle (0). The curve draws a V-shaped graph.  |
-    | f>0      | The range above the middle (0) is always +100. The range below the middle (0) is always 0. The output value will always be either 0 or +100.       |
-    | f<0      | The range above the middle (0) is always 0. The range below the middle (0) is always -100. The output value will always be either 0 or -100.       |
-    | \|f\|    | The range above the middle (0) is always +100. The range below the middle (0) is always -100. The output value will always be either +100 or -100. |
+    <table><thead><tr><th width="116">Function</th><th width="575">Slope Behavior</th></tr></thead><tbody><tr><td>---</td><td>The slope will be linear.</td></tr><tr><td>X>0</td><td>The range below the middle (0) is always 0. Above the middle (0), the slope is linear.</td></tr><tr><td>X&#x3C;0</td><td>The range above the middle (0) is always 0. Below the middle (0), the slope is linear.</td></tr><tr><td>|X|</td><td>The range above the middle (0), the reaction is linear. The sign is inverted in the range below the middle (0). The curve draws a V-shaped graph.</td></tr><tr><td>f>0</td><td>The range above the middle (0) is always +100. The range below the middle (0) is always 0. The output value will always be either 0 or +100.</td></tr><tr><td>f&#x3C;0</td><td>The range above the middle (0) is always 0. The range below the middle (0) is always -100. The output value will always be either 0 or -100.</td></tr><tr><td>|f|</td><td>The range above the middle (0) is always +100. The range below the middle (0) is always -100. The output value will always be either +100 or -100.</td></tr></tbody></table>
 * **Cstm** - assigns a custom-defined curve. See [Curves](../curves.md) for more information about custom-defined curves.
 
 {% hint style="info" %}
