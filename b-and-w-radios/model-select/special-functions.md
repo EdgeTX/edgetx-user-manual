@@ -27,7 +27,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
 
 * **Value** - Specifies which controls will be given over to the student. Options include **Sticks** (all sticks), **Rud** (Rudder), **Ele** (Elevator), **Thr** (Throttle), **Ail** (Aileron), and **Chans** (all channels).&#x20;
 
-**Inst. Trim** (Instant Trim)- Sets the current values of all sticks to their respective trims.
+**Inst. Trim** (Instant Trim)- Sets all trims to the current values of their respective sticks.
 
 **Reset** (Reset Timer)- Resets the timer or telemetry specified in the value back to their initial values.
 
