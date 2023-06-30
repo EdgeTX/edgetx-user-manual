@@ -54,6 +54,44 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 * **Voice** - The radio will count down by second starting at the time designated.
 * **Haptic** -The radio will vibrate every second starting at the time designated.
 
+<figure><img src="../../.gitbook/assets/Bwsetup1.png" alt=""><figcaption><p>Function Switches</p></figcaption></figure>
+
+### **Function Switches**
+
+The functions switches are a type of multiposition switch that are managed directly by EdgeTX. Physically, they look like a regular 6-pos switch but are much more flexible.
+
+Unlike other switches managed at the radio level, function switches are defined per model and configured in the model setup page. They contain the following configuration options:
+
+**Switch Type**
+
+* **None**: the switch is disabled
+* **Toggle** : they are active only during the push duration
+* **2POS**: pushing the switch will alternate the state between OFF and On
+
+**Switch group**
+
+A traditional 6POS is a group of 6 switches that work together, where only one can be active at a time. Function switches expand that concept and let you choose how the switches should be grouped.
+
+'**-**' defines a function switch with no group. Pushing it will only affect this switch.
+
+**'1', '2' or '3'** define groups. All the switches in a group act together, **where only one (the last pushed) can be active.**
+
+**Always on groups**&#x20;
+
+Selecting this check box makes the assigned group act like a traditional 6-position switch where one button from the group must be on at all times.
+
+**Startup Position**
+
+**Start -** Defines the state that each switch will be in when the model is loaded.
+
+* **↑** Switch is inactive
+* **↓** Switch is active
+* **=** Switch is set to the same state it was in when the model was last used (it keeps old state).
+
+{% hint style="info" %}
+Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switches can not be used as an analog source, they are individual switches with either ↑ or ↓ position. The behavior of previous 6P source can be achieved using a combination of mixer lines
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
 
 **E.Limits (Extended Limits)** - When enabled, it increases the minimum and maximum range for the output values to -150 and 150. Extended limits are necessary if the full range of the control surface cannot be reached with standard limits.
