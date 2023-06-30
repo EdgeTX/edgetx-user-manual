@@ -58,7 +58,7 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 
 ### **Function Switches**
 
-The functions switches are a type of multiposition switch that are managed directly by EdgeTX. Physically, they look like a regular 6-pos switch but are much more flexible.
+The functions switches are a type of multiposition switch (on select transmitters) that are managed directly by EdgeTX. Physically, they look like a regular 6-pos switch but are much more flexible.
 
 Unlike other switches managed at the radio level, function switches are defined per model and configured in the model setup page. They contain the following configuration options:
 
