@@ -23,9 +23,9 @@ Image dimensions shall be 64 x 32 pixels, 16 bit, grayscale, .bmp file. The imag
 * **OFF**- The timer is not used
 * **ON** - The timer runs all the time
 * **Start** -The timer starts once the configured switch is activated. After the time is started, the timer ignores the switch position.
-* **Throttle** - The timer starts once the throttle is raised and the configured switch is activated. The timer will stop counting if either the throttle position is lowered back to the minimum value or the configured switch is deactivated.
-* **Throttle %** - The timer counts proportionally to the throttle. It counts in real-time at full throttle and half speed at 50% throttle.
-* **Throttle Start** - The timer starts once the throttle is raised and the configured switch is activated. After starting, the timer ignores the throttle position and will keep counting unless the switch is deactivated.
+* **THs (Throttle)** - The timer starts once the throttle is raised and the configured switch is activated. The timer will stop counting if either the throttle position is lowered back to the minimum value or the configured switch is deactivated.
+* **TH% (Throttle %)** - The timer counts proportionally to the throttle. It counts in real-time at full throttle and half speed at 50% throttle.
+* **THt (Throttle Start)** - The timer starts once the throttle is raised and the configured switch is activated. After starting, the timer ignores the throttle position and will keep counting unless the switch is deactivated.
 
 **\[Switch]-** Select the switch that will trigger the timer to start.  If no switch is selected, the timer will trigger based only on the configured mode. In addition to a switch, you can also select a trim, a telemetry source (triggered when telemetry data is received from that source), or physical activity (stick movement or button press) (labeled as **ACT**)
 
