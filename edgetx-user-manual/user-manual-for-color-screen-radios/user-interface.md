@@ -6,8 +6,10 @@ The user interface of EdgeTX can be navigated by physical buttons, the touch int
 
 ### **Buttons:**
 
-* **\[SYS]** - System Button\
-  \- Short press **\[SYS]** button to go to the [Radio Settings](radio-settings/) page.
+*   **\[SYS]** - System Button\
+    \- Short press **\[SYS]** button to go to the [Radio Settings](radio-settings/) page.&#x20;
+
+    \- Long press the **\[SYS]** button to go to the [Radio Setup](radio-settings/radio-setup/) page.
 * **\[MDL]** - Model Button\
   \- Short press **\[MDL]** button to go to the [Model Settings](model-settings/) page\
   \- Long press **\[MDL]** button to go to the [Select Model](select-model.md) page
@@ -33,7 +35,7 @@ It is possible to disable the touch interface by configuring a special function.
 
 Touch the EdgeTX icon in the upper left corner of the screen to open the main navigation menu. Touch the desired menu option to select it.
 
-<figure><img src="../../.gitbook/assets/mainmenu.jpg" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mainmenu.png" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
 
 {% hint style="info" %}
 For models that have **Display Checklist** enabled in the [Preflight Checks](model-settings/model-setup/preflight-checks.md) screen and a valid model checklist file in the **Models** folder you will see a **Model Notes** icon instead of the **Channel Monitor** icon.

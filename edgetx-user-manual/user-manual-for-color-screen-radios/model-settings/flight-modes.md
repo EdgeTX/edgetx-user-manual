@@ -1,14 +1,14 @@
 # Flight Modes
 
-<figure><img src="../../../.gitbook/assets/FM1.jpg" alt=""><figcaption><p>Flight Modes page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FM1.png" alt=""><figcaption><p>Flight Modes page</p></figcaption></figure>
 
 Flight modes allow you to have different trim settings for each flight mode. Once multiple flight modes are configured, you can adjust the trim settings in each flight mode without affecting the trim settings in other flight modes (unless they are configured to do so). There are 9 possible flight modes to use, with Flight Mode 0 being the default flight mode.
 
-The **Flight Mode** screen displays buttons for each flight mode. Flight mode buttons in yellow designate the current active flight mode. Selecting a flight mode button will take you to the configuration page for that flight mode.
+The **Flight Mode** screen displays an overview of each flight mode. The highlighed flight mode designates the active flight mode. Selecting a flight mode will take you to the configuration page for that flight mode.
 
 **Check FM Trims:** When the check FM trims button is pressed, the trims for the current flight mode are temporarily disabled. This is used to test the impact of the current flight mode’s trims on the outputs.
 
-<figure><img src="../../../.gitbook/assets/FM2.jpg" alt=""><figcaption><p>Flight Mode configuration page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FM2.png" alt=""><figcaption><p>Flight Mode configuration page</p></figcaption></figure>
 
 The flight mode conifiguration screen has the following options:
 
@@ -16,17 +16,13 @@ The flight mode conifiguration screen has the following options:
 
 **Switch:** The trigger to enable that flight mode. It can be a switch, pot, telemetry, trim or logical switch.
 
-**Fade in:** Gradually change the trim value when this flight mode is enabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.&#x20;
+**Fade in:** Gradually change the trim value when this flight mode is enabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.
 
-**Fade out:** Gradually change the trim value when this flight mode is disabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.&#x20;
+**Fade out:** Gradually change the trim value when this flight mode is disabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.
 
-**Trims:** Once the **Setup** button is selected, the trim setup screen will be shown.
+**Trims:** To configure the trims, select the trim that you want to configure to make sure that it is turned on (yellow). Then select the flight mode (**0-8**) that will provide the initial trim value and modifier (**=** or **+**) from the drop-down menu.
 
-<figure><img src="../../../.gitbook/assets/FM3.jpg" alt=""><figcaption><p>Trims setup in the Flight Mode configuration page</p></figcaption></figure>
-
-To configure the trims, select the trim that you want to configure to make sure that it is turned on (yellow). Then select the flight mode (**0-8**) that will provide the initial trim value and modifier (**=** or **+**) from the drop-down menu.
-
-Modifier - there are two possible value modifiers  **=** and **+.** The **=** modifier uses the trim value directly from the selected flight mode. The **+** modifier uses the trim value from the selected flight mode and then adds the trim value from the flight mode you are configuring.
+Modifier - there are two possible value modifiers **=** and **+.** The **=** modifier uses the trim value directly from the selected flight mode. The **+** modifier uses the trim value from the selected flight mode and then adds the trim value from the flight mode you are configuring.
 
 _Example 1:_ If you are configuring FM1 and set the value to =0, FM1 will have the trim value of the current value of the same trim in FM0. In this case, changes made to the trim in FM1 will also affect the trim in FM0 and vice-versa.
 

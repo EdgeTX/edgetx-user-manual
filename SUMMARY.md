@@ -1,12 +1,18 @@
 # Table of contents
 
-* [EdgeTX User Manual v2.8](README.md)
+* [EdgeTX User Manual v2.9](README.md)
 
 ## EdgeTX User Manual
 
+* [Summary of changes since v2.8](edgetx-user-manual/readme.md)
+* [Installing and Updating EdgeTX](edgetx-user-manual/installing-and-updating-edgetx/README.md)
+  * [Migrate from OpenTX to EdgeTX using EdgeTX Buddy](edgetx-user-manual/installing-and-updating-edgetx/update-from-opentx-to-edgetx.md)
+  * [Migrate from OpenTX to EdgeTX using the Bootloader](edgetx-user-manual/installing-and-updating-edgetx/migrate-from-opentx-to-edgetx-using-the-bootloader.md)
+  * [Update from an earlier version of EdgeTX using EdgeTX Buddy](edgetx-user-manual/installing-and-updating-edgetx/update-from-opentx-to-edgetx-1.md)
+  * [Update from an earlier version of EdgeTX using the Bootloader](edgetx-user-manual/installing-and-updating-edgetx/update-from-an-earlier-version-of-edgetx-using-the-bootloader.md)
 * [User Manual for Color Screen Radios](edgetx-user-manual/user-manual-for-color-screen-radios/README.md)
   * [User Interface](edgetx-user-manual/user-manual-for-color-screen-radios/user-interface.md)
-  * [Select Model](edgetx-user-manual/user-manual-for-color-screen-radios/select-model.md)
+  * [Manage Models](edgetx-user-manual/user-manual-for-color-screen-radios/select-model.md)
   * [Model Settings](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/README.md)
     * [Model Setup](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/model-setup/README.md)
       * [Internal / External RF](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/model-setup/internal-external-rf.md)
@@ -15,6 +21,8 @@
       * [Preflight Checks](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/model-setup/preflight-checks.md)
       * [Trims](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/model-setup/trims.md)
       * [Throttle](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/model-setup/throttle.md)
+      * [Enabled Features](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/model-setup/enabled-features.md)
+      * [USB Joystick](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/model-setup/usb-joystick.md)
     * [Heli Setup](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/heli-setup.md)
     * [Flight Modes](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/flight-modes.md)
     * [Inputs, Mixes & Outputs](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/inputs-mixes-and-outputs/README.md)
@@ -77,9 +85,8 @@
 
 ## EdgeTX: How-To
 
-* [Contribute to the User Manual](contribute-to-the-user-manual.md)
-* [Update from OpenTX to EdgeTX](update-from-opentx-to-edgetx.md)
-* [🚧 Set-up wireless trainer with MPM](set-up-wireless-trainer-with-mpm.md)
+* [Contribute to the User Manual](edgetx-how-to/contribute-to-the-user-manual.md)
+* [Set-up wireless trainer with a Multi -protocol module](edgetx-how-to/set-up-wireless-trainer-with-mpm.md)
 
 ## EdgeTX Companion
 

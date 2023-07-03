@@ -1,6 +1,6 @@
 # Timer 1/2/3
 
-<figure><img src="../../../../.gitbook/assets/timers.jpg" alt=""><figcaption><p>Timer configuration page</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/timers.png" alt=""><figcaption><p>Timer configuration page</p></figcaption></figure>
 
 EdgeTX provides 3 timers that can be custom programmed.  Below are the configuration options.
 
@@ -37,6 +37,8 @@ Those items with a "!" mark in front of the trigger name mean that the condition
 * **Beeps** - The radio will beep every second starting at the time designated.
 * **Voice** - The radio will count down by second starting at the time designated.
 * **Haptic** -The radio will vibrate every second starting at the time designated.
+* **Beeps & Haptic** - The radio will beep and vibrate every second starting at the time designated.
+* **Voice & Haptic** - The radio will count down and vibrate by second starting at the time designated.
 
 **Persistent:**
 

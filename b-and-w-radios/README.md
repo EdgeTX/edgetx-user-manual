@@ -17,5 +17,5 @@ EdgeTX supports the following monochrome screen radios:
 * Jumper T-Pro
 * RadioMaster T8 / T8 Pro
 * RadioMaster TX12 / TX12 Mark II
-* RadioMaster Zorro
 * RadioMaster Boxer
+* RadioMaster Zorro

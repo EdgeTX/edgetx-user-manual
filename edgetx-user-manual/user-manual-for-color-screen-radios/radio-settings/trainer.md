@@ -2,14 +2,14 @@
 
 The **Trainer** screen in Radio Settings is used to configure how the radio in Master mode will handle the signals from the radio in Slave mode.
 
-<figure><img src="../../../.gitbook/assets/trainer2.jpg" alt=""><figcaption><p>Trainer screen in Radio Settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/trainer2.png" alt=""><figcaption><p>Trainer Screen</p></figcaption></figure>
 
 For each of the four main control inputs (Ail, Ele, Thr, Rud), the following options can be configured (for each row, from left to right).
 
-* **Mode -** How the instructor’s radio will handles the signals from the student's radio&#x20;
+* **Mode -** How the radio in Master mode will handle the signals from the radio in Slave mode.&#x20;
   * **OFF** - Stick values from the radio in Master mode will be used - no input from the radio in Slave mode.
-  * **+=** Adds the stick values from both the radios in Master and Slave modes.
-  * **:=** Replaces the stick values from the radio in Master mode with the stick values from the radio in Slave mode. (Default)
+  * **Add -** Adds the stick values from both the radios in Master and Slave modes.
+  * **Replace -** Replaces the stick values from the radio in Master mode with the stick values from the radio in Slave mode. (Default)
 * **Source channel** - The channel from the radio in Slave mode that is mapped the control input.
 * **Weight** - Percentage of stick travel to use of the radio in Slave mode. Use negative values to change the stick direction.
 * **Cal (calibrate)**- Sets the center stick value of the radio in Slave mode.

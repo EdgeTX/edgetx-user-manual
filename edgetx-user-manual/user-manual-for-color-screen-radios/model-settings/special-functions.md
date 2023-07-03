@@ -2,9 +2,9 @@
 
 The **Special Functions** section of Model Setup, as the name implies, is where you can configure the special functions that are included in EdgeTX. These special functions add additional functionality beyond normal model controls such as enabling trainer mode, playing a sound, adjusting the radio backlight, adjusting radio volume, etc. On the special functions screen you will see all configured special functions as well as some of the configured options such as function name, activation switch, if the function is enabled, and other configuration options.
 
-<figure><img src="../../../.gitbook/assets/specialfunctions.jpg" alt=""><figcaption><p>Special Functions</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/specialfunctions.png" alt=""><figcaption><p>Special Functions</p></figcaption></figure>
 
-To add a new special function, simply select an unconfigured special function (ex: SF3 in the image above) and the special function configuration window will appear. See [configuring special functions](special-functions.md#configuring-special-functions) below for information about configuring new special functions.
+Selecting the **+** button will allow you to select an unused special function to configure and the special function configuration window will appear. See [configuring special functions](special-functions.md#configuring-special-functions) below for information about configuring new special functions.
 
 Selecting an already configured special function will give you the following options:
 
@@ -19,11 +19,11 @@ Selecting an already configured special function will give you the following opt
 
 All special functions have the configuration options below. Additional options may be added based on the selected function. See the **Functions** section below for these additional options.
 
-* **Switch** - The switch that will make the special function active.
+* **Trigger**- The switch that will make the special function active.
 * **Function** - The function that will be used. See below for function descriptions.
 * **Enable** - Toggle on / off to enable the function. To be able to activate the special function by a switch, it must be enabled. Disabled special functions will not function regardless of the configured switch position.
 
-#### Functions
+### Functions
 
 Below are all the available functions in EdgeTX, what they do, as well as what other configuration options exist specifically for that function.
 
@@ -77,6 +77,9 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 
 **Lua Script** - Executes the Lua script defined in the value field. The Lua script must be located in /SCRIPTS/FUNCTIONS/ folder on the SD card. Lua scripts that display information on the screen cannot be executed with this special function.
 
+* **Value** - LUA script file to play from the SD card.
+* **Repeat** - Frequency to repeat the Lua script. Options are: **ON** (repeat indefinately as long as switch is active) or **1x** (once)
+
 **BgMusic** - Plays the .wav file selected in the value field on a loop when enabled. The file shall be in the SOUNDS/(language)/ folder on the SD card.
 
 **BgMusic II** - Temporarily pauses the .wav file playback specified in the **BgMusic**
@@ -88,7 +91,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 * **Value** - Type of vibration pattern. Options are: 0 - 4.
 * **Repeat** - Frequency to repeat the vibration pattern. Options are **!1x** (do not vibrate at startup even if the switch is active), **1x** (vibrate once), **1s** thru **60s** (vibrate every xx seconds).
 
-**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Value** setting.  The value options are **0.0s** - **25.5s** (Note: 0.0 effectively disables this option). Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting.&#x20;
+**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Interval** setting.  The value options are **0.1s** - **25.5s.** Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting.&#x20;
 
 **Backlight** - Adjusts the brightness of the radio screen based on the source defined in the value dropdown.
 

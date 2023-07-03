@@ -6,7 +6,7 @@ description: General model settings
 
 <div align="center">
 
-<figure><img src="../../../../.gitbook/assets/modelsetup.jpg" alt=""><figcaption><p>Model Setup tab under Model Settings</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modelsetup.png" alt=""><figcaption><p>Model Setup tab under Model Settings</p></figcaption></figure>
 
 </div>
 
@@ -25,7 +25,7 @@ Here you may assign a label from your defined label list.  By default, the model
 When the folder icon is selected, a window will pop up allowing you to select an image file from the images folder on your SD Card.
 
 {% hint style="info" %}
-To avoid performance issues, the model image size should not exceed 192 x 114 pixels.
+To avoid performance issues, the model image size should not exceed 192 x 114 pixels. For more information on model image requirements, please see the **Images** portion of the [SD Card](../../radio-settings/sd-card.md) section.
 {% endhint %}
 
 {% hint style="info" %}

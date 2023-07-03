@@ -14,7 +14,9 @@ The **Setup** screen is where you start to configure your model. It contains the
 Image dimensions shall be 64 x 32 pixels, 16 bit, grayscale, .bmp file. The image must be stored in the **IMAGES** folder of the SD card.
 {% endhint %}
 
-**Timer 1/2/3**  - There are 3 configurable timers in EdgeTX. They all have the same options:
+### **Timers**
+
+**Timer 1/2/3** - There are 3 configurable timers in EdgeTX. The following configuration options will be displayed once the timer is no longer set to **OFF**:
 
 #### Timer 1   \[Mode]   \[Switch]&#x20;
 
@@ -22,7 +24,7 @@ Image dimensions shall be 64 x 32 pixels, 16 bit, grayscale, .bmp file. The imag
 
 * **OFF**- The timer is not used
 * **ON** - The timer runs all the time
-* **Start** -The timer starts once the configured switch is activated. After the time is started, the timer ignores the switch position.
+* **Strt (Start)** -The timer starts once the configured switch is activated. After the time is started, the timer ignores the switch position.
 * **THs (Throttle)** - The timer starts once the throttle is raised and the configured switch is activated. The timer will stop counting if either the throttle position is lowered back to the minimum value or the configured switch is deactivated.
 * **TH% (Throttle %)** - The timer counts proportionally to the throttle. It counts in real-time at full throttle and half speed at 50% throttle.
 * **THt (Throttle Start)** - The timer starts once the throttle is raised and the configured switch is activated. After starting, the timer ignores the throttle position and will keep counting unless the switch is deactivated.
@@ -56,7 +58,7 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 
 <figure><img src="../../.gitbook/assets/Bwsetup1.png" alt=""><figcaption><p>Function Switches</p></figcaption></figure>
 
-### **Function Switches**
+### **Function Switches**&#x20;
 
 The functions switches are a type of multiposition switch (on select transmitters) that are managed directly by EdgeTX. Physically, they look like a regular 6-pos switch but are much more flexible.
 
@@ -94,6 +96,8 @@ Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switch
 
 <figure><img src="../../.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
 
+### **Trims**
+
 **E.Limits (Extended Limits)** - When enabled, it increases the minimum and maximum range for the output values to -150 and 150. Extended limits are necessary if the full range of the control surface cannot be reached with standard limits.
 
 **E. Trims) Extended Trims**: Increases the maximum trim adjustment value from **±**25% to **±**100%.
@@ -110,7 +114,11 @@ Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switch
 * Extra Fine = 0.2%
 * Exponential = 0.2% near the center and the step value increases exponentially as the distance from the center increases.
 
-<figure><img src="../../.gitbook/assets/bwsetup3.png" alt=""><figcaption><p>Throttle Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwsetup3 (1).png" alt=""><figcaption><p>Throttle Settings</p></figcaption></figure>
+
+### **Throttle**
+
+The throttle related configuration options below are displayed in collapsible menu.
 
 **T-Reverse:** When enabled, this option reverses the output direction of the configured throttle channel.
 
@@ -124,11 +132,11 @@ For example, with **Trim idle only** enabled, the throttle stick at the lowest p
 
 **T-Trim-SW:** The trim switch that will be used to trim the throttle. It is possible to substitute the throttle trim switch with the aileron, rudder, or elevator trim switches.
 
-<figure><img src="../../.gitbook/assets/bwsetup4.png" alt=""><figcaption><p>Preflight Checks options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwsetup4 (1).png" alt=""><figcaption><p>Preflight Checks options</p></figcaption></figure>
 
-#### Preflight Checks
+### Preflight Checks
 
-Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks are configurable:
+Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks below are displayed in collapsible menu.
 
 **Checklist** - When this option is selected, the model notes file will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
 
@@ -145,8 +153,6 @@ Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on t
 * **OFF** - Pot and slider positions are not checked.
 * **Manual** - Positions are checked against manually configured pot and slider positions. To manually set the check position, select **manual** the from menu, select the item that you want to set, and long-press the **\[Enter]** button to set its current position for the check.&#x20;
 * **AUTO** - Positions are checked for pots and sliders and compared to the last automatically saved position before the radio was turned off or the model was changed.
-
-<figure><img src="../../.gitbook/assets/bwsetup5.png" alt=""><figcaption></figcaption></figure>
 
 **Ctr Beep** - Allows you to turn on/off the center beep function for the individual sticks, pots, and sliders by highlighting them with the **\[roller]** or **\[dial]** and pressing the button. When a switch is highlighted, the function is enabled.
 
@@ -178,6 +184,8 @@ Configuration options for the multi-protocol module are described here:  [https:
 If using the radio in gamepad mode, both internal and external RF modules should be turned off. This will result in increased performance when connected to a computer via USB.&#x20;
 {% endhint %}
 
+### **Trainer**
+
 **Trainer Mode** - The **Trainer** **Mode** option is where you can configure the CPPM passthrough mode and method.  When enabled, this allows the CPPM signals from a radio in _**Slave**_ mode to be passed through to another radio in Master mode which will then pass the signal to the model it is connected to. CPPM passthrough can be used for several different use cases, such as: connecting a head tracker, Instructor / Student training mode, and controlling complex models that require more stick inputs than available on a standard transmitter.&#x20;
 
 **Master mode** - This is the mode for the radio that will be connected to the model. This radio also shall configure the special/global function (Trainer) to activate the passthrough mode. When the passthrough mode is activated, the CPPM signals from the radio in _**Slave mode**_ will be sent to the model for control.
@@ -190,11 +198,81 @@ Below are the possibile configuration options:
 * **Master / Jack** - Master mode using a cable connection.
 * **Slave / Jack** - Slave mode using a cable connection.
   * **Channel Range** - This is the range of channels that will be sent to the radio in Master mode. Channel 10 is the recommended last channel to use.
-  * **PPM Frame** - The first field is the length of the PPM frame. The second field is the stop length/delay between pulses. The dropdown is to select the polarity of the signal. _**Note**: In most cases, the default setting does_ not _need to be changed._
+  * **PPM Frame** - The first field is the length of the PPM frame. The second field is the stop length/delay between pulses. The dropdown is to select the polarity of the signal. The frame length is automatically adjusted to the correct value when the number of transmitted channels is changed. However, this automatically assigned value can be manual changed. _**Note**: In most cases, the default setting does_ not _need to be changed._
 * **Master / Bluetooth** - Master mode using a Bluetooth connection (if installed in radio).
 * **Slave / Bluetooth** - Slave mode using a Bluetooth connection (if installed in radio).
-* **Master / Multi** - Master mode using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see&#x20;
+* **Master / Multi** - Master mode using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
 
-[set-up-wireless-trainer-with-mpm.md](../../set-up-wireless-trainer-with-mpm.md "mention")see [set-up-wireless-trainer-with-mpm.md](../../set-up-wireless-trainer-with-mpm.md "mention")
+<figure><img src="../../.gitbook/assets/bwsetup5 (1).png" alt=""><figcaption><p>Enabled Features options</p></figcaption></figure>
+
+### Enabled Features
+
+The **Enabled Features** section allows you to configure which pages are visible in the selected model's radio setup and model settings area of EdgeTX. The page names are displayed in a collapsible menu with the following configurable options:
+
+* **Global** - When selected, the tab will take the global value configured in the **Enabled Features** area in **Radio Setup**. The configured global value will display next to the option.
+* **On** - When selected, this tab will be visible when this model is loaded.
+* **Off** -  When selected, this tab will not be visible when this model is loaded.
+
+<figure><img src="../../.gitbook/assets/bwjoy4.png" alt=""><figcaption><p>USB Joystick advanced mode settings</p></figcaption></figure>
+
+### USB Joystick
+
+The **USB Joystick** has two possible modes, **Classic** and **Advanced**.&#x20;
+
+In **Classic mode**, the radio's configured output channels will be sent to the target device in numerical order and mapped to the device's preconfigured USB controller axes and buttons. Below is the default channel mapping for Microsoft Windows.
+
+* Ch1 - X Axis
+* Ch 2 - Y Axis
+* Ch 3 - Z Axis
+* Ch4 - X Rotation
+* Ch 5 - Y Rotation
+* Ch 6 - Z Rotation
+* Ch 7 - Dial
+* Ch 8 - Slider
+* CH 9 - Ch 32 - Buttons 1 - 24
+
+In **Advanced mode** you can configure the following additional options:
+
+**If mode (Interface mode):** This indicates to the target device (the device you are connecting your transmitter to) what type of device you are connecting. The options are **Joystick**, **Gamepad**, **MultiAxis.** &#x20;
+
+{% hint style="info" %}
+**Note:** Currently there is a limitation in MS Windows that may limit your transmitter to being only detected only as a Joystick, regardless of what is selected in this option. In MacOS, Linux and Andriod this functions properly.
+{% endhint %}
+
+**Circular cutout**: For axis pairs (X-Y, Z-rX): By default, the range of the axis pairs is a rectangular area. With this option, the axis will be limited to a circular area (like gamepad controllers commonly are). Options are : **None** or **X-Y, Z-rX** or **X-Y, Rx-Ry**
+
+**Channel Settings**
+
+**Mode**: For each output channel, you can select the mode that you want to use for that channel. The available options are **None**, **Btn**, **Axis**, **Sim**.
+
+**None** - Channel is not used
+
+<figure><img src="../../.gitbook/assets/bwjoy1.png" alt=""><figcaption><p>Button mode options for a selected channel</p></figcaption></figure>
+
+**Btn** - Channel is used to simulate a button. Configuration options include:
+
+* **Inversion** - Inverts the output channel signal. Options are: **On** / **Off**
+* **Button Mode** -
+  * **Normal** - Each postion of a multiposition switch is represented by a button. The current switch state is represented by a continous button press.
+  * **Pulse** - Similar to "Normal" mode. However, instead of continous button press it is represented by a short button press.
+  * **SWEmu** - The toggle switch emulations a push button. The first press turns the virtual button on, the second press turns it off.
+  * **Delta** - The change of the output channel is represented by 2 buttons. While the output value is decreasing, the first button is pressed. When the output value is increasing, the second button is pressed. If there is no change, then no buttons will be pressed.
+  * **Companion** - This option should be selected when using your transmitter to control the simulator in EdgeTX Companion.  It allows the multi-position switches to function properly in the simulator.
+* **Positions** - The type of button that will be simulated.&#x20;
+  * **Push -** will only map to one button
+  * **2POS - 8 POS** - will map to the number of buttons that the switch has (ex: 3POS will map to 3 buttons).
+* **Button No:** The button number that the output will be mapped to and sent to the target device as.
+
+<figure><img src="../../.gitbook/assets/bwjoy2.png" alt=""><figcaption><p>Axis mode options for a selected channel</p></figcaption></figure>
+
+**Axis -** The channel is used to simulate an axis and will be mapped to one of the target device's default axes.
+
+* Axis options are: X, Y, Z, rotX (rotation x), rotY, rotZ
+
+<figure><img src="../../.gitbook/assets/bwjoy3.png" alt=""><figcaption><p>Sim mode options for selected channel</p></figcaption></figure>
+
+**Sim -** The channel is used to simulate a common sim axis and it will be listed on the target device as the selected option (ex: Thr)
+
+* Sim Axis options are: **Ail**, **Ele**, **Rud**, **Thr**
 
 Pressing the **\[PAGE>]** button will take you to the **Heli Setup** screen.

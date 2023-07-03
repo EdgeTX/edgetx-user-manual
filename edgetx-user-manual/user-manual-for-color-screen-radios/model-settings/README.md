@@ -1,6 +1,6 @@
 # Model Settings
 
-<figure><img src="../../../.gitbook/assets/modelsetup.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/modelsetup.png" alt=""><figcaption></figcaption></figure>
 
 The **Model Settings** screen contains all the options to configure your model. Across the top of the page you will see icons that will take you to different pages of model settings when selected. The default screen for model settings is the[model-setup](model-setup/ "mention") screen.&#x20;
 

@@ -25,4 +25,4 @@ A complete list of build options can be found here: [https://github.com/EdgeTX/e
 
 To view the Modules / RX Version information about the activated RX modules for the currently selected model, highlight the **\[Modules / RX Version]** option and press the **\[Enter]** button.
 
-<figure><img src="../../.gitbook/assets/bwversion3.png" alt=""><figcaption><p>Modules / RX Version Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwview3.png" alt=""><figcaption><p>Modules / RX Version Screen</p></figcaption></figure>

@@ -41,7 +41,7 @@ The input configuration page allows you to edit the input configuration paramete
 
 **Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), cyclics, trim switches, channel values and more. Moving the physical control after the source has been selected will automatically map it to that input.
 
-**Weight** - Percentage value of the stick travel to use (often referred to as "rates").&#x20;
+**Weight** - Percentage value of the stick travel to use (often referred to as "rates"). Long-pressing here will switch from numerical value to a global variable.
 
 **Offset** - The value added to or subtracted from the input source.
 

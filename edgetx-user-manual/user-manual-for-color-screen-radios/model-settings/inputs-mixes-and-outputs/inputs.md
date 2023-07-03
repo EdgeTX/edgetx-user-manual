@@ -12,7 +12,7 @@ The Inputs section is also commonly referred to as "**Dual Rates"** as it was pr
 
 <figure><img src="../../../../.gitbook/assets/inputs.jpg" alt=""><figcaption><p>Inputs screen in Model Settings</p></figcaption></figure>
 
-Selecting the **+** **button** will create a new input and open the input configuration page. Selecting an existing input will give you the following options:
+Selecting the **+** **button** will show you a list of available inputs that can be configured. After selecting an input, the input configuration page for that input will open. Selecting an existing input will give you the following options:
 
 * **Edit** - opens the input configuration page for that input line.
 * **Insert before** - Inserts a new input line before the selected input.

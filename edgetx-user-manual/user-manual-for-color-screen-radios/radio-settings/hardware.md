@@ -1,6 +1,6 @@
 # Hardware
 
-<figure><img src="../../../.gitbook/assets/hardware.jpg" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/hardware.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
 
 The **Hardware** screen is where you configure hardware specific-settings for your radio. It contains the following configuration options:
 
@@ -15,6 +15,8 @@ The **Hardware** screen is where you configure hardware specific-settings for yo
 {% hint style="info" %}
 The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.&#x20;
 {% endhint %}
+
+**Mute if no sound: -** When enabled, puts the transmitter in mute mode until a sound needs to be played. This prevents interference noise from high-powered TX modules from coming out of the transmitter speakers.&#x20;
 
 **Internal RF Type** - Select the module type for the internal module bay. Options are: **Multi, XJT, ISRM, CRSF**.  When **CRSF** is selected, you can also select the baud rate. You can read more about baud rates [here](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/).
 
@@ -34,6 +36,11 @@ The X9D+ and X7 radios have a slow inverter that causes problems with the recept
   * **LUA** - Send/receive data to/from Lua script.
   * **GPS** - Receive GPS telemetry data over the serial port.
   * **CLI** - Send commands to the radio via the command line.&#x20;
+  *   **External Module** - This allows configuring the external access mod on runtime rather than by compilation option. First, configure the hardware port (only available on `AUX1` as `AUX2` has no TX DMA)\
+      [![Screenshot 2022-10-15 at 20 46 59](https://user-images.githubusercontent.com/1050031/196003113-a1e4a38e-c007-4b49-b691-d806ff5e7600.png)](https://user-images.githubusercontent.com/1050031/196003113-a1e4a38e-c007-4b49-b691-d806ff5e7600.png)
+
+      Then the module can be chosen:\
+      [![Screenshot 2022-10-15 at 20 47 42](https://user-images.githubusercontent.com/1050031/196003145-41fd9f94-22b6-4646-b77a-ade379d15965.png)](https://user-images.githubusercontent.com/1050031/196003145-41fd9f94-22b6-4646-b77a-ade379d15965.png)
 * **Port Power** - Enables or disables the power output on the power supply pins next to serial ports that are available on some radios (presently only TX16S has this feature).
 
 **Calibration** - For calibrating your physical radio controls (sticks, pots, sliders, & 6-position switch). The radio will prompt you through the calibration steps.&#x20;
@@ -58,18 +65,18 @@ Selecting one of the Inputs, Sticks, Pots, or Switches Buttons will open the con
 
 #### Debug
 
-The debug section allows for testing and debugging of the analog controls and keys.
-
 <div>
 
-<figure><img src="../../../.gitbook/assets/hardware4.jpg" alt=""><figcaption><p>Debug Analogs screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/hardware4.png" alt=""><figcaption><p>Analog Debug Screen</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/hardware5.jpg" alt=""><figcaption><p>Debug Keys screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/hardware5.jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure>
 
 </div>
 
-**Debug Analogs**  - These screens will show you the data for your analog controls (Sticks, Sliders, Pots, 6-position switch) and the touch screen on your radio. There are three views - Calibrated analog, Filtered Raw Analog with deviation, Unfiltered raw analog, and Min Max and range.&#x20;
+The debug section allows for testing and debugging of the analog controls and keys.
+
+**Debug Analogs**  - These screens will show you the data for your analog controls (Sticks, Sliders, Pots, 6-position switch) and the touch screen on your radio. There are four views - Calibrated analog, Filtered Raw Analog with deviation, Unfiltered raw analog, and Min Max and range.&#x20;
 
 **Debug Keys** - This screen will show you the digital data for your keys, switches, trims, and the rotary encoder (roller).

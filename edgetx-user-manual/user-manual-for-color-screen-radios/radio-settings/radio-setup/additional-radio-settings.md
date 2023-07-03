@@ -6,7 +6,7 @@ Many of the additional settings here are self-explanatory. Only those settings n
 
 ### Sound
 
-<figure><img src="../../../../.gitbook/assets/sound.jpg" alt=""><figcaption><p>Sound Options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/sound.png" alt=""><figcaption><p>Sound Options</p></figcaption></figure>
 
 **Mode** - configures when to play sounds.
 
@@ -29,7 +29,7 @@ The volume for background .wav files (music) that are played with the **BGMusic*
 
 ### Variometer
 
-<figure><img src="../../../../.gitbook/assets/variometer.jpg" alt=""><figcaption><p>Variometer options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/variometer.png" alt=""><figcaption><p>Variometer options</p></figcaption></figure>
 
 **Repeat Zero**
 
@@ -37,7 +37,7 @@ The time before the tone repeats in milliseconds.
 
 ### Haptic
 
-<figure><img src="../../../../.gitbook/assets/haptic.jpg" alt=""><figcaption><p>Haptic (vibration) options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/haptic.png" alt=""><figcaption><p>Haptic (vibration) options</p></figcaption></figure>
 
 **Mode** - configures when the radio vibrates.
 
@@ -48,7 +48,7 @@ The time before the tone repeats in milliseconds.
 
 ### Alarms
 
-<figure><img src="../../../../.gitbook/assets/alarms.jpg" alt=""><figcaption><p>Alarm options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/alarms.png" alt=""><figcaption><p>Alarm options</p></figcaption></figure>
 
 #### Sound Off
 
@@ -60,7 +60,7 @@ Checks if a receiver is still connected to the radio on attempted shutdown. Make
 
 ### Backlight
 
-<figure><img src="../../../../.gitbook/assets/backlight.jpg" alt=""><figcaption><p>Backlight options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/backlight.png" alt=""><figcaption><p>Backlight options</p></figcaption></figure>
 
 **Mode**
 
@@ -80,7 +80,7 @@ The backlight turns on when there are alarms or warnings.
 
 ### GPS
 
-<figure><img src="../../../../.gitbook/assets/gps.jpg" alt=""><figcaption><p>GPS options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/gps.png" alt=""><figcaption><p>GPS options</p></figcaption></figure>
 
 {% hint style="info" %}
 The GPS configuration settings are only for when a GPS has been installed on the radio, not the model's GPS.
@@ -93,3 +93,13 @@ The GPS coordinate format that will be displayed.
 #### Adjust RTC
 
 Adjust the transmitter's real-time clock to match the time determined by the GPS.
+
+### Enabled Features
+
+<figure><img src="../../../../.gitbook/assets/EnabledFeatures2.png" alt=""><figcaption></figcaption></figure>
+
+The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX.&#x20;
+
+{% hint style="info" %}
+_**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab. For example, if you configure a special function and then turn off the special functions tab, the special function will still work as configured.
+{% endhint %}

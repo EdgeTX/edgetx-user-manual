@@ -1,6 +1,6 @@
 # Screen Settings
 
-The **Screen settings** section of EdgeTX is where you can customize your main views and add additional views. When selecting **Screen Settings** from the main navigation menu it will open **Main view 1**. If other main views have been added, you may select them from the number tab at the top of the screen to adjust their settings. All main view tabs have the following configuration options and are configured individually:
+The **Screen settings** section of EdgeTX is where you can customize your main views and add additional views (up to 10 in total). When selecting **Screen Settings** from the main navigation menu it will open **Main view 1**. If other main views have been added, you may select them from the number tab at the top of the screen to adjust their settings. All main view tabs have the following configuration options and are configured individually:
 
 <figure><img src="../../../.gitbook/assets/screenssettings.jpg" alt=""><figcaption><p>Main view 1 screen</p></figcaption></figure>
 

@@ -19,7 +19,7 @@ Selecting an existing mix line and long-pressing **\[Enter]** will give you the 
 * **Move** - selects the mix line to be moved.
 * **Delete** - deletes the selected mix line.
 
-<figure><img src="../../../.gitbook/assets/bwmixes2.png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bwmixes2 (1).png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
 
 ### Mixes Configuration Options
 
@@ -29,7 +29,7 @@ When the **edit** option is selected for a mix, the following configuration opti
 
 * **Mix Name** - Name of the mix (optional). Up to 6 characters are allowed.
 * **Source** - The source for the mix. In addition to inputs, you can select sticks, pots, sliders, trims, physical and logical switches, heli mixer outputs, trainer import channel values, and other channels.
-* **Weight**- Percentage of the source value to use.
+* **Weight**- Percentage of the source value to use. Long-pressing here will switch from numerical value to a global variable.
 * **Offset** - The value added to or subtracted from the source.
 * **Trim** - Specifies whether or not to include the trim values in this mix. For the trim values to be included, the trim field for the relevant input must also be enabled on **INPUTS** screen.
 * **Curve** - Specifies the type of curve that will be used. See the **curve** section on the [Inputs](inputs.md) page for detailed explanations of the different curve types.&#x20;

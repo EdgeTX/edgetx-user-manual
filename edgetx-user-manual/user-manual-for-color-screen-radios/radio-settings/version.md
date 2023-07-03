@@ -1,6 +1,8 @@
 # Version
 
-<figure><img src="../../../.gitbook/assets/version1.jpg" alt=""><figcaption><p>Version screen</p></figcaption></figure>
+
+
+<figure><img src="../../../.gitbook/assets/version1.png" alt=""><figcaption><p>Version screen</p></figcaption></figure>
 
 The Version screen displays information about the current EdgeTX version that is being used:
 

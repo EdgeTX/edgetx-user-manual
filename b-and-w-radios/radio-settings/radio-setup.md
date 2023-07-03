@@ -1,6 +1,6 @@
 # Radio Setup
 
-<figure><img src="../../.gitbook/assets/bwradiosetup.png" alt=""><figcaption><p>Radio Setup Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwradiosetup (1).png" alt="" width="563"><figcaption><p>Radio Setup Screen</p></figcaption></figure>
 
 The **Radio Setup** screen is where you configure basic settings for your radio. It contains the following options:
 
@@ -108,7 +108,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **USB Mode** - Sets the default action when a USB cable is plugged into the USB data port and the radio is powered on.  Options are: **Ask**, **Joystick**, **Storage**, and **Serial**.
 
-**RX Channel Order** - The default channel order for new models and the trainer screen.  The letters stand for: **A** = Aileron, **E** = Elevator, **T** = Throttle,  **R** = Rudder. Changing this setting does not affect existing models.
+**Def Chan Ord** - The default channel order for new models and the trainer screen.  The letters stand for: **A** = Aileron, **E** = Elevator, **T** = Throttle,  **R** = Rudder. Changing this setting does not affect existing models.
 
 **RotEnc Mode** (Rotary Encoder Mode) - Set to **Normal** by default. The **Inverted** option reverses the direction of the roller.
 

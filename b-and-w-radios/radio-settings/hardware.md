@@ -26,6 +26,8 @@ Selecting one of the Sticks, Pots, or Switches lines from the list will allow yo
 
 **Check RTC** - When enabled, checks the RTC battery at startup and warns you if the battery voltage is low.
 
+**Audio Mute** - When enabled, puts the transmitter in mute mode until a sound needs to be played. This prevents interference noise from high-powered TX modules from coming out of the transmitter speakers.&#x20;
+
 **Internal RF Type** - Select the module type for the internal module bay. Options are: **Multi, XJT, ISRM, CRSF**.  When **CRSF** is selected, you can also select the baud rate. You can read more about baud rates [here](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/).
 
 **Sample Mode** (**External RF)**- Options are **Normal** and **OneBit**. The default setting of **Normal** should be used by most users. Only users of  X9D+ and X7 radios may want to use **OneBit** mode.

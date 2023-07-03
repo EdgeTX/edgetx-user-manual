@@ -4,20 +4,15 @@ Telemetry is data received from the model to the radio from various sensors. The
 
 The Telemetry screen is where you configure these sensors to use in EdgeTX.  Below are the following configuration options:
 
-**RSSI**
+**RX Status**
 
 <figure><img src="../../../.gitbook/assets/bwtelemetry1.png" alt=""><figcaption><p>RSSI Portion of Telemetry screen</p></figcaption></figure>
 
-RSSI stands for the Receiver Signal Strength Indicator and represents the raw strength of the received signal. How the RSSI value is determined is based on the protocol being used, but generally, the higher the number, the better, with 100 being the maximum value. &#x20;
+Here you can configure the threshold for the RX alarms. The Rx-Stats label will change (Rx-Stats, RSSI, Rqly, Sgnl) depending on the protocol that is used with the model.
 
-* **Source -** The source sensor to use for RSSI. It is usually set to **(default)** and cannot be changed.
 * **Low alarm** - The threshold value when the "RF signal low" voice prompt will be played. The recommended value is 45.
 * **Critical alarm** - The threshold value when the "RF signal critical" voice prompt will be played. The recommended value is 42.
 * **Disable telemetry alarms** - When enabled, no alarm voice prompts will be played.
-
-{% hint style="info" %}
-RSSI is not a very good indicator of the strength and quality of your RC Link.  Although better than nothing, Link quality (LQI) and RSSI dBm are better metrics to use if your receiver can provide this telemetry data.  &#x20;
-{% endhint %}
 
 **Sensors**
 

@@ -18,18 +18,22 @@ The folders listed on the SD card screen are the same as what you will see when 
 
 ### FIRMWARE
 
-Place the firmware files that you want to flash in this folder. This folder is empty by default (except for the readme.txt file). When selecting a .bin file you will be given the option to flash the firmware to a particular module. Also, only firmware files in this location will be visible from the bootloader menu.
+Place the firmware files that you want to flash in this folder. This folder is empty by default (except for the readme.txt file). When selecting a .bin file you will be given the option to flash the firmware to a particular module. Also, only firmware files in this location will be visible from the bootloader menu. Selecting a .frsk file will give you the option to "Flash RX by int OTA".
 
 ### IMAGES
 
 Place your custom model or splash screen image files in this folder. This folder is empty by default (except for the readme.txt file). Selecting an image file will give you the option to **Assign Bitmap**, which assigns the selected image file as the model image of the currently selected model.
 
-The ideal image size for _model images_ is 192x114 pixels. The picture format should be .png. The image file name should not exceed 9 characters.&#x20;
+The ideal image size for _model images_ used for thumbnails on the **Model Manager** screen is 156x92 pixels. If you plan to use the _**Model Info**_ widget, you may want a increase the image size to 192x114 pixels for better visual quality at the increased size. For performance reasons, it is NOT recommeded to use a higher resolution image. The picture format should be .png. The image file name should not exceed 9 characters.&#x20;
 
 The ideal image size for _Splash Screen images_ is the actual radio screen size (480x272 pixels for most color screen radios). The picture format should be .png. The image file name must be splash.png.  Screen dimensions for the supported color screen radios can be found [here](https://github.com/EdgeTX/edgetx-sdcard).  &#x20;
 
 {% hint style="info" %}
-Note: Although larger image sizes will work as they will be scaled, they take up more memory and will cause degraded performance with the user interface.
+Note: Although larger image sizes will work as they will be scaled, they take up more memory and will cause degraded performance with the user interface.#
+{% endhint %}
+
+{% hint style="info" %}
+Note: The maximum number of image files that EdgeTX can properly display in the image select dropdown is 799. Therefore, the maximum number of files in this folder should not exceed 799.
 {% endhint %}
 
 {% hint style="info" %}
@@ -45,6 +49,8 @@ This is where the log files that are configured in the [special function](../mod
 This is where the model files, label information, and preflight checklists are stored.  Each model will have a **model\[#].yml** file that contains all configured options. Additionally, there is a **labels.yml** file that contains all the label information for your models.&#x20;
 
 Models that are deleted via the radio will be moved to the **DELETED** folder that is included in this folder. The remaining model files are what will be visible on the **Model Select** screen.
+
+Any model files that are found in this folder that are not listed in the **Models.yml** file (if used) will be moved to the **UNUSED** folder.
 
 If you have configured the **Display checklist** option in model settings, the model notes file goes in this folder. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
 
@@ -80,6 +86,10 @@ Sound packs are available for manual download at: [https://github.com/EdgeTX/edg
 * Bits / Sample: 16 (or 8)
 * Tracks: 1, mono
 * Compression Codec: PCM
+
+{% hint style="info" %}
+Note: The maximum number of sound files that EdgeTX can properly display in the sound select dropdown is 799. Therefore, the maximum number of files in this folder should not exceed 799.
+{% endhint %}
 
 {% hint style="info" %}
 For a demonstration video of how to make your own custom sounds that will work with EdgeTX, check out: [https://www.youtube.com/watch?v=DqF7HUsFrnE](https://www.youtube.com/watch?v=DqF7HUsFrnE)

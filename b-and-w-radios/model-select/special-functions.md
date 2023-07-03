@@ -10,7 +10,7 @@ To configure a special function, select the desired special function row and pre
 
 All special functions have the configuration options below. Additional options may be added based on the selected function. See the **Functions** section below for these additional options.
 
-* **Trigger** - The switch or trigger that will make the special function active.
+* **Trigger** - The switch or trigger that will make the special function active. Long pressing on this section will allow you to quickly select the category of the switch and filter the results. You can select the following filters: _**Switches**_, _**Trims**_, _**Logical Switches**,_ _**Other**_ and _**Invert**_
 * **Function** - The function that will be used. See below for function descriptions.
 * **Enable** - Toggle on/off to enable the function. To be able to activate the special function by a switch, it must be enabled. This option is usually the last option listed as a checkbox on the far right of the screen. Disabled special functions will not function regardless of the configured switch position.
 
@@ -67,6 +67,9 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
 * **Repeat** - Frequency to repeat the announcement. Options are **!1x** (do not announce at startup even if the switch is active), **1x** (announce once), **1s** thru **60s** (announce every xx seconds).
 
 **Lua Script** - Executes the Lua script defined in the value field. The Lua script must be located in /SCRIPTS/FUNCTIONS/ folder on the SD card. Lua scripts that display information on the screen cannot be executed with this special function.
+
+* **Value** - LUA script file to play from the SD card.
+* **Repeat** - Frequency to repeat the Lua script. Options are: **ON** (repeat indefinately as long as switch is active) or **1x** (once)
 
 **BgMusic** - Plays the .wav file selected in the value field on a loop when enabled. The file shall be in the SOUNDS/(language)/ folder on the SD card.
 

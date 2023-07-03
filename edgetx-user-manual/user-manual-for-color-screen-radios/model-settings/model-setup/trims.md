@@ -1,6 +1,6 @@
 # Trims
 
-<figure><img src="../../../../.gitbook/assets/trims.jpg" alt=""><figcaption><p>Trims settings page</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/trims.png" alt=""><figcaption><p>Trims settings page</p></figcaption></figure>
 
 Trims are used adjust the center position of a given stick axis. EdgeTX has the following time configuration options:
 
@@ -20,4 +20,8 @@ Trims are used adjust the center position of a given stick axis. EdgeTX has the 
 When switching from extended trims to normal trims, the extended trim value will remain until the trim is adjusted, then it will jump to the max/min normal trim value.
 {% endhint %}
 
-**Display trims:** When set to **ON**, it will display the numerical trim value on the trim bar.  When set to **CHANGE**, it will display the numerical value once the trim is no longer at zero.
+**Display trims:** Option to display the numerical trim value on the trim bar. Options are:
+
+* **No -** Does not display the numerical trim value on the trim bar
+* **Yes** - Displays the numerical trim value on the trim bar once the trim is no longer at zero.
+* **Change -** Momentarily displays the numerical trim value on the trim bar (2 seconds) once the trim is no longer at zero.
