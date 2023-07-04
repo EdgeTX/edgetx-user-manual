@@ -4,7 +4,7 @@
 
 ## EdgeTX User Manual
 
-* [Summary of changes since v2.8](edgetx-user-manual/readme.md)
+* [Summary of changes since v2.8](edgetx-user-manual/summary\_of\_changes.md)
 * [Installing and Updating EdgeTX](edgetx-user-manual/installing-and-updating-edgetx/README.md)
   * [Migrate from OpenTX to EdgeTX using EdgeTX Buddy](edgetx-user-manual/installing-and-updating-edgetx/update-from-opentx-to-edgetx.md)
   * [Migrate from OpenTX to EdgeTX using the Bootloader](edgetx-user-manual/installing-and-updating-edgetx/migrate-from-opentx-to-edgetx-using-the-bootloader.md)
