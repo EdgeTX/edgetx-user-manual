@@ -35,6 +35,10 @@ The volume for background .wav files (music) that are played with the **BGMusic*
 
 The time before the tone repeats in milliseconds.
 
+{% hint style="info" %}
+Note: In order for the variometer to function, it must be turned on via the **Vario** special or global function. See [Special Functions](../../model-settings/special-functions.md) for more information on how to configure this.
+{% endhint %}
+
 ### Haptic
 
 <figure><img src="../../../../.gitbook/assets/haptic.png" alt=""><figcaption><p>Haptic (vibration) options</p></figcaption></figure>

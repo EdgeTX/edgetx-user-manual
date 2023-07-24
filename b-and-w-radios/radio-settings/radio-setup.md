@@ -31,7 +31,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Bg volume -** The volume for background .wav files (music) that are played with the **BGMusic** special function
 
-### **Vario**&#x20;
+### **Vario  (Variometer)**
 
 **Volume** - Volume for variometer beeps
 
@@ -40,6 +40,10 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 **Pitch max** - High pitch frequency
 
 **Repeat Zero -** The time before the tone repeats in milliseconds
+
+{% hint style="info" %}
+Note: In order for the variometer to function, it must be turned on via the **Vario** special or global function. See [Special Functions](../../edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/special-functions.md) for more information on how to configure this.
+{% endhint %}
 
 ### Haptic
 
