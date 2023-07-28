@@ -1,6 +1,6 @@
 # EdgeTX User Manual v2.9
 
-<figure><img src=".gitbook/assets/cover1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/logos (1).png" alt=""><figcaption></figcaption></figure>
 
 If you would like to contribute to this guide, please take a look at the [Contribute to the User Manual](edgetx-how-to/contribute-to-the-user-manual.md) page.
 
