@@ -1,5 +1,5 @@
 ---
-description: Current for all merged PRs as of 03/07/2023
+description: Current for all merged PRs as of 03/07/2023 (v2.9 RC1)
 ---
 
 # Summary of changes since v2.8
