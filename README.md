@@ -8,7 +8,7 @@ The purpose of this user manual is to consolidate information from the community
 
 #### EdgeTX User Manual <a href="#edgetx-user-manual" id="edgetx-user-manual"></a>
 
-The user guide explains all the configuration options available in EdgeTX as well as some high-level theoretical information about EdgeTX usage and model controls. It is broken into sections - one section covering the interface for [Color Screen Radios](https://app.gitbook.com/o/-MgQ7Ok46bXLbvoz\_AeM/s/G9cXG2SsywqpT8oP5rLH/edgetx-user-manual/user-manual-for-color-screen-radios) and one section covering the interface for [Black and White screen radios](https://app.gitbook.com/o/-MgQ7Ok46bXLbvoz\_AeM/s/G9cXG2SsywqpT8oP5rLH/b-and-w-radios).
+The user guide explains all the configuration options available in EdgeTX as well as some high-level theoretical information about EdgeTX usage and model controls. It is broken into sections - one section covering the interface for [Color Screen Radios](edgetx-user-manual/user-manual-for-color-screen-radios/README.md) and one section covering the interface for [Black and White screen radios](b-and-w-radios\README.md).
 
 #### EdgeTX How-to <a href="#edgetx-how-to" id="edgetx-how-to"></a>
 
@@ -24,4 +24,4 @@ This section of the knowledge base will contain links to additional resources th
 
 #### Special thanks to those that contributed to this knowledge base either directly or indirectly. <a href="#special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly." id="special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly."></a>
 
-See the [Contributors ](https://app.gitbook.com/o/-MgQ7Ok46bXLbvoz\_AeM/s/G9cXG2SsywqpT8oP5rLH/more/contributors)section for a list of direct and indirect contributors.
+See the [Contributors ](more/contributors)section for a list of direct and indirect contributors.
