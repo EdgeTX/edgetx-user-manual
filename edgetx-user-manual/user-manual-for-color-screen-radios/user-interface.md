@@ -38,7 +38,7 @@ Touch the EdgeTX icon in the upper left corner of the screen to open the main na
 <figure><img src="../../.gitbook/assets/mainmenu.png" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
 
 {% hint style="info" %}
-For models that have **Display Checklist** enabled in the [Preflight Checks](model-settings/model-setup/preflight-checks.md) screen and a valid model checklist file in the **Models** folder you will see a **Model Notes** icon instead of the **Channel Monitor** icon.
+For models that have a valid model checklist file in the **Models** folder, a **Model Notes** icon is added after the **Manage Models** icon.
 {% endhint %}
 
 Pressing the roller from the main screen will also open the main navigation menu. You can then scroll using the roller to the desired menu option and select it by pressing the roller.
