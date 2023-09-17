@@ -23,7 +23,7 @@ Selecting the **+** **button** will show you a list of available inputs that can
 * **Paste before** - pastes the copied or moved input line before the selected input line.
 * **Paste after** - pastes the copied or moved input line before the selected input line.
 
-<figure><img src="../../../../.gitbook/assets/Inputs2.jpg" alt=""><figcaption><p>Input Configuration Page</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/inputs2.jpg" alt=""><figcaption><p>Input Configuration Page</p></figcaption></figure>
 
 ### Input configuration page
 
@@ -32,7 +32,7 @@ The input configuration page allows you to edit the input configuation parameter
 * **Input Name** - Name for the input. Four character are possible.
 * **Line Name** - Name of the individual line in the input. Multiple physical inputs can be mapped to one input by adding an additional input line under the input.
 
-<figure><img src="../../../../.gitbook/assets/inputs2.jpg" alt=""><figcaption><p>Example of multiple input lines under one input</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/multiple_input_lines.jpg" alt=""><figcaption><p>Example of multiple input lines under one input</p></figcaption></figure>
 
 * **Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), cyclics, trim switches, channel values and more. Moving the physical control after the source has been selected will automatically map it to that input.
 * **Weight** - Percentage value of the stick travel to use (often referred to as "rates").&#x20;
