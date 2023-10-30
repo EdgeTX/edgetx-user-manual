@@ -10,4 +10,6 @@ The **Enabled Features** section of **Model Setup** allows you to configure whic
 
 {% hint style="info" %}
 _**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab. For example, if you configure a special function and then turn off the special functions tab, the special function will still work as configured.
+
+**EXCEPTION:** Turning off the Global Functions tab will disable configured global functions for that model.
 {% endhint %}

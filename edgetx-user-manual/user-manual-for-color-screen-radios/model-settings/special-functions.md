@@ -91,7 +91,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 * **Value** - Type of vibration pattern. Options are: 0 - 4.
 * **Repeat** - Frequency to repeat the vibration pattern. Options are **!1x** (do not vibrate at startup even if the switch is active), **1x** (vibrate once), **1s** thru **60s** (vibrate every xx seconds).
 
-**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Interval** setting.  The value options are **0.1s** - **25.5s.** Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting.&#x20;
+**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Interval** setting.  The value options are **0.1s** - **25.5s.** Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting. **Note:** Logging will not start if SD card has less than 50mb of free space.&#x20;
 
 **Backlight** - Adjusts the brightness of the radio screen based on the source defined in the value dropdown.
 
@@ -105,3 +105,6 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 
 * **Value** - The screen number as defined in the [Screens settings.](../screen-settings/)
 * **Repeat** - When the switch remains active, the repeat value determines how often the special function will change the screen to the defined screen. Options are **!1x** (do not change at startup even if the switch is active), **1x** (change once), **1s** thru **60s** (change every xx seconds). This is useful because when the switch has been activated, the user can still manually switch screens, and then it will change back to the defined screen after the defined duration.
+
+**Audio Amp Off** - Disables the Audio Amplifier so that no sound comes from the speaker, including annoying feedback or interferance. This option is only available on select radios.
+

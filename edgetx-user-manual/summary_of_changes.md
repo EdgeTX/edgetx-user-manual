@@ -1,5 +1,5 @@
 ---
-description: Current for all merged PRs as of 03/07/2023 (v2.9 RC1)
+description: Current for all merged PRs as of 01/09/2023 (v2.9.0)
 ---
 
 # Summary of changes since v2.8
@@ -19,6 +19,8 @@ Below is a summary of changes that affect the user interface and/or how EdgeTX f
   * Now named **Manage Models** instead of **Model Select.**
   * **Edit Labels** option is now called **Label Models**
   * Added **model quick select**. When enabled in [radio settings](user-manual-for-color-screen-radios/radio-settings/), this feature allows you to select a model as active model in the manage model screen by _**double tapping**_ on it.
+* [Model Setup](user-manual-for-color-screen-radios/model-settings/model-setup/)
+  * Removed the **Use Global Functions** setting. Global functions are now disabled when the tab is hidden via the **Enabled Features** option.
 * [External RF](user-manual-for-color-screen-radios/model-settings/model-setup/internal-external-rf.md)
   * Added mode **R9M ACCESS** to enable R9M Access Mod. Compilation option is no longer needed.
   * PPM Frames automatically adjust based on number of configured channels
@@ -45,6 +47,7 @@ Below is a summary of changes that affect the user interface and/or how EdgeTX f
   * New screen layout, only shows configured special functions
   * New + button to add special functions
   * _**Lua Script**_ function adds **repeat** option
+  * Added **Audio Amp Off** - Disables the Audio Amplifier so that no sound comes from the speaker, including annoying feedback or interferance. This option is only available on select radios.
 * [Telemetry](user-manual-for-color-screen-radios/model-settings/telemetry/)
   * Updated screen layout
   * Added option to Show Instance ID On/Off
@@ -98,12 +101,18 @@ Below is a summary of changes that affect the user interface and/or how EdgeTX f
   * Adds **USB Joystick** mode- allows users to select between Classic and Advaced Mode; adds advanced joystick configuration options when in **Advanced Mode**.
   * Added Bluetooth trainer mode with FrSky bluetooth module.
   * PPM Frames automatically adjust based on number of configured channels
+  * Removed the **Glob. Funcs** setting. Global functions are now disabled when the tab is hidden via the enabled features option.
 * [Telemetry](../b-and-w-radios/model-select/telemetry/)
   * **RSSI Source** option was removed - set to "default" permanently
+  * Updated screen layout
+  * Added option to show instance ID On/Off
+  * Added collapsible sensor list
 * [Special Functions](../b-and-w-radios/model-select/special-functions.md)
   * _**Lua Script**_ function adds repeat option.
+  * Added **Audio Amp Off** - Disables the Audio Amplifier so that no sound comes from the speaker, including annoying feedback or interferance. This option is only available on select radios.
 * [Display](../b-and-w-radios/model-select/display.md)
   * Added clock to Telemetry screens.
+  * On the Telemetry screens, the top bar will only show the model name, radio battery voltage, and time in addition to the configured cells. If _**Timer1**_ is configured in the model, then it will _**replace the model name**_ in the top bar.
 * [Radio Setup](../b-and-w-radios/radio-settings/radio-setup.md)
   * **Rx channel ord** option renamed to **Def Chan Ord** for better understanding.
 * [Hardware](../b-and-w-radios/radio-settings/hardware.md)

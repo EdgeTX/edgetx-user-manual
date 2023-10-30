@@ -1,6 +1,6 @@
 # Radio Setup
 
-<figure><img src="../../.gitbook/assets/bwradiosetup (1).png" alt="" width="563"><figcaption><p>Radio Setup Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwradiosetup.png" alt="" width="563"><figcaption><p>Radio Setup Screen</p></figcaption></figure>
 
 The **Radio Setup** screen is where you configure basic settings for your radio. It contains the following options:
 

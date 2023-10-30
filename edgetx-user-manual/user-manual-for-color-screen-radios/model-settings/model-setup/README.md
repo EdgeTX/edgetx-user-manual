@@ -32,13 +32,7 @@ To avoid performance issues, the model image size should not exceed 192 x 114 pi
 [https://www.skyraccoon.com/](https://www.skyraccoon.com/) has a large repository of free image files that can be used with EdgeTX.
 {% endhint %}
 
-#### Use global functions
 
-When enabled, global functions programmed in the radio settings will apply to this model. When disabled, global functions will not apply to this model.
-
-{% hint style="info" %}
-_Global functions_ are _special functions_ that are applied across all models. Refer to [Special _Functions_](../special-functions.md) for information on configurable settings.
-{% endhint %}
 
 #### ADC Filter
 

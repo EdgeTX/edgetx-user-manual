@@ -158,10 +158,6 @@ Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on t
 
 **Glob. Funs** - When enabled, global functions programmed in the radio settings will apply to this model. When disabled, global functions will not apply to this model.
 
-{% hint style="info" %}
-_Global functions_ are _special functions_ that are applied across all models. Refer to [Special _Functions_](../../edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/special-functions.md) for information on configurable settings.
-{% endhint %}
-
 **ADC Filter** - Enables/disables the ADC filter for this model. The _**global**_ option will take the value designated in the radio settings, which is _on_ by default.
 
 {% hint style="info" %}
@@ -212,6 +208,12 @@ The **Enabled Features** section allows you to configure which pages are visible
 * **Global** - When selected, the tab will take the global value configured in the **Enabled Features** area in **Radio Setup**. The configured global value will display next to the option.
 * **On** - When selected, this tab will be visible when this model is loaded.
 * **Off** -  When selected, this tab will not be visible when this model is loaded.
+
+{% hint style="info" %}
+_**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab. For example, if you configure a special function and then turn off the special functions tab, the special function will still work as configured.
+
+**EXCEPTION:** Turning off the Global Functions tab will disable configured global functions for that model.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/bwjoy4.png" alt=""><figcaption><p>USB Joystick advanced mode settings</p></figcaption></figure>
 

@@ -71,7 +71,7 @@ Selecting one of the Inputs, Sticks, Pots, or Switches Buttons will open the con
 
  
 
-<figure><img src="../../../.gitbook/assets/hardware5.jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure>
 
 </div>
 

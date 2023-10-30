@@ -2,7 +2,7 @@
 
 Telemetry is data received from the model to the radio from various sensors. These sensors may be in included in the radio receiver or flight controller, or may be separate sensors, such as GPS, variometer, or magnetometer. Telemetry data that is received can be displayed by EdgeTX in widgets, configured in alarms or audio call-outs.
 
-<figure><img src="../../../../.gitbook/assets/telemetry (2).png" alt=""><figcaption><p>Telemetry screen in Model Settings</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/telemetry.png" alt=""><figcaption><p>Telemetry screen in Model Settings</p></figcaption></figure>
 
 ### **Sensors**
 

@@ -76,7 +76,7 @@ The widget assumes the following: the model has a motor, the motor is activated 
 
 ### Gauge
 
-<figure><img src="../../../.gitbook/assets/wid_gauge.png" alt=""><figcaption><p>Gauge Widget</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/wid_gauge (1).png" alt=""><figcaption><p>Gauge Widget</p></figcaption></figure>
 
 Shows a bar graph for the source value. The configurable options are:
 
@@ -115,7 +115,7 @@ This widget is a demo for the LibGUI library. This library is not normally run b
 
 ### **Model info**
 
-<figure><img src="../../../.gitbook/assets/wid_modelinfo.png" alt=""><figcaption><p>Model Info Widget</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/wid_modelinfo (1).png" alt=""><figcaption><p>Model Info Widget</p></figcaption></figure>
 
 Displays the selected model name and picture (if configured in model settings). The configurable options are:
 
@@ -190,7 +190,7 @@ Displays GPS Information in text format. There are no configurable options.
 
 ### **Value**
 
-<figure><img src="../../../.gitbook/assets/wid_value (1).png" alt=""><figcaption><p>Value Widget</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/wid_value.png" alt=""><figcaption><p>Value Widget</p></figcaption></figure>
 
 Displays a numeric value of the defined source as text. The configurable options are:
 

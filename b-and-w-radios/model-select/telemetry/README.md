@@ -4,25 +4,17 @@ Telemetry is data received from the model to the radio from various sensors. The
 
 The Telemetry screen is where you configure these sensors to use in EdgeTX.  Below are the following configuration options:
 
-**RX Status**
-
-<figure><img src="../../../.gitbook/assets/bwtelemetry1.png" alt=""><figcaption><p>RSSI Portion of Telemetry screen</p></figcaption></figure>
-
-Here you can configure the threshold for the RX alarms. The Rx-Stats label will change (Rx-Stats, RSSI, Rqly, Sgnl) depending on the protocol that is used with the model.
-
-* **Low alarm** - The threshold value when the "RF signal low" voice prompt will be played. The recommended value is 45.
-* **Critical alarm** - The threshold value when the "RF signal critical" voice prompt will be played. The recommended value is 42.
-* **Disable telemetry alarms** - When enabled, no alarm voice prompts will be played.
-
 **Sensors**
 
-<figure><img src="../../../.gitbook/assets/bwtelemetry4.png" alt=""><figcaption><p>Sensors portion of the Telemetry screen</p></figcaption></figure>
 
-All previously configured sensors are listed here. Sensors that have not received data since the model was loaded or the telemetry values were reset display **---** for the values. The asterisk **\*** to the left of the sensor value will flash when the sensor has received a data update. A solid asterisk**\*** indicates that the sensors that are receiving regular updates. Sensors that are no longer receiving regular updates will not be marked with the asterisk**\***. See [Common Telemetry Sensors](../../../edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/telemetry/common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
+
+<figure><img src="../../../.gitbook/assets/bwtelemetry4 (2).png" alt=""><figcaption><p>Sensors portion of the Telemetry screen</p></figcaption></figure>
+
+All previously configured sensors are listed here. The list is collapsible by clicking on the **arrow icon** to the right side of the **Sensors** label. Sensors that have not received data since the model was loaded or the telemetry values were reset display **---** for the values. The asterisk **\*** to the left of the sensor value will flash when the sensor has received a data update. A solid asterisk**\*** indicates that the sensors that are receiving regular updates. Sensors that are no longer receiving regular updates will not be marked with the asterisk**\***. See [Common Telemetry Sensors](../../../edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/telemetry/common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
 
 The following options are listed under the sensor list.
 
-* **Discover New:** When selected, it will look for new sensors on the model and automatically configure them.&#x20;
+* **Discover New:** When selected, it will look for new sensors on the model and automatically configure them. If the sensor list is collapsed when a new sensor is discovered, the newly found sensor will be visible on the sensor list (old sensors will remain collapesd/hidden).
 * **Add New:** When selected, it will create a new blank sensor for that must be configured manually.&#x20;
 * **Delete All:** This option will delete all previously configured sensors.
 * **No inst.** (ignore instances)**:** This option prevents multiple sensors from reporting the same telemetry data.
@@ -38,6 +30,16 @@ If you long-press the **\[Enter]** button for a specific sensor, the following o
 * **Delete**: Deletes that sensor.
 
 See the [Sensor Configuration](sensor-configuration-options.md) page for a detailed description of all the configuration options for setting up or editing sensors.
+
+**RX Status**
+
+<figure><img src="../../../.gitbook/assets/bwtelemetry1.png" alt=""><figcaption><p>RSSI Portion of Telemetry screen</p></figcaption></figure>
+
+Here you can configure the threshold for the RX alarms. The Rx-Stats label will change (Rx-Stats, RSSI, Rqly, Sgnl) depending on the protocol that is used with the model.
+
+* **Low alarm** - The threshold value when the "RF signal low" voice prompt will be played. The recommended value is 45.
+* **Critical alarm** - The threshold value when the "RF signal critical" voice prompt will be played. The recommended value is 42.
+* **Disable telemetry alarms** - When enabled, no alarm voice prompts will be played.
 
 **Variometer**
 
