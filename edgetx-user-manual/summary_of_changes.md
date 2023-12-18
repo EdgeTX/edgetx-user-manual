@@ -85,7 +85,7 @@ Below is a summary of changes that affect the user interface and/or how EdgeTX f
 * New Hardware Support
   * Flysky FRM303 Support (External RX Module)
   * Segger RTT debug support
-  * FrSky ARCHER PLUS R10+ and SR10+ receiver
+  * FrSky ARCHER PLUS R10+ and SR10+ receiver (v2.9.2)
 
 ### Monochrome Screen Radios
 
@@ -125,4 +125,4 @@ Below is a summary of changes that affect the user interface and/or how EdgeTX f
   * Flysky FRM303 Support (External RX Module)
   * Flysky digital gimbal support for Radio Master Boxer
   * Segger RTT debug support
-  * FrSky ARCHER PLUS R10+ and SR10+ receiver
+  * FrSky ARCHER PLUS R10+ and SR10+ receiver (v2.9.2)
