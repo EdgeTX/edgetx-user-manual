@@ -1,5 +1,5 @@
 ---
-description: Current for all merged PRs as of 01/09/2023 (v2.9.0)
+description: Current for all merged PRs as of 13/11/2023 (v2.9.2)
 ---
 
 # Summary of changes since v2.8
@@ -85,6 +85,7 @@ Below is a summary of changes that affect the user interface and/or how EdgeTX f
 * New Hardware Support
   * Flysky FRM303 Support (External RX Module)
   * Segger RTT debug support
+  * FrSky ARCHER PLUS R10+ and SR10+ receiver
 
 ### Monochrome Screen Radios
 
@@ -124,3 +125,4 @@ Below is a summary of changes that affect the user interface and/or how EdgeTX f
   * Flysky FRM303 Support (External RX Module)
   * Flysky digital gimbal support for Radio Master Boxer
   * Segger RTT debug support
+  * FrSky ARCHER PLUS R10+ and SR10+ receiver
