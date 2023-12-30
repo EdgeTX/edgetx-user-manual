@@ -26,6 +26,26 @@ The ADC filter is a filter for the proportional channels (sticks, pots, sliders)
 The X9D+ and X7 radios have a slow inverter that causes problems with the reception of fast UART signals, resulting in telemetry warnings and issues with LUA scripts using the CRSF protocol. A 10k resistor on the circuit board could be replaced to fix the issue, but this was not always effective. EdgeTX has developed OneBit Mode, which changes the UART sampling behavior to ignore slow leading edges, allowing the CRSF protocol to be run at the full 400k baud rate without hardware modifications to the radio.
 {% endhint %}
 
+### **Bluetooth**
+
+{% hint style="info" %}
+_**Note:** This option is only visible on custom compiled versions of EdgeTX with the **Bluetooth** flag enabled._
+{% endhint %}
+
+**Mode - mode that the bluetooth module will be used in. The options are:**
+
+* **---** - Off
+* **Telemetry** - used for sending telemtry data over bluetooth.
+* **Trainer** - used for bluetooth trainer mode
+
+**Name -** the name the bluetooth device will be seen as.
+
+**Settings Cog Icon** - when selected will show you:
+
+* **PIN Code** - PIN code for bluetooth device in the radio (visible in **Telemetry** mode only)
+* **Local addr -** Identifying address of the bluetooth device in the radio.
+* **Dist addr -** Identifying address of bluetooth device that radio is connected to.
+
 **Serial Port** - Displays a list of available auxiliary serial ports that can be configured and used. The listed ports are based on the ports that are available in the particular radio hardware. The ports listed below are for example only and may not be present in your radio.
 
 * **AUX1** - First available auxiliary serial port can be configured with the below options:
