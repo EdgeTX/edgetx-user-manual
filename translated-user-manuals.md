@@ -10,10 +10,18 @@ The manuals below are community submitted and have not been verified for accurac
 
 Credit: Heiner#1063
 
-{% file src=".gitbook/assets/EdgeTx v2.8.1 Benutzerhandbuch Farbe.pdf" %}
+{% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Farbe (1).pdf" %}
 User Manual for Color Radios in German
 {% endfile %}
 
-{% file src=".gitbook/assets/EdgeTx Benutzerhandbuch Schwarz Weiß.pdf" %}
+{% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Schwarz Weiß (1).pdf" %}
 User Manual for Monochrome Radios in German
+{% endfile %}
+
+### Russian / Русский
+
+Credit: Zloyuzver
+
+{% file src=".gitbook/assets/User.Manual.EdgeTX.v.2.9.for.Color.Screen.Radios.Rus.pdf" %}
+User Manual for Color Radios in Russian
 {% endfile %}
