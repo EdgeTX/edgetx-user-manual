@@ -25,3 +25,11 @@ Credit: Zloyuzver
 {% file src=".gitbook/assets/User.Manual.EdgeTX.v.2.9.for.Color.Screen.Radios.Rus.pdf" %}
 User Manual for Color Radios in Russian
 {% endfile %}
+
+### Spanish / Español
+
+Credit: Roberto Domingues
+
+_Work in progress!_
+
+[https://robertomirax.gitbook.io/untitled/](https://robertomirax.gitbook.io/untitled/)
