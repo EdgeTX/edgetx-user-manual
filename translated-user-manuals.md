@@ -20,7 +20,7 @@ User Manual for Monochrome Radios in German
 
 ### Russian / Русский
 
-Credit: Zloyuzver
+Credit: Kerget Ruslan
 
 {% file src=".gitbook/assets/User.Manual.EdgeTX.v.2.9.for.Color.Screen.Radios.Rus.pdf" %}
 User Manual for Color Radios in Russian
