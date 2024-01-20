@@ -10,6 +10,7 @@ OpenTX University - great information on RC planes in general.
 
 {% embed url="http://rc-soar.blogspot.com/" %}
 
-{% embed url="https://www.skyraccoon.com/" %}
-A large repository of free image files that can be used with EdgeTX.
+{% embed url="https://www.air-rc.com/" %}
+A large repository of free model image files that can be used with EdgeTX.
 {% endembed %}
+
