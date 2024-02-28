@@ -275,6 +275,6 @@ In **Advanced mode** you can configure the following additional options:
 
 **Sim -** The channel is used to simulate a common sim axis and it will be listed on the target device as the selected option (ex: Thr)
 
-* Sim Axis options are: **Ail**, **Ele**, **Rud**, **Thr**
+* Sim Axis options are: **Ail**, **Ele**, **Rud**, **Thr**, **Acc**, **Brk**, **Steer**, **Dpad**
 
 Pressing the **\[PAGE>]** button will take you to the **Heli Setup** screen.
