@@ -238,10 +238,10 @@ In **Advanced mode** you can configure the following additional options:
 **If mode (Interface mode):** This indicates to the target device (the device you are connecting your transmitter to) what type of device you are connecting. The options are **Joystick**, **Gamepad**, **MultiAxis.** &#x20;
 
 {% hint style="info" %}
-**Note:** Currently there is a limitation in MS Windows that may limit your transmitter to being only detected only as a Joystick, regardless of what is selected in this option. In MacOS, Linux and Andriod this functions properly.
+**Note:** Currently there is a limitation in MS Windows that may limit your transmitter to being only detected as a Joystick, regardless of what is selected in this option. In MacOS, Linux and Andriod this functions properly.
 {% endhint %}
 
-**Circular cutout**: For axis pairs (X-Y, Z-rX): By default, the range of the axis pairs is a rectangular area. With this option, the axis will be limited to a circular area (like gamepad controllers commonly are). Options are : **None** or **X-Y, Z-rX** or **X-Y, Rx-Ry**
+**Circular cutout**: For axis pairs (X-Y, Z-rX): By default, the range of the axis pairs is a rectangular area. With this option, the axis will be limited to a circular area (like gamepad controllers commonly are). Options are : **None** or **X-Y, Z-rX** or **X-Y, rX-rY** or **X-Y, Z-rZ**
 
 **Channel Settings**
 
