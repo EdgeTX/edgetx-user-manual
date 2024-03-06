@@ -65,7 +65,9 @@ One a mode is selected, you will see the following information:
   * **SBUS Trainer** - Connect the Instructor and Student radios over the serial port.
   * **LUA** - Send/receive data to/from Lua script.
   * **GPS** - Receive GPS telemetry data over the serial port.
-  * **CLI** - Send commands to the radio via the command line.&#x20;
+  * **CLI** - Send commands to the radio via the command line. \
+
+* **USB-VCP** - Virtual COM Port. This is one of the options presented when connecting your radio to the PC with most radios. Is often set to 'CLI' for radios with internal ExpressLRS RF modules in order to do firmware updates.&#x20;
 
 **ADC Filter** - Enables or disables the ADC Filter. This filter can also be enabled/disabled per model in the model settings.
 
