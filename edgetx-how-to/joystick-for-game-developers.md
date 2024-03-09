@@ -1,9 +1,9 @@
-# joystick information for game developers
+# Joystick Information for Game Developers
 
 
-1) EdgeTX can output joystick / gamepad information via USB HID with ID (VID_1209&PID_4F54 / 1209:4F54).
-2) EdgeTX performs configurable input processing including dead bands, mixing, and non-linear scaling.
-3) A wide variety of [controllers](https://edgetx.org/supportedradios/) run EdgeTX. By default all devices output the same "Classic Joystick" report format with 8 11-bit analog axis and 24 digital buttons.
+1. EdgeTX can output joystick / gamepad information via USB HID with ID (VID_1209&PID_4F54 / 1209:4F54).
+2. EdgeTX performs configurable input processing including dead bands, mixing, and non-linear scaling.
+3. A wide variety of [controllers](https://edgetx.org/supportedradios/) run EdgeTX. By default all devices output the same "Classic Joystick" report format with 8 11-bit analog axis and 24 digital buttons.
 
 
 ## Linux: evdev
@@ -12,10 +12,11 @@ Linux's [evdev API](https://www.kernel.org/doc/html/latest/input/input.html) use
 
 ### identity
 
-1) EVIOCGID : device_id.vendor is 4617 / 0x1209
-2) EVIOCGID : device_id.product is 20308 / 0x4F54
+1. EVIOCGID : device_id.vendor is 4617 / 0x1209
+2. EVIOCGID : device_id.product is 20308 / 0x4F54
 
 ### input labels
+
 | EdgeTX | event name        | event code
 | -      | -                 | -
 | CH1    | ABS_X             | EV_ABS 0
@@ -51,6 +52,7 @@ Linux's [evdev API](https://www.kernel.org/doc/html/latest/input/input.html) use
 | CH31   | BTN_TRIGGER_HAPPY7| EV_KEY 710 / 0x2C6
 | CH32   | BTN_TRIGGER_HAPPY8| EV_KEY 711 / 0x2C7
 
+
 ## Linux: joystick
 
 Linux's [joystick API](https://www.kernel.org/doc/html/latest/input/joydev/index.html) uses **open** (fcntl.h) with **/dev/input/js** and **read** (unistd.h) to read **js_event** (linux/joystick.h).
@@ -58,7 +60,7 @@ Linux's [joystick API](https://www.kernel.org/doc/html/latest/input/joydev/index
 ### identity
 
 JSIOCGNAME is "EdgeTX [...] Joystick" or "OpenTX [...] Joystick". The middle part ("[...]") is device specific.
- 
+
 ### input labels
 
 | EdgeTX  | read js_event
@@ -73,19 +75,18 @@ JSIOCGNAME is "EdgeTX [...] Joystick" or "OpenTX [...] Joystick". The middle par
 | CH32    | JS_EVENT_BUTTON 23
 
 
-## Windows: Direct Input 
+## Windows: DirectInput
 
-This Windows specific API uses IDirectInputDevice8::**GetDeviceState** to read **DIJOYSTATE** (dinput.h).
-
-DIJOYSTATE2 (c_dfDIJoystick2) outputs the same information.
+Windows's [DirectInput](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ee416842(v=vs.85) uses IDirectInputDevice8::**GetDeviceState** to read **DIJOYSTATE** (dinput.h). DIJOYSTATE2 (c_dfDIJoystick2) outputs the same information.
 
 ### identity
 
 DIDEVICEINSTANCE.guidProduct starts with "4F541209-". The trailing part of the GUID is device specific.
 
 ### input labels
+
 | EdgeTX | DIJOYSTATE
-| -      | -         
+| -      | -
 | CH1    | lX
 | CH2    | lY
 | CH3    | lZ
@@ -100,18 +101,19 @@ DIDEVICEINSTANCE.guidProduct starts with "4F541209-". The trailing part of the G
 | CH32   | rgbButtons[23]
 
 
-
 ## Windows: Multimedia
 
 Windows' [Multimedia API](https://learn.microsoft.com/en-us/windows/win32/api/joystickapi/) uses **joyGetPosEx** to read **JOYINFOEX** (joystickapi.h). The older joyGetPos / JOYINFO only support CH1-CH3 and CH9-CH32 with the same mapping as the newer JOYINFOEX.
 
 ### identity
-1) JOYCAPS.wMid is 4617 / 0x1209
-2) JOYCAPS.wPid is 20308 / 0x4F54
+
+1. JOYCAPS.wMid is 4617 / 0x1209
+2. JOYCAPS.wPid is 20308 / 0x4F54
 
 ### input labels
+
 | EdgeTX | JOYINFOEX
-| -      | -         
+| -      | -
 | CH1    | dwXpos
 | CH2    | dwYpos
 | CH3    | dwZpos
@@ -132,38 +134,41 @@ Windows' [Multimedia API](https://learn.microsoft.com/en-us/windows/win32/api/jo
 Windows' [Raw Input API](https://learn.microsoft.com/en-us/windows/win32/inputdev/about-raw-input) uses **GetRawInputData** (WinUser.h), **HidP_GetUsageValue** and **HidP_GetUsages** (hidpi.h).
 
 ### identity
-1) RID_DEVICE_INFO_HID.dwVendorId is 4617 / 0x1209
-2) RID_DEVICE_INFO_HID.dwProductId is 20308 / 0x4F54
+
+1. RID_DEVICE_INFO_HID.dwVendorId is 4617 / 0x1209
+2. RID_DEVICE_INFO_HID.dwProductId is 20308 / 0x4F54
 
 ### input labels
+
 | EdgeTX | HidP_Get[...]Value | UsagePage | Usage
-| -      | -    | -    | -
-| CH1    | HidP_GetValueCaps [7]  | 0x01 | 0x30
-| CH2    | HidP_GetValueCaps [6]  | 0x01 | 0x31
-| CH3    | HidP_GetValueCaps [5]  | 0x01 | 0x32
-| CH4    | HidP_GetValueCaps [4]  | 0x01 | 0x33
-| CH5    | HidP_GetValueCaps [3]  | 0x01 | 0x34
-| CH6    | HidP_GetValueCaps [2]  | 0x01 | 0x35
-| CH7    | HidP_GetValueCaps [1]  | 0x01 | 0x36
-| CH8    | HidP_GetValueCaps [0]  | 0x01 | 0x37
+| -      | -                       | -    | -
+| CH1    | HidP_GetValueCaps [7]   | 0x01 | 0x30
+| CH2    | HidP_GetValueCaps [6]   | 0x01 | 0x31
+| CH3    | HidP_GetValueCaps [5]   | 0x01 | 0x32
+| CH4    | HidP_GetValueCaps [4]   | 0x01 | 0x33
+| CH5    | HidP_GetValueCaps [3]   | 0x01 | 0x34
+| CH6    | HidP_GetValueCaps [2]   | 0x01 | 0x35
+| CH7    | HidP_GetValueCaps [1]   | 0x01 | 0x36
+| CH8    | HidP_GetValueCaps [0]   | 0x01 | 0x37
 | CH9    | HidP_GetButtonCaps [0]  | 0x09 | 0x01
 | CH10   | HidP_GetButtonCaps [0]  | 0x09 | 0x02
-| [...]  | [...]| [...]| [...]
+| [...]  | [...]                   | [...]| [...]
 | CH32   | HidP_GetButtonCaps [0]  | 0x09 | 0x18
 
 
-
-## Windows: winrt / Windows.Gaming.Input 
+## Windows: Windows.Gaming.Input
 
 Windows' [RawGameController](https://learn.microsoft.com/en-us/uwp/api/windows.gaming.input.rawgamecontroller) uses **winrt::Windows::Gaming::Input::RawGameController** (winrt/Windows.Gaming.Input.h).
 
 ### identity
-1) RawGameController::HardwareVendorId is 4617 / 0x1209
-2) RawGameController::HardwareProductId is 20308 / 0x4F54
+
+1. RawGameController::HardwareVendorId is 4617 / 0x1209
+2. RawGameController::HardwareProductId is 20308 / 0x4F54
 
 ### input labels
+
 | EdgeTX | GetCurrentReading
-| -      | -         
+| -      | -
 | CH1    | axisArray[0]
 | CH2    | axisArray[1]
 | [...]  | [...]
