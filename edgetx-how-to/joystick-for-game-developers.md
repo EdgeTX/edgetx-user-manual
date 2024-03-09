@@ -77,7 +77,7 @@ JSIOCGNAME is "EdgeTX [...] Joystick" or "OpenTX [...] Joystick". The middle par
 
 ## Windows: DirectInput
 
-Windows's [DirectInput](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ee416842(v=vs.85) uses IDirectInputDevice8::**GetDeviceState** to read **DIJOYSTATE** (dinput.h). DIJOYSTATE2 (c_dfDIJoystick2) outputs the same information.
+Windows's [DirectInput](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ee416842(v=vs.85)) uses IDirectInputDevice8::**GetDeviceState** to read **DIJOYSTATE** (dinput.h). DIJOYSTATE2 (c_dfDIJoystick2) outputs the same information.
 
 ### identity
 
