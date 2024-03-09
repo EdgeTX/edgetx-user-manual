@@ -2,23 +2,24 @@
 
 ## General
 
-1) Please try the **classic mode first**. Handling joystick input has undergone many different designs. For example Windows has 6 joystick APIs - all with different quirks.
-1) **Interface mode Gamepad** is usually the right one.
-1) To ease switching between Advanced and Classic mode try using **channels 1 - 8 for axis** and **channels 9 - 32 for buttons**.
-1) After **changing the joystick** configuration you likely have to disconnect and then reconnect the USB cable. Otherwise systems might still use the old joystick description to read the new data.
+1. Please try the **classic mode first**. Handling joystick input has undergone many different designs. For example Windows has 6 joystick APIs - all with different quirks.
+2. **Interface mode Gamepad** is usually the right one.
+3. To ease switching between Advanced and Classic mode try using **channels 1 - 8 for axis** and **channels 9 - 32 for buttons**.
+4. After **changing the joystick** configuration you likely have to disconnect and then reconnect the USB cable. Otherwise systems might still use the old joystick description to read the new data.
 
 ## Analog Axis
-5) Most modern applications use the **USB HID ID** to identify the meaning of an axis.
-1) Legacy applications frequently use the **order** the axis where configured in.
-1) A few applications use the **reverse order** the axis where configured in.
-1) **Duplicate axis** are rarely supported. Some APIs do support two Slider axis.
-1) **Inverted axis**: Many applications expect the left and right Y axis to go the other way. The direction can be reversed with Weight -100% or in the advanced Joystick configuration.
-1) **Windows** does support "axis" and "sim". However mixing both types is not always supported.
-1) **Linux** maps following inputs onto the same axis and uses the input value with the lowest channel number.
+
+1. Most modern applications use the **USB HID ID** to identify the meaning of an axis.
+2. Legacy applications frequently use the **order** the axis where configured in.
+3. A few applications use the **reverse order** the axis where configured in.
+4. **Duplicate axis** are rarely supported. Some APIs do support two Slider axis.
+5. **Inverted axis**: Many applications expect the left and right Y axis to go the other way. The direction can be reversed with Weight -100% or in the advanced Joystick configuration.
+6. **Windows** does support "axis" and "sim". However mixing both types is not always supported.
+7. **Linux** maps following inputs onto the same axis and uses the input value with the lowest channel number.
    - sim Thr + axis Slider → ABS_THROTTLE
    - sim Rud + axis Dial → ABS_RUDDER
    - axis Wheel + sim Steer → ABS_WHEEL
-1) **Android** treats **sim Acc** and **sim Brk** as half axis. EdgeTX channel outputs [-100%, 0% and +100%] are interpreted by Android as [0%, 50% and 100%]. Consider following configuration if your physical input is one analog stick:
+8. **Android** treats **sim Acc** and **sim Brk** as half axis. EdgeTX channel outputs [-100%, 0% and +100%] are interpreted by Android as [0%, 50% and 100%]. Consider following configuration if your physical input is one analog stick:
    - sim Acc = input (axis 1: Offset -50%, Func "x>0") mixed with (Weight 200%)
    - sim Brk = input (axis 1: Offset -50%, Func "x<0") mixed with (Weight -200%)
 
@@ -43,10 +44,9 @@ Similar layouts:
 | Stadia           | Android
 | XBox             | Android
 
-
 ### sim Dpad
 
-13) Sim Dpad emulates a **directional pad** also known as **hat switch** or point of view switch. Most application decode the 8 ordinal directions and "center". Some applications only decode the 4 cardinal directions and "center" (e.g. Northeast is treated as North).
+Sim Dpad emulates a **directional pad** also known as **hat switch** or point of view switch. Most application decode the 8 ordinal directions and "center". Some applications only decode the 4 cardinal directions and "center" (e.g. Northeast is treated as North).
 
 | direction  | from    | to
 | -          | -       | -
@@ -93,13 +93,13 @@ Similar layouts:
 
 ## Buttons
 
-14) Buttons are **identified** by their USB HID ID.
-1) The **meaning** of a specific button ID is not standardized.
-1) **Duplicate buttons** (_e.g. button 1, button 1_) are not supported. The button with the higher channel number is used.
-1) **Buttons as axis**: Some applications need analog button information. Use a mixer to forward the digital button state to an analog axis.
-1) **Ghost buttons**: For Joysticks and Gamepads the required minimum amount of buttons is automatically created. Similarly if only button 15 is configured the missing buttons 0 - 14 are automatically created. These buttons have no input and are always off.
-1) **Android** generally supports buttons 0 to 14 with the same mapping as Linux. Support for buttons in bold is mandatory for all Android devices.
-1) **Widows** generally supports buttons 0 to 9 with the same mapping as Xbox.
+1. Buttons are **identified** by their USB HID ID.
+2. The **meaning** of a specific button ID is not standardized.
+3. **Duplicate buttons** (_e.g. button 1, button 1_) are not supported. The button with the higher channel number is used.
+4. **Buttons as axis**: Some applications need analog button information. Use a mixer to forward the digital button state to an analog axis.
+5. **Ghost buttons**: For Joysticks and Gamepads the required minimum amount of buttons is automatically created. Similarly if only button 15 is configured the missing buttons 0 - 14 are automatically created. These buttons have no input and are always off.
+6. **Android** generally supports buttons 0 to 14 with the same mapping as Linux. Support for buttons in bold is [mandatory](https://source.android.com/docs/compatibility/14/android-14-cdd#7261_button_mappings) for all Android devices.
+7. **Widows** generally supports buttons 0 to 9 with the same mapping as Xbox.
 
 
 | EdgeTX    | **Android** / Linux       | Dualsense | **Windows** / XBox | USB HID ID
