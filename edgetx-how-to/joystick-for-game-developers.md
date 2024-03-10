@@ -1,9 +1,23 @@
 # Joystick Information for Game Developers
 
+## Table of Content
+
+- [General](#general)
+- [Linux: evdev](#linux-evdev)
+- [Linux: joystick](#linux-joystick)
+- [Windows: DirectInput](#windows-directinput)
+- [Windows: Multimedia](#windows-multimedia)
+- [Windows: Raw Input](#windows-raw-input)
+- [Windows: Windows.Gaming.Input](#windows-windowsgaminginput)
+
+
+## General
 
 1. EdgeTX can output joystick / gamepad information via USB HID with ID (VID_1209&PID_4F54 / 1209:4F54).
 2. EdgeTX performs configurable input processing including dead bands, mixing, and non-linear scaling.
-3. A wide variety of [controllers](https://edgetx.org/supportedradios/) run EdgeTX. By default all devices output the same "Classic Joystick" report format with 8 11-bit analog axis and 24 digital buttons.
+3. A wide variety of [controllers](https://edgetx.org/supportedradios/) run EdgeTX. By default all devices output the same "Classic Joystick" report format with 8 analog axis and 24 digital buttons.
+4. Buttons are digital (0 = off, 1 = on).
+5. Analog axis have 11 bit resoultion.
 
 
 ## Linux: evdev
