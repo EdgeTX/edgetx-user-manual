@@ -5,8 +5,8 @@
 The **Statistics** screen presents you with statistics regarding radio usage. All data is reset once the radio is powered off. The following information is provided:
 
 * **SES** - The amount of time that the radio has been turned on.&#x20;
-* **THR**  - The amount of time that the throttle has was above the 0% stick position.
-* **TH%** - The amount of time that the throttle has was above the 50% stick position.
+* **THR**  - The amount of time that the throttle has been above the 0% stick position.
+* **TH%** - The amount of time that the throttle has been above the 50% stick position.
 * **TM1/2/3** - The current values of Timer 1, Timer 2, and Timer 3.
 * **Throttle Graph** - Shows the throttle percentage over time.
 
