@@ -85,6 +85,7 @@
 * [Contribute to the User Manual](edgetx-how-to/contribute-to-the-user-manual.md)
 * [Set-up wireless trainer with a Multi -protocol module](edgetx-how-to/set-up-wireless-trainer-with-mpm.md)
 * [Use Bluetooth with EdgeTX](edgetx-how-to/use-bluetooth-with-edgetx.md)
+* [Joystick Mapping Information for Game Developers](edgetx-how-to/joystick-mapping-information-for-game-developers.md)
 
 ## More
 
