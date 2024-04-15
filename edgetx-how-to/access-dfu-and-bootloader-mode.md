@@ -12,6 +12,10 @@ Not all radios go into Bootloader or DFU mode the same way.  Below you will find
 
 **DFU**: Turn off the radio transmitter. Press and hold the DFU button and plug in the USB cable, release the DFU button.
 
+{% hint style="info" %}
+Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functional, which prevented DFU mode from being enabled. However, in the current version of the radio, the DFU button has been fixed and is now working correctly.
+{% endhint %}
+
 ### FlySky NV14 / EL18
 
 
@@ -48,13 +52,13 @@ Not all radios go into Bootloader or DFU mode the same way.  Below you will find
 
 ### Jumper T-20/T-20S
 
-
-
-<figure><img src="../.gitbook/assets/T20DFU.png" alt="" width="375"><figcaption><p>Jumper T-20 DFU Button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/T20DFU.png" alt="" width="563"><figcaption><p>Jumper T-20 DFU Button</p></figcaption></figure>
 
 {% hint style="info" %}
-Note: The antenna must be removed to access the DFU button.
+Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpick to gently push the button to avoid damage.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/T20V2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Push both trim hat switches inward together and press the power button.
 
