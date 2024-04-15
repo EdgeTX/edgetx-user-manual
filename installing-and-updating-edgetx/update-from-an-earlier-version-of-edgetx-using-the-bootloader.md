@@ -14,9 +14,9 @@ Download and extract the EdgeTX SD card content for your radio type to your comp
 
 The list below shows which .zip file to use for different radio types:
 
-* c480x272zip (480x272 Horizontal Color Screen) - TX16s, T16, Horus x10s,Horus x12s, most color screen radios...
-* c480x320 (480x320 Horizontal Color Screen)
-* c320x480zip (320x480 Verticle Color Screen)- FlySky Nirvana NV14, EL18
+* c480x272.zip (480x272 Horizontal Color Screen) - TX16s, T16, Horus x10s,Horus x12s, most color screen radios...
+* c480x320.zip (480x320 Horizontal Color Screen)
+* c320x480.zip (320x480 Verticle Color Screen)- FlySky Nirvana NV14, EL18
 * bw128x64.zip (128x64 BW Screens) -All monochrome screen radios _except_ X9D series.
 * bw212x64zip (212x64 BW Screens) - X9D, X9D Plus, X9D Plus 2019
 
