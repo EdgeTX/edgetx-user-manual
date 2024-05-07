@@ -30,7 +30,13 @@ Download the current EdgeTX firmware. You can download the latest release .zip f
 
 Unzip the file and save the correct .bin file (same name as your radio type) to the "**Firmware**" folder on the SD card for your radio.
 
-Turn off your radio.
+Turn on your radio and navigate to the SD card screen. Open the "Firmware" folder and select the EdgeTX firmware file that you just copied to your SD card. Once the file is selected, select the option to "**Flash bootloader"**. The bootloader will be updated.
+
+{% hint style="info" %}
+**Note:** When updating the bootloader using EdgeTX, you won't see the "Flash bootloader" option if the bootloader file is meant for a different radio target.
+{% endhint %}
+
+Exit back to the main screen and then shut off your radio.
 
 Boot your radio in bootloader mode by holding trim switches T4 and T1 to center while pushing the power button on.
 
@@ -39,6 +45,10 @@ On the Jumper T-Pro, you have to plug in the radio while pressing the Boot0 butt
 {% endhint %}
 
 You will see the EdgeTX bootloader. Select the option "**Write Firmware**". Select the EdgeTX firmware file that you saved to your SD card. Long-press to flash it.
+
+{% hint style="info" %}
+**Note:** When you're flashing the firmware with the bootloader and the bootloader detects a different target from what it's currently running, it will display an error message stating that the firmware is invalid.
+{% endhint %}
 
 After the flashing is complete, select "**Exit**". The radio will restart and you should be greeted with "**Welcome EdgeTX**".
 
