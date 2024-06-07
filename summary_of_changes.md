@@ -1,5 +1,5 @@
 ---
-description: Current for all merged PRs as of 06/03/2024 (v2.10.0)
+description: Current for all merged PRs as of 31/05/2024 (v2.10.1)
 ---
 
 # Summary of changes since v2.9
@@ -11,6 +11,7 @@ Below is a summary of changes that affect the user interface and/or how EdgeTX f
 * New Hardware Support
   * Flysky PL18
   * Flysky PL18 EV
+  * Jumper T15
 * General Changes
   * The mixer now runs at 1000Hz when in USB Joystick mode (needed for F.Sim competitors), also displays mixer run time in statistic/debug screen.
   * Minor UI improvements on many pages for better look and consistency&#x20;
