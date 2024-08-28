@@ -7,6 +7,7 @@
   * [Migrate from OpenTX to EdgeTX using the Bootloader](installing-and-updating-edgetx/migrate-from-opentx-to-edgetx-using-the-bootloader.md)
   * [Update from an earlier version of EdgeTX using EdgeTX Buddy](installing-and-updating-edgetx/update-from-opentx-to-edgetx-1.md)
   * [Update from an earlier version of EdgeTX using the Bootloader](installing-and-updating-edgetx/update-from-an-earlier-version-of-edgetx-using-the-bootloader.md)
+  * [Having trouble after updating?](installing-and-updating-edgetx/having-trouble-after-updating.md)
 * [User Manual for Color Screen Radios](color-radios/README.md)
   * [User Interface](color-radios/user-interface/README.md)
     * [Virtual Keyboards](color-radios/user-interface/virtual-keyboards.md)
