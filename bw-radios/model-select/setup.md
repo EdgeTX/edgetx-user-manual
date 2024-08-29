@@ -154,10 +154,10 @@ Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on t
 
 **S-Warning** - The section displays all the switches that are configured on the radio and allows you to select which position is the correct position for the switch state check. Selecting the switch will cycle through the available switch positions or turn the check off for the switch completely.
 
-**Pot warn.** - When activated, this option checks the position of the pots & sliders. There are three options - **OFF**, **Man** and **Auto**. When **ON** or **AUTO** is selected, buttons for the available pots and sliders will appear. To enable the pot warning for an individual pot, select the pot with the **\[roller]** or **\[dial]** and click the button to highlight it. Highlighted pots are enabled.
+**Pot warn.** - When activated, this option checks the position of the pots & sliders. There are three options - **OFF**, **ON** and **Auto**. When **ON** or **AUTO** is selected, buttons for the available pots and sliders will appear. To enable the pot warning for an individual pot, select the pot with the **\[roller]** or **\[dial]** and click the button to highlight it. Highlighted pots are enabled.
 
 * **OFF** - Pot and slider positions are not checked.
-* **Man** - Positions are checked against manually configured pot and slider positions. To manually set the check position, select **manual** the from menu, select the item that you want to set, and long-press the **\[Enter]** button to set its current position for the check.
+* **ON** - Positions are checked against manually configured pot and slider positions. To manually set the check position, select **manual** the from menu, select the item that you want to set, and long-press the **\[Enter]** button to set its current position for the check.
 * **Auto** - Positions are checked for pots and sliders and compared to the last automatically saved position before the radio was turned off or the model was changed.
 
 **Ctr Beep** - Allows you to turn on/off the center beep function for the individual sticks, pots, and sliders by highlighting them with the **\[roller]** or **\[dial]** and pressing the button. When a switch is highlighted, the function is enabled.
