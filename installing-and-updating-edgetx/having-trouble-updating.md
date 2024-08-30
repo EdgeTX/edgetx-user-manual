@@ -20,11 +20,11 @@ If you're here reading this, you probably got stuck with something either while 
 
 1. Once you have installed the STM32CubeProgrammer tool (which requires creation of a free account on the STMicroelectronics website), plug your radio in while switched off, in order to enter DFU mode. Double check the [access-dfu-and-bootloader-mode.md](../edgetx-how-to/access-dfu-and-bootloader-mode.md "mention") page if you are unsure if your handset has a boot / DFU mode button that needs to be held down whilst plugging it in.
 2. Start the STM32CubeProgrammer tool if you don't already have it running. You should have a screen that looks somewhat like this (click the image for a larger view):\
-   ![STM32CubeProgrammer main screen](broken-reference)\
+   ![STM32CubeProgrammer main screen](../.gitbook/assets/stm32cubeprogrammer\_connect.webp)\
    \
    Ensure the device type (1) says USB, and then press the Connect button (2). If the port field is empty, try pressing the refresh button (3).
 3. Go to the "Option bytes" page (1). Then select User Configuration (2). Check the status of  "BFB2" (3). If it is ticked, remove the tick so that it is as shown, and click the Apply button (4). You can then click the "Disconnect" button and disconnect your handset.\
-   ![STM32CubeProgrammer: Option bytes](broken-reference)
+   ![STM32CubeProgrammer: Option bytes](../.gitbook/assets/stm32cubeprogrammer\_optionbytes.webp)
 4. That should be it... your handset should boot up now if this was the issue.&#x20;
 
 </details>
