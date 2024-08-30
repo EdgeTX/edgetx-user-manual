@@ -50,6 +50,22 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 **DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio.
 
+### Jumper T12 MAX
+
+<figure><img src="../.gitbook/assets/T12MAX-dfu-button.png" alt=""><figcaption><p>Jumper T12 MAX DFU Button</p></figcaption></figure>
+
+**Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
+
+**DFU**: Turn off the radio transmitter. Press and hold the DFU button and plug in the USB cable, release the DFU button.
+
+### Jumper T14/T15
+
+<figure><img src="../.gitbook/assets/T15-dfu-button.png" alt=""><figcaption><p>Jumper T14/T15 DFU Button</p></figcaption></figure>
+
+**Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
+
+**DFU**: Turn off the radio transmitter. Press and hold the DFU button and plug in the USB cable, release the DFU button.
+
 ### Jumper T-20/T-20S
 
 <figure><img src="../.gitbook/assets/T20DFU.png" alt="" width="563"><figcaption><p>Jumper T-20 DFU Button</p></figcaption></figure>
