@@ -89,6 +89,7 @@
 * [Configure Advanced Joystick with EdgeTX](edgetx-how-to/configure-advanced-joystick-with-edgetx.md)
 * [Joystick Mapping Information for Game Developers](edgetx-how-to/joystick-mapping-information-for-game-developers.md)
 * [Disable Touchscreen](edgetx-how-to/disable-touchscreen.md)
+* [Use Trims as switches](edgetx-how-to/use-trims-as-switches.md)
 
 ## More
 
