@@ -90,6 +90,7 @@
 * [Joystick Mapping Information for Game Developers](edgetx-how-to/joystick-mapping-information-for-game-developers.md)
 * [Disable Touchscreen](edgetx-how-to/disable-touchscreen.md)
 * [Use Trims as switches](edgetx-how-to/use-trims-as-switches.md)
+* [Configure a low battery alert](edgetx-how-to/useful-logical-switches-and-special-functions.md)
 
 ## More
 
