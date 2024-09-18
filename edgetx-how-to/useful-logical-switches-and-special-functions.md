@@ -1,8 +1,6 @@
-# Useful Logical Switches and Special Functions
+# Configure a low battery alert
 
-## Configure a low battery alert
-
-This HowTo shows the configuration of a low voltage battery alert. Let's assume we have a model that is using a 2S Lipo RX battery. We want to configure an alerts when the battery voltage drops below 7.4V.
+This How-To shows the configuration of a low voltage battery alert. Let's assume we have a model that is using a 2S Lipo RX battery. We want to configure an alerts when the battery voltage drops below 7.4V.
 
 Ensure that telemetry data is being received by the radio and the sensors have been discovered within EdgeTX before proceeding.
 

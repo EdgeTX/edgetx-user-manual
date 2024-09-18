@@ -89,7 +89,7 @@
 * [Configure Advanced Joystick with EdgeTX](edgetx-how-to/configure-advanced-joystick-with-edgetx.md)
 * [Joystick Mapping Information for Game Developers](edgetx-how-to/joystick-mapping-information-for-game-developers.md)
 * [Disable Touchscreen](edgetx-how-to/disable-touchscreen.md)
-* [Useful Logical Switches and Special Functions](edgetx-how-to/useful-logical-switches-and-special-functions.md)
+* [Configure a low battery alert](edgetx-how-to/useful-logical-switches-and-special-functions.md)
 
 ## More
 
