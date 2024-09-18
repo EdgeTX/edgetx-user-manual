@@ -1,4 +1,4 @@
-# Use Trims as switches
+# Use Trims to Adjust Global Variables
 
 There are model types where some or all of the trim switches on your radion are not used. Helicopters or drones with a flight controller usually don't need trims  Also on many fixed wings you may not need all the 4 trims for throttle, rudder, elevator and aileron.
 
