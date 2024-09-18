@@ -4,13 +4,13 @@ This How-To shows the configuration of a low voltage battery alert. Let's assume
 
 Ensure that telemetry data is being received by the radio and the sensors have been discovered within EdgeTX before proceeding.
 
-**Step1:** Create a logical switch that activates when the battery voltage drops below a defined value.
+**Step 1:** Create a logical switch that activates when the battery voltage drops below a defined value.
 
 Press the \[MDL] button to open the Model Setup screen and navigate to the [Logical Switches](../color-radios/model-settings/logical-switches.md) tab. Create a new logical switch with the following configuration:
 
 <figure><img src="../.gitbook/assets/howto-batt-alert-screen1.png" alt=""><figcaption><p>Create Logical Switch LS1 for a low voltage alert</p></figcaption></figure>
 
-* as **Function** use **a\<x**
+* **Function** use **a\<x**
 * **V1** is the telemetry sensor that you want to use for this alert. In this example we are using the RxBt telemetry sensor
 * **V2** is the voltage where you want the alarm to trigger
 * **Delay** is recommended to configure a delay so that battery sags will not will not cause the alarm to trigger
