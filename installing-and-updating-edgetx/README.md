@@ -13,7 +13,7 @@ There are several ways to install or update EdgeTX on your radio transmitter. Yo
 #### Cons
 
 * Must use a Chromium-based browser to access (Chrome, MS Edge, Brave, Opera, etc.)
-* You must have the correct SMT32 drivers installed on your computer. Usually, this is automatic. However, some computers install incorrect drivers, which can make this process more difficult.&#x20;
+* You must have the correct STM32 drivers installed on your computer. Usually, this is automatic. However, some computers install incorrect drivers, which can make this process more difficult.&#x20;
 
 ### Bootloader Method
 
