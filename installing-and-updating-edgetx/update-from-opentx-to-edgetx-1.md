@@ -22,25 +22,25 @@ Select the **Firmware version** and **Radio model** - then **Flash via USB**.
 
 <figure><img src="../.gitbook/assets/update2.png" alt=""><figcaption></figcaption></figure>
 
-On the next screen, select the **SMT32 Bootloader** device and click **Next**.
+On the next screen, select the **STM32 Bootloader** device and click **Next**.
 
 <figure><img src="../.gitbook/assets/update3.png" alt=""><figcaption></figcaption></figure>
 
 
 
-If the **SMT32 Bootloader** device is not present, then select **Add New Device**. From the pop up window, select **SMT32 Bootloader** and click **Connect.**
+If the **STM32 Bootloader** device is not present, then select **Add New Device**. From the pop up window, select **STM32 Bootloader** and click **Connect.**
 
 <figure><img src="../.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Note:** If the SMT32 BOOTLOADER is not available to select, then that usually means that there is an issue with the drivers on your computer. You can install the **ImpulseRC Driver Fixer** to fix your computer drivers. It is available to download from here: [**https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe**](https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe)
+**Note:** If the STM32 BOOTLOADER is not available to select, then that usually means that there is an issue with the drivers on your computer. You can install the **ImpulseRC Driver Fixer** to fix your computer drivers. It is available to download from here: [**https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe**](https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe)
 {% endhint %}
 
 {% hint style="info" %}
-If you cannot get your computer to detect the SMT32 BOOTLOADER, then you must use the bootloader method to update EdgeTX. Skip the remainder of this section and proceed to the [**Update SD Card Contents section**](update-from-opentx-to-edgetx-1.md#update-sd-card-contents). After updating the SD card, we will walk you through updating the firmware via the bootloader.
+If you cannot get your computer to detect the STM32 BOOTLOADER, then you must use the bootloader method to update EdgeTX. Skip the remainder of this section and proceed to the [**Update SD Card Contents section**](update-from-opentx-to-edgetx-1.md#update-sd-card-contents). After updating the SD card, we will walk you through updating the firmware via the bootloader.
 {% endhint %}
 
-After selecting the **SMT32 Bootloader** device and clicking **Next,** you will be presented with a confirmation screen to verify your settings. Once you have verified everything is correct (Version, Radio, and device) click the **Start Flashing** button.
+After selecting the **STM32 Bootloader** device and clicking **Next,** you will be presented with a confirmation screen to verify your settings. Once you have verified everything is correct (Version, Radio, and device) click the **Start Flashing** button.
 
 <figure><img src="../.gitbook/assets/update5.png" alt=""><figcaption></figcaption></figure>
 

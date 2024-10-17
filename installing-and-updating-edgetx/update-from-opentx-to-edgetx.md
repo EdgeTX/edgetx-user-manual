@@ -38,17 +38,17 @@ Select the **Firmware version** and **Radio model** - then **Flash via USB**.
 
 <figure><img src="../.gitbook/assets/update2.png" alt=""><figcaption></figcaption></figure>
 
-On the next screen, select the **SMT32 Bootloader** device and click **Next**.
+On the next screen, select the **STM32 Bootloader** device and click **Next**.
 
 <figure><img src="../.gitbook/assets/update3.png" alt=""><figcaption></figcaption></figure>
 
 
 
-If the **SMT32 Bootloader** device is not present, then select **Add New Device**. From the pop up window, select **SMT32 Bootloader** and click **Connect.**
+If the **STM32 Bootloader** device is not present, then select **Add New Device**. From the pop up window, select **STM32 Bootloader** and click **Connect.**
 
 <figure><img src="../.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
-After selecting the **SMT32 Bootloader** device and clicking **Next,** you will be presented with a confirmation screen to verify your settings. Once you have verified everything is correct (Version, Radio, and device) click the **Start Flashing** button.
+After selecting the **STM32 Bootloader** device and clicking **Next,** you will be presented with a confirmation screen to verify your settings. Once you have verified everything is correct (Version, Radio, and device) click the **Start Flashing** button.
 
 <figure><img src="../.gitbook/assets/update5.png" alt=""><figcaption></figcaption></figure>
 
