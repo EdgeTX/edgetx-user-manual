@@ -108,7 +108,7 @@ Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switch
 
 **Trim Step: -** Defines the amount of increase/decrease in trim when the trim switch is pressed.&#x20;
 
-* Course = 1.6%
+* Coarse = 1.6%
 * Medium = 0.8%
 * Fine = 0.4%
 * Extra Fine = 0.2%
