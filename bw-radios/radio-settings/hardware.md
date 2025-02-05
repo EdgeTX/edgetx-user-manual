@@ -6,10 +6,14 @@ The **Hardware** screen is where you configure hardware specific-settings for yo
 
 ### **Calibration**
 
-To calibrate your physical radio controls (sticks, pots, sliders, & 6-position switch), highlight the **\[Calibration]** option and press the **\[Enter]** button. The radio will prompt you through the calibration steps.&#x20;
+To calibrate your physical radio controls (sticks, pots, sliders & in some cases 6-position switch), highlight the **\[Calibration]** option and press the **\[Enter]** button. The radio will prompt you through the calibration steps.&#x20;
 
 {% hint style="info" %}
-For your gimbal calibration, use a left-to-right & up-to-down movement for the gimbals, not a circular movement! Additionally, use the normal amount of pressure at the endpoints. Excessive endpoint pressure will cause the gimbal to be miscalibrated. Also, do not forget to calibrate your 6-position switch!
+For your gimbal/axis calibration, use a left-to-right & up-to-down movement for the gimbals, not a circular movement! Additionally, use the normal amount of pressure at the endpoints. Excessive endpoint pressure will cause the gimbal/axis to be miscalibrated.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+If your radio has a 6 position switch (not to be confused with customisable switches - these do not need calibrating), the procedure for calibrating this is to press each button in sequence from left to right, with a one second pause between each press, when prompted to calibrate analog inputs such as gimbals/axis, pots and sliders.
 {% endhint %}
 
 ### Inputs, Sticks, Pots, and Switches Buttons List
@@ -83,15 +87,7 @@ The ADC filter is a filter for the proportional channels (sticks, pots, sliders)
 
 The debug section allows for testing and debugging of the analog controls and keys.
 
-<div>
-
-<figure><img src="../../.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>Debug Analogs screen</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>Debug Keys screen</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>Debug Analogs screen</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>Debug Keys screen</p></figcaption></figure></div>
 
 **Debug Analogs**  - These screens will show you the data for your analog controls (Sticks, Sliders, Pots, 6-position switch). There are two views - Calibrated Analogs, Raw Analogs (5 Hz).
 

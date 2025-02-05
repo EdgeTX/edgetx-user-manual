@@ -76,38 +76,22 @@ Displays a list of available auxiliary serial ports that can be configured and u
 **Calibration** - For calibrating your physical radio controls (sticks, pots, sliders, & 6-position switch). The radio will prompt you through the calibration steps.&#x20;
 
 {% hint style="info" %}
-For your gimbal calibration, use a left-to-right & up-to-down movement for the gimbals, not a circular movement! Additionally, use the normal amount of pressure at the endpoints. Excessive endpoint pressure will cause the gimbal to be miscalibrated. Also, do not forget to calibrate your 6-position switch!
+For your gimbal/axis calibration, use a left-to-right & up-to-down movement for the gimbals, not a circular movement! Additionally, use the normal amount of pressure at the endpoints. Excessive endpoint pressure will cause the gimbal/axis to be miscalibrated.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+If your radio has a 6 position switch (not to be confused with customisable switches - these do not need calibrating), the procedure for calibrating this is to press each button in sequence from left to right, with a one second pause between each press, when prompted to calibrate analog inputs such as gimbals/axis, pots and sliders.
 {% endhint %}
 
 #### Axis, Pots, and Switches Buttons
 
-<div>
-
-<figure><img src="../../.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Pots.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Pots.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure></div>
 
 Selecting one of the Axis, Pots, or Switches buttons will open the configuration screen.  On these screens, you will see all the physical radio controls pre-defined by EdgeTX.  Here you can add a 3 character label to the control as well as change the type of control as needed.  Addionally, controls listed under the Pots screen can also be configured to be inverted.
 
 ### Debug
 
-<div>
-
-<figure><img src="../../.gitbook/assets/hardware4.png" alt=""><figcaption><p>Analog Debug Screen</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/hardware4.png" alt=""><figcaption><p>Analog Debug Screen</p></figcaption></figure> <figure><img src="../../.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure></div>
 
 The debug section allows for testing and debugging of the analog controls and keys.
 
