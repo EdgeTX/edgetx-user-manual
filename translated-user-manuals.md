@@ -40,6 +40,4 @@ _Work in progress!_
 
 Credit: guys from https://fpvua.org
 
-_Work in progress!_
-
 [https://elektronik.gitbook.io/edgetx-ua](https://elektronik.gitbook.io/edgetx-ua)
