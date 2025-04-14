@@ -22,7 +22,7 @@ Selecting one of the Axis, Pots, or Switches lines from the list will allow you 
 
 ### Additional hardware configuration options
 
-<figure><img src="../../.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwhardware2 (1).png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
 
 **Batt. Calib** (Battery Calibration) - Set this value to match the transmitter battery voltage. This ensures that the displayed battery voltage is accurate.
 
