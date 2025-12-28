@@ -149,7 +149,7 @@ On surface radios (EX: MT-12), the throttle trim has no effect on the reverse th
 
 Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks below are displayed in collapsible menu.
 
-**Checklist** - When this option is selected, the model notes file will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
+**Checklist** - When this option is selected, the [model notes file](../../edgetx-how-to/model-notes-and-checklists.md) will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
 
 **C-Interact** (Interactive checklist) - This option is used with the **Checklist** option. When this option is selected, any line of text in the checklist file that begins with **=** will display as a check box when the checklist is displayed. All displayed checkboxes must be **checked** by selecting them in order to close the checklist.
 

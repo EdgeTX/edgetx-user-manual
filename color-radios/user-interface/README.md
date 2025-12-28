@@ -75,7 +75,7 @@ Touch the EdgeTX icon in the upper left corner of the screen to open the main na
 <figure><img src="../../.gitbook/assets/colorlcd_main_menu.png" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
 
 {% hint style="info" %}
-For models that have a valid model checklist file in the **Models** folder, a **Model Notes** icon is added after the **Manage Models** icon.
+For models that have a valid model checklist file in the **Models** folder, a **Model Notes** icon is added after the **Manage Models** icon. Find out more about Model Notes [here](../../edgetx-how-to/model-notes-and-checklists.md).
 {% endhint %}
 
 Pressing the roller from the main screen will also open the main navigation menu. You can then scroll using the roller to the desired menu option and select it by pressing the roller.
