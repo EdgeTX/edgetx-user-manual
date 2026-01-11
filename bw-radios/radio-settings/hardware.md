@@ -35,6 +35,10 @@ Selecting one of the Axis, Pots, or Switches lines from the list will allow you 
 
 **RTC Batt** - The current voltage of the RTC battery. The RTC (real time clock) battery keeps the radio's date and time accurate even when no main radio battery is present.
 
+{% hint style="info" %}
+To make the RTC reading more accurate, a small load is placed on the battery, which may cause the value to start to fluctuate or "jitter" on each measurement cycle. If this jitter is excessive, it may be a sign the battery nearly flat.
+{% endhint %}
+
 **Check RTC** - When enabled, checks the RTC battery at startup and warns you if the battery voltage is low.
 
 **Audio Mute** - When enabled, puts the transmitter in mute mode until a sound needs to be played. This prevents interference noise from high-powered TX modules from coming out of the transmitter speakers.&#x20;

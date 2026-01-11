@@ -17,6 +17,10 @@ The **Hardware** screen is where you configure hardware specific-settings for yo
 
 **Check RTC voltage** - When enabled, checks the RTC battery at startup and warns you if the battery voltage is low.
 
+{% hint style="info" %}
+The value at the side of the toggle is the current voltage of the RTC battery. To make the reading more accurate, a small load is placed on the battery, which may cause the value to start to fluctuate or "jitter" on each measurement cycle. If this jitter is excessive, it may be a sign the battery nearly flat.
+{% endhint %}
+
 **ADC Filter** - Enables or disables the ADC Filter. This filter can also be enabled/disabled per model in the model settings.
 
 {% hint style="info" %}
