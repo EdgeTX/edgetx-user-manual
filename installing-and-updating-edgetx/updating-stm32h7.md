@@ -1,6 +1,6 @@
 # Updating STM32H7
 
-Due to a different in design, radio transmitters using STM32H7 MCUs update differently to what you may have become familiar with on older STM32F2 and STMF4 based designs.&#x20;
+Due to a different architecture design, radio transmitters using STM32H7 MCUs update differently to what you may have become familiar with on older STM32F2 and STMF4 based designs.&#x20;
 
 There are basically two methods of flashing them at present:
 
