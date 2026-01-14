@@ -44,6 +44,12 @@ Companion can update STM32H7-based radios in one of two ways - via UF2 or DFU mo
 
 <div><figure><img src="../.gitbook/assets/Companion Write Firmware UF2.png" alt=""><figcaption><p>Flysky PA01 in Bootloader (UF2) Mode</p></figcaption></figure> <figure><img src="../.gitbook/assets/Companion Write Firmware DFU.png" alt=""><figcaption><p>RadioMaster TX15 in DFU Mode</p></figcaption></figure></div>
 
+{% hint style="info" %}
+If you flash via DFU, initially your radio screen will be blank, and then will change to indicate it is in "DFU Mode" when it is in the second stage of flashing the firmware. See below on the RadioMaster TX15.
+
+<img src="../.gitbook/assets/stm32h7_tx15_dfu1.png" alt="" data-size="original"> ![](../.gitbook/assets/stm32h7_tx15_dfu2.png)
+{% endhint %}
+
 
 
 ## Troubleshooting
