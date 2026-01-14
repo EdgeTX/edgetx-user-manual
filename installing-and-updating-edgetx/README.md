@@ -47,3 +47,7 @@ There are several ways to install or update EdgeTX on your radio transmitter. Yo
 [Update from an earlier version of EdgeTX using EdgeTX Buddy](update-from-opentx-to-edgetx-1.md)
 
 [Update from an earlier version of EdgeTX using the Bootloader](update-from-an-earlier-version-of-edgetx-using-the-bootloader.md)
+
+### Updating radios with STM32H7 MCUs
+
+The update process for STM32H7-based radios is a bit different to other radios, so the update process and options [are documented separately](updating-your-stm32h7-radio.md).

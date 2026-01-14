@@ -38,7 +38,7 @@ If the **STM32 Bootloader** device is not present, then select **Add New Device*
 <figure><img src="../.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Note:** If the STM32 BOOTLOADER is not available to select, then that usually means that there is an issue with the drivers on your computer. You can install the **ImpulseRC Driver Fixer** to fix your computer drivers. It is available to download from here: [**https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe**](https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe)
+**Note:** If the STM32 BOOTLOADER is not available to select, then that usually means that there is an issue with the drivers on your computer. You can install the [**ImpulseRC Driver Fixer**](https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe) to fix your computer drivers.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
