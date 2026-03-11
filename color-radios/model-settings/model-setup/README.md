@@ -32,7 +32,16 @@ To avoid performance issues, the model image size should not exceed 192 x 114 pi
 [https://www.skyraccoon.com/](https://www.skyraccoon.com/) has a large repository of free image files that can be used with EdgeTX.
 {% endhint %}
 
-{% hint style="info" %}
-RF Modules, Trainer and Timers that are enabled will show as highlighted on the Model Setup screen.
-{% endhint %}
+\
+There are then buttons for the different settings pages:\
+\- [RF Modules](internal-external-rf.md)\
+\- [Trainer](trainer.md)\
+\- [Timer 1/2/3](timer-1-2-3.md) (enabled timers will show as highlighted)\
+\- [Pre Start Checks](preflight-checks.md)\
+\- [Trims](trims.md)\
+\- [Throttle](throttle.md)\
+\- [Enabled features](enabled-features.md)\
+\- [USB Joystick](usb-joystick.md)\
+\- [Other](other.md)\
+\- [Heli](heli-setup.md) (when enabled)
 
