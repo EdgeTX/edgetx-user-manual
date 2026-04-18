@@ -27,6 +27,10 @@ Pressing **\[Enter]** on an occupied model slot that is not the active model (no
 * **Move Model** - This option allows you to move the selected model to a different model slot.
 * **Delete Model** - This option deletes the selected model.
 
+{% hint style="info" %}
+If you have [Model quick select](../radio-settings/radio-setup.md#misc-settings) enabled, selecting a model that is active will take you to the main view after the model has been loaded, rather than remain at the Model Select screen.
+{% endhint %}
+
 Pressing **\[Enter]** on an occupied model slot that is the active model (marked with an asterix **\***) will give you the following options:
 
 * **Move Model** - This option allows you to move the selected model to a different model slot.

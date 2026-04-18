@@ -120,6 +120,8 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Power ON/OFF Haptic** - If enabled (enabled by default), after the power on and power off delays have been served, there will be a haptic vibration to indicate the radio is powering on or off.&#x20;
 
+**Model quick select** - If enabled (disabled by default), when selecting a model at the [Model Select](../model-select/#model-select) screen, you will be taken back to the main view after the model has been loaded, rather than remain at the selection menu.
+
 **Owner ID** (select transmitters) -  Custom registration ID used only for users with ISRM internal RF modules, or on transmitters that support FrSky ACCESS external modules. If not configured manually, a random value will be used.
 
 <figure><img src="../../.gitbook/assets/bw128_radio_setup_gps.png" alt=""><figcaption><p>GPS Settings</p></figcaption></figure>
