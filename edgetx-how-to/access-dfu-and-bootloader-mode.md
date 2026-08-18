@@ -143,7 +143,7 @@ Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpic
 
 **DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio.
 
-### RadioMaster  TX15 / TX16S MK3
+### RadioMaster  TX15 / TX16S MK3 / GX15
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
 
