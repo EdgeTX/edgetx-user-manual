@@ -15,9 +15,17 @@ Below are the possibile configuration options:
 * **Slave / Jack** - Slave mode using a cable connection.
   * **Channel Range** - This is the range of channels that will be sent to the radio in Master mode. Channel 10 is the recommended last channel to use.
   * **PPM Frame** - The first field is the length of the PPM frame. The second field is the stop length/delay between pulses. The dropdown is to select the polarity of the signal. The frame length is automatically adjusted to the correct value when the number of transmitted channels is changed. However, this automatically assigned value can be manual changed. _**Note**: In most cases, the default setting does_ not _need to be changed._
+* **Master / SBUS Module** - Master mode receiving an SBUS signal via the external module bay, for use when no Multi-protocol module is fitted there.
+* **Master / CPPM Module** - Master mode receiving a CPPM signal via the external module bay.
+* **Master / Serial** - Master mode receiving the trainer signal over an auxiliary serial port configured for SBUS trainer input in Hardware settings.
 * **Master / Bluetooth** - Master mode using a Bluetooth connection (if installed in radio).
 * **Slave / Bluetooth** - Slave mode using a Bluetooth connection (if installed in radio).
 * **Master / Multi** - Master mode using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
+* **Master / CRSF** - Master mode receiving the trainer signal via a Crossfire (CRSF) capable module.
+
+{% hint style="info" %}
+The options available will vary depending on the radio's hardware capabilities and its current module/hardware configuration. Some options are mutually exclusive - for example, an external module bay or serial port already used for something else (such as an RF module or another peripheral) will not offer the corresponding trainer mode.
+{% endhint %}
 
 {% hint style="info" %}
 Further configuration settings for trainer mode can be found under radio settings, [trainer.md](../../radio-settings/trainer.md "mention")
