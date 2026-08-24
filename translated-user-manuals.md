@@ -33,3 +33,9 @@ Credit: Roberto Domingues
 _Work in progress!_
 
 [https://robertomirax.gitbook.io/untitled/](https://robertomirax.gitbook.io/untitled/)
+
+### Ukrainian / Українська
+
+Credit: guys from [https://fpvua.org](https://fpvua.org)
+
+[https://elektronik.gitbook.io/edgetx-ua](https://elektronik.gitbook.io/edgetx-ua)
