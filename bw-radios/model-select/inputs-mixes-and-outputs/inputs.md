@@ -7,7 +7,7 @@ metaLinks:
 
 # Inputs
 
-The **Inputs** screen is where you map your physical radio controls (for example: sticks, sliders, and pots) to a software input to be used by the radio.  After the control has been mapped, it is then possible to apply modifiers to the inputs, such as a weight, offset or curve, which will then be applied anywhere that input is used. Although it is possible to also assign switches as inputs, it is normally not needed as switch outputs seldomly need to be modified by a weight, offset or curve. By default, EdgeTX will automatically map your controller sticks to Aileron, Elevator, Throttle, Rudder based on the default channel order defined in **Radio Setup**.
+The **Inputs** screen is where you map your physical radio controls (for example: sticks, sliders, and pots) to a software input to be used by the radio.  After the control has been mapped, it is then possible to apply modifiers to the inputs, such as a weight, offset or curve, which will then be applied anywhere that input is used. Although it is possible to also assign switches as inputs, it is normally not needed as switch outputs seldom need to be modified by a weight, offset or curve. By default, EdgeTX will automatically map your controller sticks to Aileron, Elevator, Throttle, Rudder based on the default channel order defined in **Radio Setup**.
 
 {% hint style="info" %}
 Your input channels may default to a different order based on the settings defined in **Radio Setup**.

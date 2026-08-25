@@ -8,7 +8,7 @@ metaLinks:
 
 The main view is the default view normally used during radio operation. This view displays information such as the model name, trim positions, transmitter battery voltage, flight mode, receiver signal strength, and Timers. A clock is also displayed in the center of the lower portion of all screens. There are five main view screens.
 
-<div><figure><img src="../../.gitbook/assets/bwview1.png" alt=""><figcaption><p>Screen 1</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bwview2.png" alt=""><figcaption><p>Screen 2</p></figcaption></figure> <figure><img src="../../.gitbook/assets/BWScreen6 (1).png" alt=""><figcaption><p>Screen 2 (Surafce Radios)</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/bwview1.png" alt=""><figcaption><p>Screen 1</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bwview2.png" alt=""><figcaption><p>Screen 2</p></figcaption></figure> <figure><img src="../../.gitbook/assets/BWScreen6 (1).png" alt=""><figcaption><p>Screen 2 (Surface Radios)</p></figcaption></figure></div>
 
 <div><figure><img src="../../.gitbook/assets/bwview3.png" alt=""><figcaption><p>Screen 3</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bwview4.png" alt=""><figcaption><p>Screen 4</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bwview5.png" alt=""><figcaption><p>Screen 5</p></figcaption></figure></div>
 

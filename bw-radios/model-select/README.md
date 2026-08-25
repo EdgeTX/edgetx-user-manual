@@ -19,7 +19,7 @@ Pressing **\[Enter]** on an empty model slot will give you the following options
 * **Create Model** - This option creates a new model with the default configuration options.
 * **Restore Model** - This option creates a new copy of a selected model that has been previously backed up.
 
-Pressing **\[Enter]** on an occupied model slot that is not the active model (not marked with an asterix **\***) will give you the following options:
+Pressing **\[Enter]** on an occupied model slot that is not the active model (not marked with an asterisk **\***) will give you the following options:
 
 * **Select Model** - this option selects this model as the active model.
 * **Backup Model** - This option makes a copy of the model in the **Backup** folder on the SD Card.
@@ -31,7 +31,7 @@ Pressing **\[Enter]** on an occupied model slot that is not the active model (no
 If you have [Model quick select](../radio-settings/radio-setup.md#misc-settings) enabled, selecting a model that is active will take you to the main view after the model has been loaded, rather than remain at the Model Select screen.
 {% endhint %}
 
-Pressing **\[Enter]** on an occupied model slot that is the active model (marked with an asterix **\***) will give you the following options:
+Pressing **\[Enter]** on an occupied model slot that is the active model (marked with an asterisk **\***) will give you the following options:
 
 * **Move Model** - This option allows you to move the selected model to a different model slot.
 * **Copy Model** - This option makes an exact copy of the model and allows you to select which model slot it will be placed in.

@@ -31,7 +31,7 @@ Place the firmware files that you want to flash in this folder. This folder is e
 
 Place your custom model or splash screen image files in this folder. This folder is empty by default (except for the readme.txt file). Selecting an image file will give you the option to **Assign Bitmap**, which assigns the selected image file as the model image of the currently selected model.
 
-The ideal image size for _model images_ used for thumbnails on the **Model Manager** screen is 156x92 pixels. If you plan to use the _**Model Info**_ widget, you may want a increase the image size to 192x114 pixels for better visual quality at the increased size. For performance reasons, it is NOT recommeded to use a higher resolution image. The picture format should be .png. The image file name should not exceed 9 characters.&#x20;
+The ideal image size for _model images_ used for thumbnails on the **Model Manager** screen is 156x92 pixels. If you plan to use the _**Model Info**_ widget, you may want a increase the image size to 192x114 pixels for better visual quality at the increased size. For performance reasons, it is NOT recommended to use a higher resolution image. The picture format should be .png. The image file name should not exceed 9 characters.&#x20;
 
 The ideal image size for _Splash Screen images_ is the actual radio screen size (480x272 pixels for most color screen radios). The picture format should be .png. The image file name must be splash.png.  Screen dimensions for the supported color screen radios can be found [here](https://github.com/EdgeTX/edgetx-sdcard).  &#x20;
 

@@ -14,7 +14,7 @@ The USB Joystick has two possible modes, **Classic** and **Advanced**.
 In **Classic mode**, the radio's configured output channels will be sent to the target device in numerical order and mapped to the device's preconfigured USB controller axes and buttons. Below is the default channel mapping for Microsoft Windows.
 
 {% hint style="info" %}
-If using the radio as a USB Joysitck, both internal and external RF modules should be turned off. When configured as such, the mixer will run at 1000Hz when in Joystick mode (which is needed for F.Sim competitors). Additinally, it also displays mixer run time in statistic/debug screen. This will result in increased performance when connected to a computer via USB.
+If using the radio as a USB Joystick, both internal and external RF modules should be turned off. When configured as such, the mixer will run at 1000Hz when in Joystick mode (which is needed for F.Sim competitors). Additionally, it also displays mixer run time in statistic/debug screen. This will result in increased performance when connected to a computer via USB.
 {% endhint %}
 
 * Ch1 - X Axis
@@ -55,8 +55,8 @@ Changes made on this page do not take effect immediately - an **Apply Changes** 
 
 * **Inversion** - Inverts the output channel signal. Options are: **On** / **Off**
 * **Button Mode** -
-  * **Normal** - Each postion of a multiposition switch is represented by a button. The current switch state is represented by a continous button press.
-  * **Pulse** - Similar to "Normal" mode. However, instead of continous button press it is represented by a short button press.
+  * **Normal** - Each position of a multiposition switch is represented by a button. The current switch state is represented by a continuous button press.
+  * **Pulse** - Similar to "Normal" mode. However, instead of continuous button press it is represented by a short button press.
   * **SWEmu** - The toggle switch emulations a push button. The first press turns the virtual button on, the second press turns it off.
   * **Delta** - The change of the output channel is represented by 2 buttons. While the output value is decreasing, the first button is pressed. When the output value is increasing, the second button is pressed. If there is no change, then no buttons will be pressed.
   * **Companion** - This option should be selected when using your transmitter to control the simulator in EdgeTX Companion.  It allows the multi-position switches to function properly in the simulator.

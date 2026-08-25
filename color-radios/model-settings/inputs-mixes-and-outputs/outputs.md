@@ -10,7 +10,7 @@ metaLinks:
 The **Outputs** screen of **Model Settings** is where final adjustments to the control data are made (including subtrims, curves, endpoint, and center values) before finally sending the control data to the RF module. This is where the channel center, limits (to prevent servo binding) and output direction are set.&#x20;
 
 {% hint style="info" %}
-A **Trim** is a temporary adjustment to a flight control normally done while in operation with a trim switch. A **Subtrim** is a semi-permanant adjustment to a flight control that is normally configured when setting up the model in the output settings.&#x20;
+A **Trim** is a temporary adjustment to a flight control normally done while in operation with a trim switch. A **Subtrim** is a semi-permanent adjustment to a flight control that is normally configured when setting up the model in the output settings.&#x20;
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/color_model_output.png" alt=""><figcaption><p>Outputs screen</p></figcaption></figure>

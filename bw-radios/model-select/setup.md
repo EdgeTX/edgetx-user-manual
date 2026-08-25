@@ -207,7 +207,7 @@ If using the radio in gamepad mode, both internal and external RF modules should
 
 **Slave mode** - This is the mode for the radio that will pass it's CPPM values to the radio in _**Master mode,**_ which are then sent to the model.
 
-Below are the possibile configuration options:
+Below are the possible configuration options:
 
 * **OFF** - Trainer mode is not used for this model.
 * **Master/Jack** - Master mode using a cable connection.
@@ -287,8 +287,8 @@ In **Advanced mode** you can configure the following additional options:
 * **Btn** - Channel is used to simulate a button. Configuration options include:
   * **Inversion** - Inverts the output channel signal. Options are: **On** / **Off**
   * **Button Mode** -
-    * **Normal** - Each postion of a multiposition switch is represented by a button. The current switch state is represented by a continous button press.
-      * **Pulse** - Similar to "Normal" mode. However, instead of continous button press it is represented by a short button press.
+    * **Normal** - Each position of a multiposition switch is represented by a button. The current switch state is represented by a continuous button press.
+      * **Pulse** - Similar to "Normal" mode. However, instead of continuous button press it is represented by a short button press.
       * **SWEmu** - The toggle switch emulations a push button. The first press turns the virtual button on, the second press turns it off.
       * **Delta** - The change of the output channel is represented by 2 buttons. While the output value is decreasing, the first button is pressed. When the output value is increasing, the second button is pressed. If there is no change, then no buttons will be pressed.
       * **Companion** - This option should be selected when using your transmitter to control the simulator in EdgeTX Companion.  It allows the multi-position switches to function properly in the simulator.

@@ -1,10 +1,10 @@
 ---
 metaLinks:
   alternates:
-    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/user-inteface
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/user-interface
 ---
 
-# User Inteface
+# User Interface
 
 <figure><img src="../.gitbook/assets/bwUserinterface.png" alt="" width="375"><figcaption><p>Common buttons user for radio menu navigation (e.g. RM Zorro)</p></figcaption></figure>
 

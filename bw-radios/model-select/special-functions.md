@@ -34,7 +34,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
   * **Global Var** - Sets the specified global variable to the defined global variable value.
   * **Inc/Decrement** - Increments/decrements the specified global variable by the specified amount.
 
-**Audio Amp Off** (select radios) - Disables the Audio Amplifier so that no sound comes from the speaker, including annoying feedback or interferance. This option is only available on select radios.
+**Audio Amp Off** (select radios) - Disables the Audio Amplifier so that no sound comes from the speaker, including annoying feedback or interference. This option is only available on select radios.
 
 **Backlight** - adjusts the screen contrast (LED screens) or OLED brightness (OLED screens) based on the source defined in the value dropdown.
 

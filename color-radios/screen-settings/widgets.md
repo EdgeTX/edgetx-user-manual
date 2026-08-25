@@ -22,7 +22,7 @@ Displays a graphical representation of the charge level of a Lipo/Li-ion. It wil
 * **Sensor** - Sensor for the battery voltage to use.
 * **Color** - Opens the color picker to choose the color for the text.
 * **Show\_Total\_Voltage** - Shows total battery voltage (instead of calculated cell voltage) when enabled.
-* **Lithium\_Ion** - Adjusts the minumum battery voltage used in calculating the remaining battery percentage from 3.0 to 2.8 when enabled.
+* **Lithium\_Ion** - Adjusts the minimum battery voltage used in calculating the remaining battery percentage from 3.0 to 2.8 when enabled.
 
 ### BattCheck
 

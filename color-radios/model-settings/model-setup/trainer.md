@@ -15,7 +15,7 @@ The **Trainer** screen is where you can configure the CPPM passthrough mode and 
 
 **Slave mode** - This is the mode for the radio that will pass it's CPPM values to the radio in _**Master mode,**_ which are then sent to the model.
 
-Below are the possibile configuration options:
+Below are the possible configuration options:
 
 * **Off** - Trainer mode is not used for this model.&#x20;
 * **Master / Jack** - Master mode using a cable connection.

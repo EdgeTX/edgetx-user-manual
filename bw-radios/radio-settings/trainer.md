@@ -9,7 +9,7 @@ metaLinks:
 
 The **Trainer** screen in Radio Settings is used to configure how the radio in Master mode will handle the signals from the radio in Slave mode. It contains the below configuration options.&#x20;
 
-<figure><img src="../../.gitbook/assets/bwtrainer.png" alt=""><figcaption><p>Trainer Ccreen in Radio Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bwtrainer.png" alt=""><figcaption><p>Trainer Screen in Radio Settings</p></figcaption></figure>
 
 For each of the four main control inputs (Ail, Ele, Thr, Rud), the following options can be configured (for each row, from left to right).
 

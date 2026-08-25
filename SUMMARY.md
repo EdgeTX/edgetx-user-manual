@@ -56,7 +56,7 @@
   * [Reset Telemetry](color-radios/reset-telemetry.md)
   * [Statistics](color-radios/statistics.md)
 * [User Manual for Monochrome Screen Radios](bw-radios/README.md)
-  * [User Inteface](bw-radios/user-inteface.md)
+  * [User Interface](bw-radios/user-interface.md)
   * [Main View](bw-radios/main-view/README.md)
     * [Reset](bw-radios/main-view/reset.md)
     * [Statistics](bw-radios/main-view/statistics.md)

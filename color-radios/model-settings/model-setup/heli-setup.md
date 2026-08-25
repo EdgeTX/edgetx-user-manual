@@ -7,7 +7,7 @@ metaLinks:
 
 # Heli Setup
 
-The **Heli Setup** page is often used for collective pitch mixing (CCPM) used in flybared helicopters where the receiver directly controls the swashplate servos. Most flybarless helicopters do not need to configure this page. The outputs of the CCPM mixer are CYC1, CYC2, and CYC3, which need to be assigned to an output channel on the Mixes screen.
+The **Heli Setup** page is often used for collective pitch mixing (CCPM) used in flybarred helicopters where the receiver directly controls the swashplate servos. Most flybarless helicopters do not need to configure this page. The outputs of the CCPM mixer are CYC1, CYC2, and CYC3, which need to be assigned to an output channel on the Mixes screen.
 
 <figure><img src="../../../.gitbook/assets/screenshot_tx16s_25-12-15_15-23-55.png" alt=""><figcaption><p>Heli Setup page</p></figcaption></figure>
 

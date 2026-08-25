@@ -7,7 +7,7 @@ metaLinks:
 
 # Inputs
 
-The **Inputs** screen of Model Settings is where you map your physical radio controls (for example: sticks, sliders, and pots) to a software input to be used by the radio. After the control has been mapped it is then possible to apply modifiers to the inputs such as a weight, offset or curve which will then be applied anywhere that input is used. Although it is possible to also assign switches as inputs, it is normally not needed as switch outputs seldomly need to be modified by a weight, offset or curve. By default, EdgeTX will automatically map your contoller sticks to Aileron, Elevator, Throttle, Rudder based on the default channel order defined in [Radio Setup.](../../radio-settings/radio-settings/)
+The **Inputs** screen of Model Settings is where you map your physical radio controls (for example: sticks, sliders, and pots) to a software input to be used by the radio. After the control has been mapped it is then possible to apply modifiers to the inputs such as a weight, offset or curve which will then be applied anywhere that input is used. Although it is possible to also assign switches as inputs, it is normally not needed as switch outputs seldom need to be modified by a weight, offset or curve. By default, EdgeTX will automatically map your controller sticks to Aileron, Elevator, Throttle, Rudder based on the default channel order defined in [Radio Setup.](../../radio-settings/radio-settings/)
 
 {% hint style="info" %}
 Your input channels may default to a different order based on the settings defined in [Radio Setup](../../radio-settings/radio-settings/).
@@ -34,7 +34,7 @@ Selecting the **+** **button** will show you a list of available inputs that can
 
 ### Input configuration page
 
-The input configuration page allows you to edit the input configuation parameters. To the right of the configuration parameters, you can see a live graph that shows how your configuration options will affect the slope of the input.
+The input configuration page allows you to edit the input configuration parameters. To the right of the configuration parameters, you can see a live graph that shows how your configuration options will affect the slope of the input.
 
 * **Input Name** - Name for the input. Four character are possible.
 * **Line Name** - Name of the individual line in the input. Multiple physical inputs can be mapped to one input by adding an additional input line under the input.

@@ -7,7 +7,7 @@ metaLinks:
 
 # Telemetry
 
-Telemetry is data received from the model to the radio from various sensors. These sensors may be included in the radio receiver or flight controller or may be separate sensors, such as GPS, variometer, or magnetometer. The received telemerty data can be displayed by EdgeTX in widgets, configured in alarms or audio call-outs.
+Telemetry is data received from the model to the radio from various sensors. These sensors may be included in the radio receiver or flight controller or may be separate sensors, such as GPS, variometer, or magnetometer. The received telemetry data can be displayed by EdgeTX in widgets, configured in alarms or audio call-outs.
 
 The Telemetry screen is where you configure these sensors to use in EdgeTX.  Below are the following configuration options:
 
@@ -21,7 +21,7 @@ All previously configured sensors are listed here. The list is collapsible by cl
 
 The following options are listed under the sensor list.
 
-* **Discover New:** When selected, it will look for new sensors on the model and automatically configure them. If the sensor list is collapsed when a new sensor is discovered, the newly found sensor will be visible on the sensor list (old sensors will remain collapesd/hidden).
+* **Discover New:** When selected, it will look for new sensors on the model and automatically configure them. If the sensor list is collapsed when a new sensor is discovered, the newly found sensor will be visible on the sensor list (old sensors will remain collapsed/hidden).
 * **Add New:** When selected, it will create a new blank sensor for that must be configured manually.&#x20;
 * **Delete All:** This option will delete all previously configured sensors.
 * **No inst.** (ignore instances)**:** This option prevents multiple sensors from reporting the same telemetry data.
