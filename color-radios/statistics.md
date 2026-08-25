@@ -21,6 +21,7 @@ The **Statistics** screen presents you with statistics regarding radio usage. Ex
 The debug screen provides data points used by the developers when debugging issues in the software. Most users will not find the information useful on this screen unless debugging issues with developers. The following debug information is provided.
 
 * **TMix max** - Maximum mixer task duration.
+* **Period** - The mixer scheduler's configured period.
 * **Free mem** - Current free radio memory in bytes.
 * **Lua scripts**&#x20;
   * **Duration(ms) -** Maximum Lua duration in milliseconds.
@@ -32,4 +33,5 @@ The debug screen provides data points used by the developers when debugging issu
   * **\[Menu]** - Minimum free stack memory for menu tasks.
   * **\[Mix]** - Minimum free stack memory for mixer tasks.
   * **\[Audio]** - Minimum free stack memory for audio tasks.
+* **Internal GPS** (select radios) - Shown on radios with a built-in GPS chip (e.g. Horus X10/T15/T16/TX16S/T18, TX15, TX16S Mk3) when a serial port is set to the **GPS** mode. Displays GPS fix status, satellite count, and HDOP.
 

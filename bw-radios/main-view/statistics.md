@@ -12,8 +12,10 @@ metaLinks:
 The **Statistics** screen presents you with statistics regarding radio usage. All data is reset once the radio is powered off. The following information is provided:
 
 * **SES** - The amount of time that the radio has been turned on.&#x20;
+* **TOT** - The total accumulated time the radio has been turned on, across all sessions (not reset when the radio is powered off).
 * **THR** - The amount of time that the throttle has been above the 0% stick position.
 * **TH%** - The amount of time that the throttle has been above the 50% stick position.
+* **TM1 / TM2 / TM3** - The current values of Timer 1, Timer 2, Timer 3.
 
 Long pressing the **\[Roller]** or **\[Dial]** button will reset the Statistics and Debug screens.
 
