@@ -15,6 +15,10 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Time** - The current time. This time is used for the SD card log files.
 
+**One log per day** - When enabled, only one SD card log file is created per day for a given model, rather than a new file each time logging is started.
+
+**Lock keys (select radios)** - When enabled, holding the two keys named in the option's label together (e.g. "Lock keys (SYS+MDL)") locks the radio's keys. The specific key combo shown varies by radio model. Only available on radios with a suitable layout or sufficient hardware keys.
+
 **Batt. range** - Sets the maximum and minimum voltage for the battery meter. This should be set based on the type of battery you are using.
 
 

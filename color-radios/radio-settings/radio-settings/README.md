@@ -17,6 +17,10 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Additional Settings Buttons** - Additional configuration options for the named areas are available when selecting these buttons.  More information about these configuration settings is on the next page - [Additional Radio Settings](additional-radio-settings.md)
 
+**Lock keys (select radios)** - When enabled, holding the two keys named in the option's label together (e.g. "Lock keys (SYS+MDL)") locks the radio's keys. The specific key combo shown varies by radio model. Only available on radios with a suitable layout or sufficient hardware keys.
+
+**One log per day** - When enabled, only one SD card log file is created per day for a given model, rather than a new file each time logging is started.
+
 **Splash Screen** - Duration that the splash screen will be displayed.
 
 **Startup Sound** - Toggles whether to enable/disable startup sound.
