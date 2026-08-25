@@ -15,6 +15,7 @@ Selecting a global variable from the global variable screen will give you the fo
 
 * **Edit** - Opens the global variable configuration screen for the selected global variable.
 * **Clear** - Clears the global variable values for all flight modes for the selected global variable.
+* **Reset** - Sets all flight modes to inherit the value from Flight Mode 0 (FM0), and resets FM0's own value to 0.
 
 <figure><img src="../../.gitbook/assets/GVE.png" alt=""><figcaption><p>Global Variable configuration screen.</p></figcaption></figure>
 

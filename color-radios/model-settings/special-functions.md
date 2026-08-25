@@ -22,7 +22,7 @@ Selecting an already configured special function will give you the following opt
 * **Clear** - Clears all configured options from the selected special function.
 * **Delete** - Deletes the selected special function.
 * **Enable** - Enables special function
-* **Disable** - Disables special function&#x20;
+* **Disable** - Disables special function
 
 ### Configuring Special Functions
 
@@ -98,7 +98,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 
 **Reset** (Reset Timer)- Resets the timer or telemetry specified in the value back to their initial values.
 
-* **Reset** - Options are **Timer 1, Timer 2, Timer 3, Flight,** and **Telemetry.** See[ **Reset Telemetry**](../reset-telemetry.md) for more information on what data is reset for each option.
+* **Reset** - Options are **Timer 1, Timer 2, Timer 3, Flight, Telemetry,** and **Trims** (resets all trims to zero). See[ **Reset Telemetry**](../reset-telemetry.md) for more information on what data is reset for each option.
 
 **RGB Led** (select radios) - Runs the selected LED-related Lua script to animate the RGB LEDs on the handset. Only available on radios with an addressable RGB LED strip (e.g. GX15, C14, ST16, PL18(U), T22, T15/T15 Pro, TX15, PA01, V12, TX16S Mk3).
 
@@ -107,12 +107,12 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 
 **Screenshot** -  Creates screenshot as a .bmp file in the SCREENSHOT folder on the SD Card.
 
-**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Interval** setting.  The value options are **0.1s** - **25.5s.** Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting. **Note:** Logging will not start if SD card has less than 50mb of free space.&#x20;
+**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Interval** setting.  The value options are **0.1s** - **25.5s.** Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting. **Note:** Logging will not start if SD card has less than 50mb of free space.
 
 **Set** (Set Timer) - Sets the specified timer to the specified value.
 
 * **Timer** - Options are **Timer 1, Timer 2, Timer 3**
-* **Value** - The range is 00:00:00 to 08:59:59&#x20;
+* **Value** - The range is 00:00:00 to 08:59:59
 
 **SetFailsafe** - Sets the custom failsafe values for the selected module (Internal/External) to the current stick position when activated. For this option to work, the Failsafe mode for the RF module must be set to **custom**.
 
@@ -123,7 +123,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 
 **Trainer -** Enables trainer mode.
 
-* **Value** - Specifies which controls will be given over to the student. Options include **Axis** (all sticks / primary controls), **Rud** (Rudder), **Ele** (Elevator), **Thr** (Throttle), **Ail** (Aileron), and **Chans** (all channels).&#x20;
+* **Value** - Specifies which controls will be given over to the student. Options include **Axis** (all sticks / primary controls), **Rud** (Rudder), **Ele** (Elevator), **Thr** (Throttle), **Ail** (Aileron), and **Chans** (all channels).
 
 **Vario** - Enables the variometer beeping sound for the ascent and descent of the model.
 

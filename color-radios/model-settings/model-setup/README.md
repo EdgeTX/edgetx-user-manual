@@ -39,6 +39,7 @@ There are then buttons for the different settings pages:\
 \- [Timer 1/2/3](timer-1-2-3.md) (enabled timers will show as highlighted)\
 \- [Pre Start Checks](preflight-checks.md)\
 \- [Trims](trims.md)\
+\- [Customizable Switches](customizable-switches.md) (select radios)\
 \- [Throttle](throttle.md)\
 \- [Enabled features](enabled-features.md)\
 \- [USB Joystick](usb-joystick.md)\

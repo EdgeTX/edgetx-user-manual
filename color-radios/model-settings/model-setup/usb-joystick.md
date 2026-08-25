@@ -7,14 +7,14 @@ metaLinks:
 
 # USB Joystick
 
-The USB Joystick has two possible modes, **Classic** and **Advanced**.&#x20;
+The USB Joystick has two possible modes, **Classic** and **Advanced**.
 
 <figure><img src="../../../.gitbook/assets/usbjoystick1.png" alt=""><figcaption><p>USB Joystick Classic mode</p></figcaption></figure>
 
 In **Classic mode**, the radio's configured output channels will be sent to the target device in numerical order and mapped to the device's preconfigured USB controller axes and buttons. Below is the default channel mapping for Microsoft Windows.
 
 {% hint style="info" %}
-If using the radio as a USB Joysitck, both internal and external RF modules should be turned off. When configured as such, the mixer will run at 1000Hz when in Joystick mode (which is needed for F.Sim competitors). Additinally, it also displays mixer run time in statistic/debug screen. This will result in increased performance when connected to a computer via USB.&#x20;
+If using the radio as a USB Joysitck, both internal and external RF modules should be turned off. When configured as such, the mixer will run at 1000Hz when in Joystick mode (which is needed for F.Sim competitors). Additinally, it also displays mixer run time in statistic/debug screen. This will result in increased performance when connected to a computer via USB.
 {% endhint %}
 
 * Ch1 - X Axis
@@ -35,7 +35,7 @@ In **Advanced mode** you can configure the following options:
 Changes made on this page do not take effect immediately - an **Apply Changes** button appears (enabled once you have unsaved changes) and must be pressed to apply them.
 {% endhint %}
 
-**Interface mode:** This indicates to the target device (the device you are connecting your transmitter to) what type of device you are connecting. The options are **Joystick**, **Gamepad**, **MultiAxis.** &#x20;
+**Interface mode:** This indicates to the target device (the device you are connecting your transmitter to) what type of device you are connecting. The options are **Joystick**, **Gamepad**, **MultiAxis.** 
 
 {% hint style="info" %}
 **Note:** Currently there is a limitation in MS Windows that may limit your transmitter to being only detected as a Joystick, regardless of what is selected in this option. In MacOS, Linux and Andriod this functions properly.
@@ -60,7 +60,7 @@ Changes made on this page do not take effect immediately - an **Apply Changes** 
   * **SWEmu** - The toggle switch emulations a push button. The first press turns the virtual button on, the second press turns it off.
   * **Delta** - The change of the output channel is represented by 2 buttons. While the output value is decreasing, the first button is pressed. When the output value is increasing, the second button is pressed. If there is no change, then no buttons will be pressed.
   * **Companion** - This option should be selected when using your transmitter to control the simulator in EdgeTX Companion.  It allows the multi-position switches to function properly in the simulator.
-* **Positions** - The type of button that will be simulated.&#x20;
+* **Positions** - The type of button that will be simulated.
   * **Push -** will only map to one button
   * **2POS - 8 POS** - will map to the number of buttons that the switch has (ex: 3POS will map to 3 buttons).
 * **Button No:** The button number that the output will be mapped to and sent to the target device as.

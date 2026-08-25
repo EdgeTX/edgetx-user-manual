@@ -13,17 +13,17 @@ Telemetry is data received from the model to the radio from various sensors. The
 
 ### **Sensors**
 
-All prevously configured sensors are listed here. Sensors that are highlighted have received data since the model was loaded or the telemetry values were reset. A small circle icon will flash to the left of the sensor value when it has received a data update. Sensor values in black designate the sensors that are receiving regular updates. Sensor values that are red are no longer receiving regular updates. See [Recognized Sensors](../../../bw-radios/model-select/telemetry/common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
+All previously configured sensors are listed here. Sensors that are highlighted have received data since the model was loaded or the telemetry values were reset. A small circle icon will flash to the left of the sensor value when it has received a data update. Sensor values in black designate the sensors that are receiving regular updates. Sensor values that are red are no longer receiving regular updates. See [Recognized Sensors](../../../bw-radios/model-select/telemetry/common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
 
 The following options are listed under the sensor list.
 
-* **Discover New:** When selected, it will look for new sensors on the model and automatically configure them.&#x20;
-* **Add New:** When selected, it will create a new blank sensor for that must be configured manually.&#x20;
-* **Delete All:** This option will delete all prevously configured sensors. _**Note**_: _This button will not be visible if there are no sensors configured._
-* **Show instance ID:**
-* **Ignore Instances:** This options prevents mutltiple sensors from reporting the same telemetry data.
+* **Discover New:** When selected, it will look for new sensors on the model and automatically configure them.
+* **Add New:** When selected, it will create a new blank sensor for that must be configured manually.
+* **Delete All:** This option will delete all previously configured sensors. _**Note**_: _This button will not be visible if there are no sensors configured._
+* **Show instance ID:** When enabled, each sensor's instance ID number is shown alongside it in the sensor list - useful for telling apart multiple sensors of the same type.
+* **Ignore Instances:** This options prevents multiple sensors from reporting the same telemetry data.
 
-If you select a specific sensor, you will get the following options:&#x20;
+If you select a specific sensor, you will get the following options:
 
 * **Edit**: Allows you to edit the sensor's configuration options.
 * **Copy**: Creates a copy of that sensor.
@@ -35,8 +35,8 @@ See the [Sensor Configuration Options](sensor-configuration-options.md) page for
 
 Here you can configure the threshold for the RX alarms. The Rx-Stats label will change (Rx-Stats, RSSI, Rqly, Sgnl) depending on the protocol that is used with the model.
 
-* **Low alarm** - The threshhold value when the "RF signal low" voice prompt will be played. The recommended value is 45.
-* **Critical alarm** - The threshhold value when the "RF signal critical" voice prompt will be played. The recommended value is 42.
+* **Low alarm** - The threshold value when the "RF signal low" voice prompt will be played. The recommended value is 45.
+* **Critical alarm** - The threshold value when the "RF signal critical" voice prompt will be played. The recommended value is 42.
 * **Disable telemetry alarms** - When enabled, no alarm voice prompts will be played.
 
 ### **Variometer**

@@ -13,11 +13,11 @@ The below options can be configured for sensors:
 
 * **Name:** Name of the sensor - up to 4 characters.
 * **Type:** Options are **custom** or **calculated**. Custom sensors are defined by the hardware. Calculated sensors are a sensors whose value is calculated using other sensors values. See below for more information on calculated sensors.
-* **ID:** This number indicates what type of sensore it is. It contains two parts. The first part is the ID number which defines the sensor type. The second part is the instance number for the hardware. If multiple sensors of the same type are configures, the instance numbers must be unique.
+* **ID:** This number indicates what type of sensor it is. It contains two parts. The first part is the ID number which defines the sensor type. The second part is the instance number for the hardware. If multiple sensors of the same type are configured, the instance numbers must be unique.
 * **Unit:** The unit for the sensor. This unit is used when the sensor value is displayed on the screen or read aloud.
-* **Precison:** Specifies the number of digits after the decimal point when the sensor value is displayed on the screen. The number is truncated based on this setting.
+* **Precision:** Specifies the number of digits after the decimal point when the sensor value is displayed on the screen. The number is truncated based on this setting.
 * **Ratio:** Specifies the ratio value to multiply with the sensor value as needed by some sensors. When **Unit** is set to **rpms**, this field is replaced by **Blades** - the number of rotor blades used to calculate RPM from the raw sensor pulses.
-* **Offset:** Specifies the offset value to add to the sensor value.
+* **Offset:** Specifies the offset value to add to the sensor value. When **Unit** is set to **rpms**, this field is replaced by **Multiplier**, used instead of an offset to scale the RPM value.
 * **Auto Offset:** When selected, the first received value is used as offset. You can use the [Reset telemetry](../../main-view/reset.md) option to reset the offset on already configured sensors.
 * **Positive:** When selected, the value of the sensor will be displayed only when it is a positive number. Displays zero when the sensor value becomes a negative number.
 * **Filter:** When selected, the sensor value becomes a rolling average of the last 5 received values.
@@ -27,7 +27,7 @@ Calculated sensors contain the additional configuration options:
 
 * **Formula:** Type of calculation to use. Options include:
   * **Add:** Add the values of up to 4 designated sensors.
-  * **Average:** Calculates the average value of up to four designated sensors.&#x20;
+  * **Average:** Calculates the average value of up to four designated sensors.
   * **Minimum:** Find the minimum value of up to 4 designated sensors.
   * **Maximum:** Find the maximum value of up to 4 designated sensors.
   * **Multiply:** Multiplies the value of 2 sensors.

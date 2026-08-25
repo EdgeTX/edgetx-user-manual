@@ -9,6 +9,8 @@ metaLinks:
 
 The **Screen settings** section of EdgeTX is where you can customize your main views and add additional views (up to 10 in total). When selecting **Screen Settings** from the main navigation menu it will open **Main view 1**. If other main views have been added, you may select them from the number tab at the top of the screen to adjust their settings. All main view tabs have the following configuration options and are configured individually:
 
+To add another main view, select the **+** tab at the end of the row of screen number tabs. To remove the currently selected main view, use its **Remove Screen** button (not available when only one screen remains).
+
 <figure><img src="../../.gitbook/assets/screenssettings.jpg" alt=""><figcaption><p>Main view 1 screen</p></figcaption></figure>
 
 * **Layout** - Selects the screen layout for the widgets. It is possible to divide the screen in up to two columns and up to 4 rows, with a widget in each cell.

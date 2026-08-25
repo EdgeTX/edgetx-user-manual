@@ -14,12 +14,12 @@ The **Heli Setup** page in Model Settings is an optional page that is available 
 The heli setup screen has the following configuration options:
 
 * **Swash Type** - Swash type for your model. Options are **---** (disables Heli/CCPM mixing), **120, 120x, 140, and 90.**
-* **Swash Ring** - Set the swash ring limit only as needed. **1** = maximum limit -> **100** or **0** = no limit.&#x20;
+* **Swash Ring** - Set the swash ring limit only as needed. **1** = maximum limit -> **100** or **0** = no limit.
 * **Long. cyc. source** - Select source input.
   * **Weight** - Percentage value of the stick travel to use.
 * **Lateral cyc.source** -Select source input.
   * **Weight** - Percentage value of the stick travel to use.
-* **Coll. pitch source** - Select source input.&#x20;
+* **Coll. pitch source** - Select source input.
   * **Weight** - Percentage value of the stick travel to use.
 
 Pressing the **\[PAGE>]** button will take you to the **Flight Modes** screen.

@@ -77,13 +77,13 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
 **Push CS** - (Push Customizable Switch) (select radios) - Presses the designated switch for the designated period of time.
 
 * **Switch** - Which customizable switch to press
-* **Time** - How long to press the customizable switch for. Options are 0.0 to 25.5 seconds. Input to the button will be ignored while this time is being served, allowing this to automate a press of the button, and block input (and retrigger of the function) until the time has elapsed.&#x20;
+* **Time** - How long to press the customizable switch for. Options are 0.0 to 25.5 seconds. Input to the button will be ignored while this time is being served, allowing this to automate a press of the button, and block input (and retrigger of the function) until the time has elapsed.
 
 **RacingMode** - Enables racing mode (low latency) for FrSky Archer RS receivers. Racing mode must also be enabled in External RF Module Settings.
 
 **Reset** (Reset Timer)- Resets the timer or telemetry specified in the value back to their initial values.
 
-* **Reset** - Options are **Tmr 1, Tmr 2, Tmr 3, All,** and **Telemetry.** See [**Reset Telemetry**](../main-view/reset.md) for more information on what data is reset for each option.
+* **Reset** - Options are **Tmr 1, Tmr 2, Tmr 3, All, Telemetry,** and **Trims** (resets all trims to zero). See [**Reset Telemetry**](../main-view/reset.md) for more information on what data is reset for each option.
 
 **RGB Led** (select radios) - Run the selected LED related Lua script to animate RGB leds on the handset.
 
@@ -92,12 +92,12 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
 
 **Screenshot** -  Creates screenshot as a .bmp file in the SCREENSHOT folder on the SD Card.
 
-**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Value** setting.  The value options are **0.0s** - **25.5s** (Note: 0.0 effectively disables this option). Each time the function is activated, the radio will create a new log file provided that the function is activated at least as long as the value setting. **Note:** Logging will not start if SD card has less than 50mb of free space.&#x20;
+**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Value** setting.  The value options are **0.0s** - **25.5s** (Note: 0.0 effectively disables this option). Each time the function is activated, the radio will create a new log file provided that the function is activated at least as long as the value setting. **Note:** Logging will not start if SD card has less than 50mb of free space.
 
 **Set** (Set Timer) - Sets the specified timer to the specified value.
 
 * **Timer** - Options are **Tmr 1, Tmr 2, Tmr 3**
-* **Value** - The range is 00:00:00 to 08:59:59&#x20;
+* **Value** - The range is 00:00:00 to 08:59:59
 
 **SetFailsafe** - Sets the custom failsafe values for the configured RF module (Internal/External) to the current stick position when activated. For this option to work, the Failsafe mode for the RF module must be set to **custom**.
 
@@ -108,7 +108,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what a
 
 **Trainer -** Enables trainer mode.
 
-* **Value** - Specifies which controls will be given over to the student. Options include **Axis** (all sticks/primary inputs), **Rud** (Rudder), **Ele** (Elevator), **Thr** (Throttle), **Ail** (Aileron), and **Chans** (all channels).&#x20;
+* **Value** - Specifies which controls will be given over to the student. Options include **Axis** (all sticks/primary inputs), **Rud** (Rudder), **Ele** (Elevator), **Thr** (Throttle), **Ail** (Aileron), and **Chans** (all channels).
 
 **Vario** - Enables the variometer beeping sound for the ascent and descent of the model.
 

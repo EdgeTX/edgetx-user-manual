@@ -13,14 +13,14 @@ The **Hardware** screen is where you configure hardware specific-settings for yo
 
 ### **Calibration**
 
-To calibrate your physical radio controls (sticks, pots, sliders & 6-position switch), highlight the **\[Calibration]** option and press the **\[Enter]** button. The radio will prompt you through the calibration steps.&#x20;
+To calibrate your physical radio controls (sticks, pots, sliders & 6-position switch), highlight the **\[Calibration]** option and press the **\[Enter]** button. The radio will prompt you through the calibration steps.
 
 {% hint style="info" %}
-For your gimbal calibration, use a left-to-right & up-to-down movement for the gimbals, not a circular movement! Additionally, use the normal amount of pressure at the endpoints. Excessive endpoint pressure will cause the gimbal to be miscalibrated.&#x20;
+For your gimbal calibration, use a left-to-right & up-to-down movement for the gimbals, not a circular movement! Additionally, use the normal amount of pressure at the endpoints. Excessive endpoint pressure will cause the gimbal to be miscalibrated.
 {% endhint %}
 
 {% hint style="info" %}
-If your radio has a 6 position switch (not to be confused with customisable switches - these do not need calibrating), the procedure for calibrating this is to press each button in sequence from left to right, with a one second pause between each press, when prompted to calibrate analog inputs such as gimbals/axis, pots and sliders.
+If your radio has a 6 position switch (not to be confused with customizable switches - these do not need calibrating), the procedure for calibrating this is to press each button in sequence from left to right, with a one second pause between each press, when prompted to calibrate analog inputs such as gimbals/axis, pots and sliders.
 {% endhint %}
 
 ### Inputs, Sticks, Pots, and Switches Buttons List
@@ -41,9 +41,13 @@ To make the RTC reading more accurate, a small load is placed on the battery, wh
 
 **Check RTC** - When enabled, checks the RTC battery at startup and warns you if the battery voltage is low.
 
-**Audio Mute** - When enabled, puts the transmitter in mute mode until a sound needs to be played. This prevents interference noise from high-powered TX modules from coming out of the transmitter speakers.&#x20;
+**Audio Mute** - When enabled, puts the transmitter in mute mode until a sound needs to be played. This prevents interference noise from high-powered TX modules from coming out of the transmitter speakers.
 
 **Internal RF Type** - Select the module type for the internal module bay. Options are: **Multi, XJT, ISRM, CRSF**.  When **CRSF** is selected, you can also select the baud rate. You can read more about baud rates [here](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/).
+
+**Antenna** (select radios) - On radios with a switchable internal/external antenna, sets which antenna is used. Options are **Internal**, **Ask** (prompt on startup), **Per model** (configured individually on each model's Internal RF page), **Internal + External**, and **External**.
+
+**Customizable Switches** (select radios) - On radios with customizable switch hardware, lists each customizable switch with its **Type** and **Name**, and (on radios with RGB-illuminated customizable switches) OFF/ON color pickers and Lua Override toggles for each switch - the same configuration also available per-model on the [Customizable Switches](../model-select/setup.md) page.
 
 **Sample Mode** (**External RF)**- Options are **Normal** and **OneBit**. The default setting of **Normal** should be used by most users. Only users of  X9D+ and X7 radios may want to use **OneBit** mode.
 
@@ -60,7 +64,7 @@ _**Note:** This option is only visible on custom compiled versions of EdgeTX wit
 **Mode - mode that the bluetooth module will be used in. The options are:**
 
 * **---** - Off
-* **Telemetry** - used for sending telemtry data over bluetooth.
+* **Telemetry** - used for sending telemetry data over bluetooth.
 * **Trainer** - used for bluetooth trainer mode
 
 One a mode is selected, you will see the following information:
@@ -76,13 +80,13 @@ One a mode is selected, you will see the following information:
 *   **AUX1** - First available auxiliary serial port can be configured with the below options:
 
     * **OFF** - Turned off.
-    * **Telem Mirror** - The same telemetry data that goes to the external module bay is sent to the serial port.&#x20;
+    * **Telem Mirror** - The same telemetry data that goes to the external module bay is sent to the serial port.
     * **Telemetry In** - Receive telemetry data over the serial port.
     * **SBUS Trainer** - Connect the Instructor and Student radios over the serial port.
     * **SBUS Trn Inv.** (select radios) - Same as SBUS Trainer, but with inverted signal polarity for hardware that requires it. Not available on all radios.
     * **LUA** - Send/receive data to/from Lua script.
     * **GPS** - Receive GPS telemetry data over the serial port.
-    * **CLI** - Send commands to the radio via the command line.&#x20;
+    * **CLI** - Send commands to the radio via the command line.
 
 
 * **USB-VCP** - Virtual COM Port. This is one of the options presented when connecting your radio to the PC with most radios. Is often set to 'CLI' for radios with internal ExpressLRS RF modules in order to do firmware updates.
@@ -90,8 +94,12 @@ One a mode is selected, you will see the following information:
 **ADC Filter** - Enables or disables the ADC Filter. This filter can also be enabled/disabled per model in the model settings.
 
 {% hint style="info" %}
-The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.&#x20;
+The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.
 {% endhint %}
+
+**Screen** (select radios) - **Invert** toggles inverted display colors. Only available on select 128x64 radios.
+
+**SP Power** - Sets the power mode used when performing an S.Port firmware update via the internal module bay.
 
 **Ext. RAS** - (Formerly SWR) Reflected antenna signal. Lower numbers are better, with a 1:1 ratio being theoretically the best. Not supported by all RF Protocols.
 
@@ -107,6 +115,6 @@ The debug section allows for testing and debugging of the analog controls and ke
 
 **Debug Keys** - This screen will show you the digital data for your keys, switches, trims, and the rotary encoder (roller).
 
-**Debug Customisable Switches** (select radios) - This screen will show you the physical and logical state of the customisable switches, as well as the led state or color (if the handset supports RGB customisable switches).&#x20;
+**Debug Customizable Switches** (select radios) - This screen will show you the physical and logical state of the customizable switches, as well as the led state or color (if the handset supports RGB customizable switches).
 
 Pressing the **\[PAGE>]** button will take you to the **Version** screen.

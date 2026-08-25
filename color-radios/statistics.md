@@ -10,7 +10,7 @@ metaLinks:
 
 The **Statistics** screen presents you with statistics regarding radio usage. Except for Battery, all data is reset once the radio is powered off. The following information is provided:
 
-* **Session** - The amount of time that the radio has been turned on.&#x20;
+* **Session** - The amount of time that the radio has been turned on.
 * **Battery** - The amount of time that the radio has been on since the last reset.
 * **Throttle** - The amount of time that the throttle has was above the 0% stick position.
 * **Throttle %** - The amount of time that the throttle has was above the 50% stick position.
@@ -23,7 +23,7 @@ The debug screen provides data points used by the developers when debugging issu
 * **TMix max** - Maximum mixer task duration.
 * **Period** - The mixer scheduler's configured period.
 * **Free mem** - Current free radio memory in bytes.
-* **Lua scripts**&#x20;
+* **Lua scripts**
   * **Duration(ms) -** Maximum Lua duration in milliseconds.
   * **Interval(ms)** - Maximum Lua interval in milliseconds.
   * **Script(B)** - Memory used by LUA scripts.

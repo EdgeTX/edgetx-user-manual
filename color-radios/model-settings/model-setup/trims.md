@@ -13,7 +13,7 @@ Trims are used adjust the center position of a given stick axis. EdgeTX has the 
 
 **Reset** - This resets all trim values to zero.
 
-**Trim Step:** Defines the amount of increase/decrease in trim when the trim switch is pressed.&#x20;
+**Trim Step:** Defines the amount of increase/decrease in trim when the trim switch is pressed.
 
 * Coarse = 1.6%
 * Medium = 0.8%
@@ -23,7 +23,7 @@ Trims are used adjust the center position of a given stick axis. EdgeTX has the 
 
 **Hats Mode (select radios)**: On radios that use the hat/D-pad control as trim keys (e.g. the NV14-family: NV14, EL18, PL18, PL18EV), selects whether the control is used for trims or menu interaction.
 
-**Extended Trims**: Increases the maximum trim adjustment value from **±**&#x32;5% to **±**&#x31;00%.
+**Extended Trims**: Increases the maximum trim adjustment value from ±25% to ±100%.
 
 {% hint style="info" %}
 When switching from extended trims to normal trims, the extended trim value will remain until the trim is adjusted, then it will jump to the max/min normal trim value.

@@ -47,6 +47,8 @@ Those items with a "!" mark in front of the trigger name mean that the condition
 * **Beeps & Haptic** - The radio will beep and vibrate every second starting at the time designated.
 * **Voice & Haptic** - The radio will count down and vibrate by second starting at the time designated.
 
+Next to the Count Down type, a **countdown start value** dropdown (**5s, 10s, 20s,** or **30s**) sets how many seconds before zero the countdown notification begins.
+
 **Persistent:**
 
 * **Off** - The timer value is reset when switching models or when the radio is turned off / on.

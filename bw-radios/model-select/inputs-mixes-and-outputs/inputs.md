@@ -14,7 +14,7 @@ Your input channels may default to a different order based on the settings defin
 {% endhint %}
 
 {% hint style="info" %}
-The Inputs section is also commonly referred to as "**Dual Rates"** as it was previously called this in earlier versions of OpenTX.&#x20;
+The Inputs section is also commonly referred to as "**Dual Rates"** as it was previously called this in earlier versions of OpenTX.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/bwinputs1.png" alt=""><figcaption><p>Inputs screen</p></figcaption></figure>
@@ -23,7 +23,7 @@ The inputs screen shows you an overview of your configured inputs. Each row repr
 
 Selecting an existing input line and pressing **\[Enter]** will toggle between **Copy/Paste** mode and **Move** mode. In **Copy/Paste** mode, a copy of the input line is made which can be pasted in the desired input line. In **Move** mode, the selected input can be moved to a different line. Press the **\[Return]** button to exit this mode.
 
-Selecting an empty input line and pressing **\[Enter]** will create a new input and open the input configuration page.&#x20;
+Selecting an empty input line and pressing **\[Enter]** will create a new input and open the input configuration page.
 
 Selecting an existing input line and long-pressing **\[Enter]** will give you the following options:
 
@@ -31,7 +31,7 @@ Selecting an existing input line and long-pressing **\[Enter]** will give you th
 * **Insert before** - Inserts a new input line before the selected input.
 * **Insert after**- Inserts a new input line after the selected input.
 * **Copy** - copies the selected input line.
-* **Move** - selects the input line to be moved. The input is moved using one of the paste commands after a new line is selected (i.e. cut & paste).&#x20;
+* **Move** - selects the input line to be moved. The input is moved using one of the paste commands after a new line is selected (i.e. cut & paste).
 * **Delete** - deletes the selected input line.
 * **Paste before** - pastes the copied or moved input line before the selected input line.
 * **Paste after** - pastes the copied or moved input line before the selected input line.
@@ -46,18 +46,18 @@ The input configuration page allows you to edit the input configuration paramete
 
 **Line Name** - Name of the individual line in the input. Multiple physical inputs can be mapped to one input by adding an additional input line under the input.
 
-**Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more. Moving the physical control after the source has been selected will automatically map it to that input. Long press **\[Enter]** to bring up the list of available source categories.&#x20;
+**Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more. Moving the physical control after the source has been selected will automatically map it to that input. Long press **\[Enter]** to bring up the list of available source categories.
 
 **Scale** - Shown only when Source is set to a telemetry sensor. Converts the raw sensor value's scale for use as the input source.
 
-**Weight** - Percentage value of the stick travel to use (often referred to as "rates"). You can also long press **\[Enter]** to bring up a menu that will let you change this to be based on another input, axis, pot, MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more.&#x20;
+**Weight** - Percentage value of the stick travel to use (often referred to as "rates"). You can also long press **\[Enter]** to bring up a menu that will let you change this to be based on another input, axis, pot, MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more.
 
-**Offset** - The value added to or subtracted from the input source. You can also long press **\[Enter]** to bring up a menu that will let you change this to be based on another input, axis, pot, MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more.&#x20;
+**Offset** - The value added to or subtracted from the input source. You can also long press **\[Enter]** to bring up a menu that will let you change this to be based on another input, axis, pot, MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more.
 
 **Curve** - Specifies the type of curve that will be used. The following curve options exist:
 
-* **Diff** - Multiplies only the range above or below the middle (0) by the specified %. Long press **\[Enter]** to select the value to be sourced from another input, axis GV, etc.&#x20;
-* **Expo** -The input value is changed exponentially. Increasing the % will result in a gentle slope near the middle(0). Decreasing the % will result in a steep slope near the middle (0). With a % of 0, the slope will be linear. Long press **\[Enter]** to select the value to be sourced from another input, axis GV, etc.&#x20;
+* **Diff** - Multiplies only the range above or below the middle (0) by the specified %. Long press **\[Enter]** to select the value to be sourced from another input, axis GV, etc.
+* **Expo** -The input value is changed exponentially. Increasing the % will result in a gentle slope near the middle(0). Decreasing the % will result in a steep slope near the middle (0). With a % of 0, the slope will be linear. Long press **\[Enter]** to select the value to be sourced from another input, axis GV, etc.
 *   **Func** -
 
     <table><thead><tr><th width="116">Function</th><th width="575">Slope Behavior</th></tr></thead><tbody><tr><td>---</td><td>The slope will be linear.</td></tr><tr><td>X>0</td><td>The range below the middle (0) is always 0. Above the middle (0), the slope is linear.</td></tr><tr><td>X&#x3C;0</td><td>The range above the middle (0) is always 0. Below the middle (0), the slope is linear.</td></tr><tr><td>|X|</td><td>The range above the middle (0), the reaction is linear. The sign is inverted in the range below the middle (0). The curve draws a V-shaped graph.</td></tr><tr><td>f>0</td><td>The range above the middle (0) is always +100. The range below the middle (0) is always 0. The output value will always be either 0 or +100.</td></tr><tr><td>f&#x3C;0</td><td>The range above the middle (0) is always 0. The range below the middle (0) is always -100. The output value will always be either 0 or -100.</td></tr><tr><td>|f|</td><td>The range above the middle (0) is always +100. The range below the middle (0) is always -100. The output value will always be either +100 or -100.</td></tr></tbody></table>

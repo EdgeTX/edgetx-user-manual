@@ -9,13 +9,17 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/tools.jpg" alt=""><figcaption><p>Tools Screen</p></figcaption></figure>
 
-The **Apps** page in Radio Settings is where you can select Lua script-based tools for execution. Lua scripts that are located on the SD card in the `\SCRIPTS\TOOLS` folder will be listed here. Selecting a tool will execute it in full-screen mode. By default, EdgeTX includes several tools. Other tools can be downloaded and added to the SD card as well.  The following tools are included in the default EdgeTX SD card.&#x20;
+The **Apps** page in Radio Settings is where you can select Lua script-based tools for execution. Lua scripts that are located on the SD card in the `\SCRIPTS\TOOLS` folder will be listed here. Selecting a tool will execute it in full-screen mode. By default, EdgeTX includes several tools. Other tools can be downloaded and added to the SD card as well.  The following tools are included in the default EdgeTX SD card.
 
 #### Model Locator (by RSSI)
 
 <figure><img src="../../.gitbook/assets/rssi.jpg" alt=""><figcaption><p>Model Locator tool</p></figcaption></figure>
 
 The Model Locator tool helps to find a lost model based on the RSSI (if still available). The widget produces an audio representation (variometer style) of the RSSI from the lost model. The widget will also display the RSSI in a visible colorized bar (0-100%).
+
+#### GPS Model Locator
+
+Only shown when the current model has a GPS sensor configured. Helps locate a lost model using its last known GPS position, distance, and heading rather than RSSI.
 
 #### Spectrum (INT)
 
@@ -31,11 +35,23 @@ The display shows frequencies on the 2.4GHz spectrum, from 2400MHz to 2480MHz. T
 
 Pressing **ENT** and scrolling left and right allows the **T** value to be changed, which will move the vertical line to highlight a specific frequency.
 
+#### Spectrum (EXT) (select radios)
+
+Same as Spectrum (INT), but uses a compatible multi-protocol module in the external module bay instead of the internal module. Only shown on radios with an external module bay when a Multi-protocol module is configured there.
+
+#### Ghost Module Config (select radios)
+
+Only shown when the external module is set to Ghost. Opens the ImmersionRC Ghost module's own configuration menu.
+
+#### Mic Recorder (select radios)
+
+Only available on radios with a built-in microphone. Records audio to the SD card.
+
 #### Wizard Loader
 
 <div><figure><img src="../../.gitbook/assets/wizard1.jpg" alt=""><figcaption><p>Wizard Loader tool</p></figcaption></figure> <figure><img src="../../.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>Plane Wizard</p></figcaption></figure></div>
 
-The Wizard Loader tool assists you in setting up a new model by running a setup wizard for a particular model type. Once the model type is selected, the wizard will take you through a series of prompts and then configure your selected model based on the information provided.&#x20;
+The Wizard Loader tool assists you in setting up a new model by running a setup wizard for a particular model type. Once the model type is selected, the wizard will take you through a series of prompts and then configure your selected model based on the information provided.
 
 _**NOTE: The wizard does not create a new model, it only configures the currently selected model. You must manually create a new model first and then run the wizard. If you run this wizard on an already configured model, it will overwrite your model settings!**_
 

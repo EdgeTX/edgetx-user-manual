@@ -204,7 +204,7 @@ Displays a numeric value of the defined source as text. The configurable options
 
 <figure><img src="../../.gitbook/assets/wid_value2.png" alt=""><figcaption><p>Value2 Widget</p></figcaption></figure>
 
-Displays a numeric value of the defined telemetry source as text. The text will scale based on the size of the widget grid that is selected. The widget will detect the end of the flight (by no longer receiving telemtry) and will then display the min and max values of the configured telemetry sensor.
+Displays a numeric value of the defined telemetry source as text. The text will scale based on the size of the widget grid that is selected. The widget will detect the end of the flight (by no longer receiving telemetry) and will then display the min and max values of the configured telemetry sensor.
 
 The configurable options are:
 

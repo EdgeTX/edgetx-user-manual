@@ -20,11 +20,15 @@ Many of the additional settings here are self-explanatory. Only those settings n
 * **All -** Beeps when the buttons are pressed and sounds are played when there are alerts or warnings.
 * **No Key -** No beeps when buttons are pressed or the scroll wheel is turned but does play sounds when there are alerts or warnings. Also plays sounds triggered by special functions.
 * **Alarm -** Only plays alarm or warning sounds. Also plays sounds triggered by special functions.
-* **Quiet -** No Beeps or sounds are played.&#x20;
+* **Quiet -** No Beeps or sounds are played.
 
 **Volume**
 
 The master volume for the radio.
+
+**Beeps volume / Beeps length / Beeps pitch**
+
+Sliders/fields controlling the volume, length, and pitch of the radio's key-press and alert beeps.
 
 **Wav volume**
 
@@ -32,11 +36,19 @@ The volume for alerts and warnings and sounds that are played with the **Play tr
 
 **Background volume**
 
-The volume for background .wav files (music) that are played with the **BGMusic** special function&#x20;
+The volume for background .wav files (music) that are played with the **BGMusic** special function
 
 ### Variometer
 
 <figure><img src="../../../.gitbook/assets/variometer.png" alt=""><figcaption><p>Variometer options</p></figcaption></figure>
+
+**Volume**
+
+The volume for variometer beeps.
+
+**Pitch at Zero / Pitch at Max**
+
+The tone frequency (Hz) played at zero vertical speed and at maximum vertical speed respectively.
 
 **Repeat Zero**
 
@@ -53,7 +65,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 **Mode** - configures when the radio vibrates.
 
 * **All -** Vibrates when the buttons are pressed and when there are alerts or warnings.
-* **No Key -** No vibrations when buttons are the pressed or scroll wheel is turned but does vibrate when there are alerts or warnings.&#x20;
+* **No Key -** No vibrations when buttons are the pressed or scroll wheel is turned but does vibrate when there are alerts or warnings.
 * **Alarm -** Only vibrates for alarms or warning sounds.
 * **Quiet -** No vibrations are made.
 
@@ -67,7 +79,11 @@ An "alarms disabled" visual warning is displayed when the transmitter is turned 
 
 #### Check RSSI on Shutdown
 
-Checks if a receiver is still connected to the radio on attempted shutdown. Makes a audio and visual alert if one is detected.&#x20;
+Checks if a receiver is still connected to the radio on attempted shutdown. Makes a audio and visual alert if one is detected.
+
+#### Trainer Shutdown Alarm
+
+Checks if there is a trainer signal still active on attempted shutdown. Makes an audio and visual alert if one is detected.
 
 ### Backlight
 
@@ -81,7 +97,7 @@ Checks if a receiver is still connected to the radio on attempted shutdown. Make
 * **Both** – Turns on when buttons, sticks, switches, and knobs are used.
 * **ON** – Always on.
 
-#### Time&#x20;
+#### Time
 
 The length in seconds that the backlight is on. The minimum value is 5 seconds. The maximum value is 600 seconds.
 

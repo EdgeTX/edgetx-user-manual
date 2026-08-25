@@ -25,14 +25,14 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 <figure><img src="../../.gitbook/assets/bw128_radio_setup_sound.png" alt=""><figcaption><p>Sound Settings</p></figcaption></figure>
 
-### **Sound**&#x20;
+### **Sound**
 
 **Mode** - configures when to play sounds.
 
 * **All -** Beeps when the buttons are pressed and sounds are played when there are alerts or warnings.
 * **No Key -** No beeps when buttons are pressed or the scroll wheel is turned but does play sounds when there are alerts or warnings. Also plays sounds triggered by special functions.
 * **Alarm -** Only plays alarm or warning sounds. Also plays sounds triggered by special functions.
-* **Quiet -** No Beeps or sounds are played.&#x20;
+* **Quiet -** No Beeps or sounds are played.
 
 **Volume -** The master volume for the radio.
 
@@ -46,7 +46,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Bg volume -** The volume for background .wav files (music) that are played with the **BGMusic** special function
 
-**Startup sound -** When enabled (default setting), plays the "Welcome to EdgeTX" sound on radio startup. The relevant file is located in `/SOUNDS/??/SYSTEM/hello.wav` (where \`??\` represents the two letter directory for your sound pack).&#x20;
+**Startup sound -** When enabled (default setting), plays the "Welcome to EdgeTX" sound on radio startup. The relevant file is located in `/SOUNDS/??/SYSTEM/hello.wav` (where \`??\` represents the two letter directory for your sound pack).
 
 <figure><img src="../../.gitbook/assets/bwRadioSetup3 (1).png" alt=""><figcaption><p>Variometer Settings</p></figcaption></figure>
 
@@ -71,7 +71,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 **Mode** - configures when the radio vibrates.
 
 * **All -** Vibrates when the buttons are pressed and when there are alerts or warnings.
-* **No Key -** No vibrations when buttons are the pressed or scroll wheel is turned but does vibrate when there are alerts or warnings.&#x20;
+* **No Key -** No vibrations when buttons are the pressed or scroll wheel is turned but does vibrate when there are alerts or warnings.
 * **Alarm -** Only vibrates for alarms or warning sounds.
 * **Quiet -** No vibrations are made
 
@@ -87,8 +87,8 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 * **Inactivity** - Time to trigger inactivity warning.
 * **Memory low** - Enable/disable low memory warning.
 * **Sound Off** - An "alarms disabled" visual warning is displayed when the transmitter is turned on if the sound mode is set to quiet.
-* **RSSI Shutdown** - Checks if a receiver is still connected to the radio on attempted shutdown. Makes an audio and visual alert if one is detected.&#x20;
-* **Trainer Shutdown** - Checks if there is a trainer signal still active on attempted shutdown. Makes an audio and visual alert if one is detected.&#x20;
+* **RSSI Shutdown** - Checks if a receiver is still connected to the radio on attempted shutdown. Makes an audio and visual alert if one is detected.
+* **Trainer Shutdown** - Checks if there is a trainer signal still active on attempted shutdown. Makes an audio and visual alert if one is detected.
 
 <figure><img src="../../.gitbook/assets/bw128_backlight.png" alt=""><figcaption><p>Backlight Settings</p></figcaption></figure>
 
@@ -122,11 +122,19 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Power Auto Off** - If enabled (not enabled by default), if the handset is left inactive, with no trainer or telemetry link active, it will automatically turn off after the configured duration. You can select from **0** (disabled) up to **255** (minutes).
 
-**Power ON/OFF Haptic** - If enabled (enabled by default), after the power on and power off delays have been served, there will be a haptic vibration to indicate the radio is powering on or off.&#x20;
+**Power ON/OFF Haptic** - If enabled (enabled by default), after the power on and power off delays have been served, there will be a haptic vibration to indicate the radio is powering on or off.
 
 **Model quick select** - If enabled (disabled by default), when selecting a model at the [Model Select](../model-select/#model-select) screen, you will be taken back to the main view after the model has been loaded, rather than remain at the selection menu.
 
 **Owner ID** (select transmitters) -  Custom registration ID used only for users with ISRM internal RF modules, or on transmitters that support FrSky ACCESS external modules. If not configured manually, a random value will be used.
+
+### IMU (select radios)
+
+Only available on radios with a built-in gyro used for tilt/motion-based virtual stick control (e.g. the X-Lite S).
+
+**IMU Max** - The tilt angle (in degrees) that corresponds to full stick deflection.
+
+**IMU Offset** - A calibration offset (in degrees) applied to correct for the radio not being held perfectly level.
 
 <figure><img src="../../.gitbook/assets/bw128_radio_setup_gps.png" alt=""><figcaption><p>GPS Settings</p></figcaption></figure>
 
@@ -176,7 +184,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 ### Enabled Features
 
-The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX. The configuration setting for the active model will show to the right of the checkbox. The model configuration will override the global configuration (which will be indicated by the "Off" and "On" shown next to any model level overrides).&#x20;
+The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX. The configuration setting for the active model will show to the right of the checkbox. The model configuration will override the global configuration (which will be indicated by the "Off" and "On" shown next to any model level overrides).
 
 {% hint style="info" %}
 _**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab.

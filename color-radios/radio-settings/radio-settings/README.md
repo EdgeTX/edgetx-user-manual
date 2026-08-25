@@ -27,9 +27,9 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Pwr Off delay** - The delay between when the power button is pushed and when the radio shuts off. The options are: **0s, 0.5s, 1s, 2s, 3s, 4**s. _It is recommended to set at least a 1s delay in order to prevent the radio from being shut off in the case of an accidental button press._
 
-**Power Auto Off** - If enabled, the radio with automatically power off after the configured amount of inactivity, if there is no RF module with active telemetry, or an active trainer connection.&#x20;
+**Power Auto Off** - If enabled, the radio with automatically power off after the configured amount of inactivity, if there is no RF module with active telemetry, or an active trainer connection.
 
-**Power ON/OFF Haptic** - When enabled, the radio with use the vibration motor to give a haptic pulse when powering the radio on (indicating when the power button can be released) and when the transmitter is powering off.&#x20;
+**Power ON/OFF Haptic** - When enabled, the radio with use the vibration motor to give a haptic pulse when powering the radio on (indicating when the power button can be released) and when the transmitter is powering off.
 
 **Owner ID** - Custom registration ID used only for users with FrSky ISRM/ACCESS modules.
 
@@ -39,7 +39,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Units** - Units of measure. Options are **metric** or **imperial**.
 
-**PPM Units** - Level of accuracy for PPM values are displyed. Options are **0.-, 0.0 or us** **(μs/microseconds).**
+**PPM Units** - Level of accuracy for PPM values are displayed. Options are **0.-, 0.0 or us** **(μs/microseconds).**
 
 **Play delay** (sw. mid pos) - The minimum time in milliseconds a switch must be in the middle position before a special function will get activated. This is used to prevent the middle position from being activated on a three-position switch when switching from low position to high position.
 
