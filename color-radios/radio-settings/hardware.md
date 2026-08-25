@@ -70,6 +70,7 @@ Displays a list of available auxiliary serial ports that can be configured and u
   * **Telem Mirror** - The same telemetry data that goes to the external module bay is sent to the serial port.&#x20;
   * **Telemetry In** - Receive telemetry data over the serial port.
   * **SBUS Trainer** - Connect the Instructor and Student radios over the serial port.
+  * **SBUS Trn Inv.** (select radios) - Same as SBUS Trainer, but with inverted signal polarity for hardware that requires it. Not available on all radios.
   * **LUA** - Send/receive data to/from Lua script.
   * **GPS** - Receive GPS telemetry data over the serial port.
   * **CLI** - Send commands to the radio via the command line.&#x20;
