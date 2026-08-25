@@ -14,6 +14,8 @@ Trims are used adjust the center position of a given stick axis. EdgeTX has the 
 * Extra Fine = 0.2%
 * Exponential = 0.2% near the center and the step value increases exponentially as the distance from the center increases.
 
+**Hats Mode (select radios)**: On radios that use the hat/D-pad control as trim keys (e.g. the NV14-family: NV14, EL18, PL18, PL18EV), selects whether the control is used for trims or menu interaction.
+
 **Extended Trims**: Increases the maximum trim adjustment value from **±**&#x32;5% to **±**&#x31;00%.
 
 {% hint style="info" %}

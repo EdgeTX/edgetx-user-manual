@@ -82,6 +82,14 @@ The length in seconds that the backlight is on. The minimum value is 5 seconds. 
 
 The backlight turns on when there are alarms or warnings.
 
+#### Backlight ON brightness / Backlight OFF brightness
+
+Sliders that set the backlight brightness level used while the backlight is "on" (per the Mode setting above) and while it is "off" (dimmed) respectively.
+
+#### Keys Backlight (select radios)
+
+Toggles a separate backlight for the radio's buttons. Only available on radios with backlit buttons (e.g. the Jumper T18).
+
 ### GPS
 
 <figure><img src="../../../.gitbook/assets/gps.png" alt=""><figcaption><p>GPS options</p></figcaption></figure>

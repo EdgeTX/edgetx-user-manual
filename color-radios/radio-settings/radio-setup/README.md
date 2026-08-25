@@ -10,6 +10,8 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Additional Settings Buttons** - Additional configuration options for the named areas are available when selecting these buttons.  More information about these configuration settings is on the next page - [Additional Radio Settings](additional-radio-settings.md)
 
+**One log per day** - When enabled, only one SD card log file is created per day for a given model, rather than a new file each time logging is started.
+
 **Splash Screen** - Duration that the splash screen will be displayed.
 
 **Startup Sound** - Toggles whether to enable/disable startup sound.

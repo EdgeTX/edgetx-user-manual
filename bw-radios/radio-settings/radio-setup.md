@@ -8,6 +8,8 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Time** - The current time. This time is used for the SD card log files.
 
+**One log per day** - When enabled, only one SD card log file is created per day for a given model, rather than a new file each time logging is started.
+
 **Batt. range** - Sets the maximum and minimum voltage for the battery meter. This should be set based on the type of battery you are using.
 
 
