@@ -48,6 +48,8 @@ The input configuration page allows you to edit the input configuration paramete
 
 **Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more. Moving the physical control after the source has been selected will automatically map it to that input. Long press **\[Enter]** to bring up the list of available source categories.&#x20;
 
+**Scale** - Shown only when Source is set to a telemetry sensor. Converts the raw sensor value's scale for use as the input source.
+
 **Weight** - Percentage value of the stick travel to use (often referred to as "rates"). You can also long press **\[Enter]** to bring up a menu that will let you change this to be based on another input, axis, pot, MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more.&#x20;
 
 **Offset** - The value added to or subtracted from the input source. You can also long press **\[Enter]** to bring up a menu that will let you change this to be based on another input, axis, pot, MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more.&#x20;

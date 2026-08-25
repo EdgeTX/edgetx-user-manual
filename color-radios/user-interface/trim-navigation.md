@@ -1,5 +1,5 @@
 ---
-description: Navigating the menus with Trim hat switches on NV14 & EL18
+description: Navigating the menus with Trim hat switches on NV14, EL18, PL18 & PL18EV
 metaLinks:
   alternates:
     - >-
@@ -8,7 +8,7 @@ metaLinks:
 
 # Trim Navigation
 
-On the NV14 and EL18 radios, it is possible to navigate the menu options using the Trim hat switches.
+On radios that use the hat/D-pad control as trim keys (the NV14-family: NV14, EL18, PL18, and PL18EV), it is possible to navigate the menu options using the Trim hat switches.
 
 In the radio setup screen, you can configure the **Hats Mode** with one of the following options:
 
