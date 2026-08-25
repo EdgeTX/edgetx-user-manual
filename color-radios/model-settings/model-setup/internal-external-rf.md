@@ -21,6 +21,10 @@ The receiver number is a user-assigned number for a model that is sent to the re
 If using the radio in gamepad mode, both internal and external RF modules should be turned off. This will result in increased performance when connected to a computer via USB.&#x20;
 {% endhint %}
 
+#### Antenna (select radios)
+
+On radios with a switchable internal/external antenna, if the **Antenna** setting on the [Hardware](../../radio-settings/hardware.md) page is set to **Per model**, an **Antenna** field appears on this Internal RF page letting you choose **Internal** or **External** for this specific model.
+
 #### Mode Options
 
 * **Off** - RF Module is not used

@@ -33,6 +33,8 @@ The ADC filter is a filter for the proportional channels (sticks, pots, sliders)
 
 Select the module type for the internal module bay. Options are: **Multi, XJT, ISRM, CRSF**.  When **CRSF** is selected, you can also select the baud rate. You can read more about baud rates [here](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/).
 
+**Antenna** (select radios) - On radios with a switchable internal/external antenna, sets which antenna is used. Options are **Internal**, **Ask** (prompt on startup), **Per model** (configured individually on each model's [Internal / External RF](../../model-settings/model-setup/internal-external-rf.md) page), **Internal + External**, and **External**.
+
 ### **External RF Sample Mode**&#x20;
 
 Options are Normal and OneBit. The default setting of **Normal** should be used by most users. Only users of  X9D+ and X7 radios may want to use **OneBit** mode.
