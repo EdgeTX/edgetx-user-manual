@@ -31,6 +31,10 @@ If using the radio as a USB Joysitck, both internal and external RF modules shou
 
 In **Advanced mode** you can configure the following options:
 
+{% hint style="info" %}
+Changes made on this page do not take effect immediately - an **Apply Changes** button appears (enabled once you have unsaved changes) and must be pressed to apply them.
+{% endhint %}
+
 **Interface mode:** This indicates to the target device (the device you are connecting your transmitter to) what type of device you are connecting. The options are **Joystick**, **Gamepad**, **MultiAxis.** &#x20;
 
 {% hint style="info" %}
