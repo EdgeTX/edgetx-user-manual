@@ -9,9 +9,9 @@ metaLinks:
 
 ### Back-up SD Card Contents
 
-**Before making any updates to your radio, we ALWAYS recommend that you back up your current SD Card contents using the following steps.**&#x20;
+**Before making any updates to your radio, we ALWAYS recommend that you back up your current SD Card contents using the following steps.**
 
-With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.&#x20;
+With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.
 
 With your computer, copy the entire contents of your SD card to a safe place on your computer. You can use these files again if you need to roll back the update.
 
@@ -27,9 +27,9 @@ The list below shows which .zip file to use for different radio types:
 * bw128x64.zip (128x64 BW Screens) -All monochrome screen radios _except_ X9D series.
 * bw212x64zip (212x64 BW Screens) - X9D, X9D Plus, X9D Plus 2019
 
-Copy the extracted files to your radio's SD card. If asked, overwrite the existing files. This will only update the SD card files that are part of the default EdgeTX installation. It will not modify or delete any additional files you have added (LUA scripts, sound files, images, custom themes, model files, radio setup file, etc) that are already existing on the SD card.&#x20;
+Copy the extracted files to your radio's SD card. If asked, overwrite the existing files. This will only update the SD card files that are part of the default EdgeTX installation. It will not modify or delete any additional files you have added (LUA scripts, sound files, images, custom themes, model files, radio setup file, etc) that are already existing on the SD card.
 
-Download the desired sound pack ([https://github.com/EdgeTX/edgetx-sdcard-sounds/releases](https://github.com/EdgeTX/edgetx-sdcard-sounds/releases)), unzip and copy to the "Sounds" folder on your SD card.  If asked, overwrite the existing files.&#x20;
+Download the desired sound pack ([https://github.com/EdgeTX/edgetx-sdcard-sounds/releases](https://github.com/EdgeTX/edgetx-sdcard-sounds/releases)), unzip and copy to the "Sounds" folder on your SD card. If asked, overwrite the existing files.
 
 ### Flashing the EdgeTX Bootloader and Firmware
 
@@ -47,10 +47,6 @@ Exit back to the main screen and then shut off your radio.
 
 Boot your radio in bootloader mode by holding trim switches T4 and T1 to center while pushing the power button on.
 
-{% hint style="info" %}
-On the Jumper T-Pro, you have to plug in the radio while pressing the Boot0 button to enter DFU mode.
-{% endhint %}
-
 You will see the EdgeTX bootloader. Select the option "**Write Firmware**". Select the EdgeTX firmware file that you saved to your SD card. Long-press to flash it.
 
 {% hint style="info" %}
@@ -60,6 +56,3 @@ You will see the EdgeTX bootloader. Select the option "**Write Firmware**". Sele
 After the flashing is complete, select "**Exit**". The radio will restart and you should be greeted with "**Welcome EdgeTX**".
 
 ### Congratulations, you have now successfully updated EdgeTX!
-
-
-
