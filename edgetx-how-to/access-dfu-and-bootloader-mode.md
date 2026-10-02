@@ -33,7 +33,7 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 <figure><img src="../.gitbook/assets/nb4p-dfu-reset.png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Bootloader:** Press and hold the buttons marked SW1 (on either side of the grip) and power on the radio.&#x20;
+**Bootloader:** Press and hold both of the buttons marked SW1 (on either side of the grip) and power on the radio. You can release them once in the bootloader. Use TR3 to scroll, left SW1 for RTN, right SW1 for ENTER (when viewed from rear).&#x20;
 
 **DFU:** Press and hold the DFU button located on the left side of the grip (when viewed from the rear) while connecting the USB to the radio (via it's external battery bank) with both the radio and battery bank powered off.<br>
 
