@@ -31,13 +31,13 @@ The ADC filter is a filter for the proportional channels (sticks, pots, sliders)
 
 ### **Internal RF Type**
 
-Select the module type for the internal module bay. Options are: **Multi, XJT, ISRM, CRSF**.  When **CRSF** is selected, you can also select the baud rate. You can read more about baud rates [here](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/).
+Select the module type for the internal module bay. Options are: **Multi, XJT, ISRM, CRSF**. When **CRSF** is selected, you can also select the baud rate. You can read more about baud rates [here](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/).
 
 **Antenna** (select radios) - On radios with a switchable internal/external antenna, sets which antenna is used. Options are **Internal**, **Ask** (prompt on startup), **Per model** (configured individually on each model's [Internal / External RF](../../model-settings/model-setup/internal-external-rf.md) page), **Internal + External**, and **External**.
 
 ### **External RF Sample Mode**
 
-Options are Normal and OneBit. The default setting of **Normal** should be used by most users. Only users of  X9D+ and X7 radios may want to use **OneBit** mode.
+Options are Normal and OneBit. The default setting of **Normal** should be used by most users. Only users of X9D+ and X7 radios may want to use **OneBit** mode.
 
 {% hint style="info" %}
 The X9D+ and X7 radios have a slow inverter that causes problems with the reception of fast UART signals, resulting in telemetry warnings and issues with LUA scripts using the CRSF protocol. A 10k resistor on the circuit board could be replaced to fix the issue, but this was not always effective. EdgeTX has developed OneBit Mode, which changes the UART sampling behavior to ignore slow leading edges, allowing the CRSF protocol to be run at the full 400k baud rate without hardware modifications to the radio.
@@ -87,6 +87,7 @@ Displays a list of available auxiliary serial ports that can be configured and u
 {% hint style="warning" %}
 Do not exceed 3.3V on the AUX serial port TX/RX pins - this warning is shown under each AUX port (but not USB-VCP) on the Hardware screen.
 {% endhint %}
+
 * **Port Power** - Enables or disables the power output on the power supply pins next to serial ports that are available on some radios (presently only TX16S has this feature).
 
 ### Inputs
@@ -105,17 +106,17 @@ If your radio has a 6 position switch (not to be confused with customizable swit
 
 <div><figure><img src="../../.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/color_radio_hardware_pots.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure></div>
 
-Selecting one of the Axis, Pots, or Switches buttons will open the configuration screen.  On these screens, you will see all the physical radio controls pre-defined by EdgeTX.  Here you can add a 3 character label to the control as well as change the type of control as needed.  Additionally, controls listed under the Pots screen can also be configured to be inverted.
+Selecting one of the Axis, Pots, or Switches buttons will open the configuration screen. On these screens, you will see all the physical radio controls pre-defined by EdgeTX. Here you can add a 3 character label to the control as well as change the type of control as needed. Additionally, controls listed under the Pots screen can also be configured to be inverted.
 
 **Customizable Switches** (select radios) - Opens the radio-wide configuration screen for the customizable switches, similar to the per-model [Customizable Switches](../model-settings/model-setup/customizable-switches.md) page. Only shown on radios with customizable switch hardware.
 
 ### Debug
 
-<div><figure><img src="../../.gitbook/assets/hardware4.png" alt=""><figcaption><p>Analog Debug Screen</p></figcaption></figure> <figure><img src="../../.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/hardware4.png" alt=""><figcaption><p>Analog Debug Screen</p></figcaption></figure> <figure><img src="../../.gitbook/assets/hardware5.jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure></div>
 
 The debug section allows for testing and debugging of the analog controls and keys.
 
-**Analogs**  - These screens will show you the data for your analog controls (Sticks, Sliders, Pots, 6-position switch) and the touch screen on your radio. There are four views - Calibrated analog, Filtered Raw Analog with deviation, Unfiltered raw analog, and Min Max and range.
+**Analogs** - These screens will show you the data for your analog controls (Sticks, Sliders, Pots, 6-position switch) and the touch screen on your radio. There are four views - Calibrated analog, Filtered Raw Analog with deviation, Unfiltered raw analog, and Min Max and range.
 
 **Keys** - This screen will show you the digital data for your keys, switches, trims, and the rotary encoder (roller).
 

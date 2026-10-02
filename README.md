@@ -1,12 +1,10 @@
 ---
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/
+metaLinks: {}
 ---
 
 # EdgeTX User Manual v2.12
 
-<figure><img src=".gitbook/assets/logos (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/logos.png" alt=""><figcaption></figcaption></figure>
 
 If you would like to contribute to this guide, please take a look at the [Contribute to the User Manual](edgetx-how-to/contribute-to-the-user-manual.md) page.
 
@@ -24,8 +22,8 @@ The How-to section will provide detailed instructions about how to configure mod
 
 This section of the knowledge base will contain links to additional resources that EdgeTX users may find useful. The external pages that are linked here are not maintained by EdgeTX. However, they are listed as they may be useful sources of additional information relating to EdgeTX.
 
-#### Special thanks to those that contributed to this knowledge base either directly or indirectly. <a href="#special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly." id="special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly."></a>
+#### Special thanks to those that contributed to this knowledge base either directly or indirectly. <a href="#special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly" id="special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly"></a>
 
 See the [Contributors ](more/contributors.md)section for a list of direct and indirect contributors.
 
-#### EdgeTX User Manual © 2025 by EdgeTX is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
+#### EdgeTX User Manual © 2025 by EdgeTX is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/

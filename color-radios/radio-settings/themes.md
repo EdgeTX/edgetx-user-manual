@@ -22,11 +22,11 @@ Selecting the **Details** button will open the Edit Theme Details screen. Here y
 
 <figure><img src="../../.gitbook/assets/themes4.png" alt=""><figcaption><p>Edit Theme Details Screen</p></figcaption></figure>
 
-To edit a theme in the **Theme Editor**, select the color variable from the list on the left side of the screen. Once you do, the **Edit Color** screen will be shown.&#x20;
+To edit a theme in the **Theme Editor**, select the color variable from the list on the left side of the screen. Once you do, the **Edit Color** screen will be shown.
 
-<figure><img src="../../.gitbook/assets/themes3 (1).jpg" alt=""><figcaption><p>Edit Color Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/themes3.jpg" alt=""><figcaption><p>Edit Color Screen</p></figcaption></figure>
 
-Select the color using either the color scales on the left side of the screen. You can choose between the RGB and HSV color scales with the buttons at the upper right side of the screen.&#x20;
+Select the color using either the color scales on the left side of the screen. You can choose between the RGB and HSV color scales with the buttons at the upper right side of the screen.
 
 Once you have your desired color, press the theme logo in the upper left corner to go back to the **Edit Theme** screen to select another color variable to edit. Once you are finished, press the theme logo to exit the Theme Editor and save your changes.
 

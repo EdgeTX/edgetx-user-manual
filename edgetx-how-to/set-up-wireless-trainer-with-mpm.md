@@ -12,7 +12,7 @@ metaLinks:
 In order to setup a wireless trainer connection with the Multi-protocolm Module, you will need the following:
 
 * A student radio with a FrSky D16 capable TX module
-* An instructor radio with:&#x20;
+* An instructor radio with:
   * A Multi-protocol module to serve as the RX
   * An additional TX module to use to communicate with the model (protocol does not matter, but must match the protocol use by the RX on the model)
 
@@ -42,7 +42,7 @@ One the Student radio, configure either the Internal RF or External RF (which ev
 
 On the Student radio, no configuration of the **Trainer** section in the **Model Settings** or **Radio Settings** is necessary, leave the **Mode** option in the **Trainer** section of **Model Settings** configured to **Off**.
 
-<div><figure><img src="../.gitbook/assets/mpmt6 (2).png" alt="" width="360"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/mpmt12.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/mpmt6.png" alt="" width="360"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/mpmt12.png" alt=""><figcaption></figcaption></figure></div>
 
 **Trainer mode is now configured.**
 
