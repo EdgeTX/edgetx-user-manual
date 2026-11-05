@@ -15,7 +15,7 @@ The **SD Card** screen shows you the contents of your SD card, allows you to nav
 * **Copy** - Copies the selected file.
 * **Delete** - Deletes the selected file.
 * **Execute** - Executes a Lua script. Used for files ending in **.lua**
-* **Flash \[target]**- Flashes the selected firmware file to the select target module.  Examples: Flash Bootloader, Flast Internal Multi.
+* **Flash \[target]**- Flashes the selected firmware file to the select target module.  Examples: Flash Bootloader, Flash Internal Multi.
 * **Paste** - Pastes the copied file.
 * **Play** - Plays the selected sound file.
 * **Rename** - Renames the file.
