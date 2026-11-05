@@ -36,7 +36,7 @@ On the Instructor radio, configure the **Internal RF** and **External RF** secti
 
 <div><figure><img src="../.gitbook/assets/mpmt4.png" alt="" width="360"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/mpmt10.png" alt=""><figcaption></figcaption></figure></div>
 
-One the Student radio, configure either the Internal RF or External RF (which ever module will be used) to communicate to the Instructor radio. If using a multi-protocol module it should be set to _**Multi, FRSkyX**_ and RF Protocol: _**D16**_. Configure the receiver number to the same number configured in the step above.
+On the Student radio, configure either the Internal RF or External RF (which ever module will be used) to communicate to the Instructor radio. If using a multi-protocol module it should be set to _**Multi, FRSkyX**_ and RF Protocol: _**D16**_. Configure the receiver number to the same number configured in the step above.
 
 <div><figure><img src="../.gitbook/assets/mpmt5.png" alt="" width="360"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/mpmt11.png" alt=""><figcaption></figcaption></figure></div>
 

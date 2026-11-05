@@ -67,7 +67,7 @@ _**Note:** This option is only visible on custom compiled versions of EdgeTX wit
 * **Telemetry** - used for sending telemetry data over bluetooth.
 * **Trainer** - used for bluetooth trainer mode
 
-One a mode is selected, you will see the following information:
+Once a mode is selected, you will see the following information:
 
 * **PIN Code** - PIN code for bluetooth device in the radio (visible in **Telemetry** mode only)
 * **Local addr -** Identifying address of the bluetooth device in the radio.
